@@ -92,6 +92,7 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
+        // public static verify(message: {[k: string]: any}): (string|null);
         public static verify(message: { [k: string]: any }): (string|null);
 
         /**
@@ -160,6 +161,7 @@ export namespace proto {
         public currentIndex: number;
 
         /** ADVKeyIndexList validIndexes. */
+        // public validIndexes: number[];
         public validIndexes: number[];
 
         /** ADVKeyIndexList accountType. */
@@ -212,7 +214,7 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a ADVKeyIndexList message from a plain object. Also converts values to their respective internal types.
@@ -341,7 +343,7 @@ export namespace proto {
          * Converts this ADVSignedDeviceIdentity to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): { [ k: string ]: any };
     }
 
     /** Properties of a ADVSignedDeviceIdentityHMAC. */
@@ -641,7 +643,7 @@ export namespace proto {
          * Converts this ActionLink to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of an AutoDownloadSettings. */
@@ -728,14 +730,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates an AutoDownloadSettings message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns AutoDownloadSettings
          */
-        public static fromObject(object: { [k: string]: any }): proto.AutoDownloadSettings;
+        public static fromObject(object: {[k: string]: any}): proto.AutoDownloadSettings;
 
         /**
          * Creates a plain object from an AutoDownloadSettings message. Also converts values to other types if specified.
@@ -743,13 +745,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.AutoDownloadSettings, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.AutoDownloadSettings, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this AutoDownloadSettings to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of an AvatarUserSettings. */
@@ -831,7 +833,7 @@ export namespace proto {
          * @param object Plain object
          * @returns AvatarUserSettings
          */
-        public static fromObject(object: { [k: string]: any }): proto.AvatarUserSettings;
+        public static fromObject(object: {[k: string]: any}): proto.AvatarUserSettings;
 
         /**
          * Creates a plain object from an AvatarUserSettings message. Also converts values to other types if specified.
@@ -839,13 +841,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.AvatarUserSettings, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.AvatarUserSettings, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this AvatarUserSettings to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a BizAccountLinkInfo. */
@@ -938,14 +940,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a BizAccountLinkInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns BizAccountLinkInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.BizAccountLinkInfo;
+        public static fromObject(object: {[k: string]: any}): proto.BizAccountLinkInfo;
 
         /**
          * Creates a plain object from a BizAccountLinkInfo message. Also converts values to other types if specified.
@@ -953,13 +955,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.BizAccountLinkInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.BizAccountLinkInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this BizAccountLinkInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace BizAccountLinkInfo {
@@ -1048,14 +1050,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a BizAccountPayload message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns BizAccountPayload
          */
-        public static fromObject(object: { [k: string]: any }): proto.BizAccountPayload;
+        public static fromObject(object: {[k: string]: any}): proto.BizAccountPayload;
 
         /**
          * Creates a plain object from a BizAccountPayload message. Also converts values to other types if specified.
@@ -1063,13 +1065,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.BizAccountPayload, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.BizAccountPayload, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this BizAccountPayload to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a BizIdentityInfo. */
@@ -1180,14 +1182,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a BizIdentityInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns BizIdentityInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.BizIdentityInfo;
+        public static fromObject(object: {[k: string]: any}): proto.BizIdentityInfo;
 
         /**
          * Creates a plain object from a BizIdentityInfo message. Also converts values to other types if specified.
@@ -1195,13 +1197,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.BizIdentityInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.BizIdentityInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this BizIdentityInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace BizIdentityInfo {
@@ -1316,14 +1318,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a BotAvatarMetadata message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns BotAvatarMetadata
          */
-        public static fromObject(object: { [k: string]: any }): proto.BotAvatarMetadata;
+        public static fromObject(object: {[k: string]: any}): proto.BotAvatarMetadata;
 
         /**
          * Creates a plain object from a BotAvatarMetadata message. Also converts values to other types if specified.
@@ -1331,13 +1333,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.BotAvatarMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.BotAvatarMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this BotAvatarMetadata to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a BotMetadata. */
@@ -1357,6 +1359,9 @@ export namespace proto {
 
         /** BotMetadata invokerJid */
         invokerJid?: (string|null);
+
+        /** BotMetadata searchMetadata */
+        searchMetadata?: (proto.IBotSearchMetadata|null);
     }
 
     /** Represents a BotMetadata. */
@@ -1382,6 +1387,9 @@ export namespace proto {
 
         /** BotMetadata invokerJid. */
         public invokerJid: string;
+
+        /** BotMetadata searchMetadata. */
+        public searchMetadata?: (proto.IBotSearchMetadata|null);
 
         /**
          * Creates a new BotMetadata instance using the specified properties.
@@ -1430,14 +1438,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a BotMetadata message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns BotMetadata
          */
-        public static fromObject(object: { [k: string]: any }): proto.BotMetadata;
+        public static fromObject(object: {[k: string]: any}): proto.BotMetadata;
 
         /**
          * Creates a plain object from a BotMetadata message. Also converts values to other types if specified.
@@ -1445,13 +1453,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.BotMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.BotMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this BotMetadata to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a BotPluginMetadata. */
@@ -1478,8 +1486,11 @@ export namespace proto {
         /** BotPluginMetadata expectedLinksCount */
         expectedLinksCount?: (number|null);
 
-        /** BotPluginMetadata pluginVersion */
-        pluginVersion?: (number|null);
+        /** BotPluginMetadata searchQuery */
+        searchQuery?: (string|null);
+
+        /** BotPluginMetadata parentPluginMessageKey */
+        parentPluginMessageKey?: (proto.IMessageKey|null);
     }
 
     /** Represents a BotPluginMetadata. */
@@ -1512,8 +1523,11 @@ export namespace proto {
         /** BotPluginMetadata expectedLinksCount. */
         public expectedLinksCount: number;
 
-        /** BotPluginMetadata pluginVersion. */
-        public pluginVersion: number;
+        /** BotPluginMetadata searchQuery. */
+        public searchQuery: string;
+
+        /** BotPluginMetadata parentPluginMessageKey. */
+        public parentPluginMessageKey?: (proto.IMessageKey|null);
 
         /**
          * Creates a new BotPluginMetadata instance using the specified properties.
@@ -1562,14 +1576,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a BotPluginMetadata message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns BotPluginMetadata
          */
-        public static fromObject(object: { [k: string]: any }): proto.BotPluginMetadata;
+        public static fromObject(object: {[k: string]: any}): proto.BotPluginMetadata;
 
         /**
          * Creates a plain object from a BotPluginMetadata message. Also converts values to other types if specified.
@@ -1577,13 +1591,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.BotPluginMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.BotPluginMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this BotPluginMetadata to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace BotPluginMetadata {
@@ -1599,6 +1613,96 @@ export namespace proto {
             BING = 1,
             GOOGLE = 2
         }
+    }
+
+    /** Properties of a BotSearchMetadata. */
+    interface IBotSearchMetadata {
+
+        /** BotSearchMetadata sessionId */
+        sessionId?: (string|null);
+    }
+
+    /** Represents a BotSearchMetadata. */
+    class BotSearchMetadata implements IBotSearchMetadata {
+
+        /**
+         * Constructs a new BotSearchMetadata.
+         * @param [properties] Properties to set
+         */
+        constructor(properties?: proto.IBotSearchMetadata);
+
+        /** BotSearchMetadata sessionId. */
+        public sessionId: string;
+
+        /**
+         * Creates a new BotSearchMetadata instance using the specified properties.
+         * @param [properties] Properties to set
+         * @returns BotSearchMetadata instance
+         */
+        public static create(properties?: proto.IBotSearchMetadata): proto.BotSearchMetadata;
+
+        /**
+         * Encodes the specified BotSearchMetadata message. Does not implicitly {@link proto.BotSearchMetadata.verify|verify} messages.
+         * @param message BotSearchMetadata message or plain object to encode
+         * @param [writer] Writer to encode to
+         * @returns Writer
+         */
+        public static encode(message: proto.IBotSearchMetadata, writer?: $protobuf.Writer): $protobuf.Writer;
+
+        /**
+         * Encodes the specified BotSearchMetadata message, length delimited. Does not implicitly {@link proto.BotSearchMetadata.verify|verify} messages.
+         * @param message BotSearchMetadata message or plain object to encode
+         * @param [writer] Writer to encode to
+         * @returns Writer
+         */
+        public static encodeDelimited(message: proto.IBotSearchMetadata, writer?: $protobuf.Writer): $protobuf.Writer;
+
+        /**
+         * Decodes a BotSearchMetadata message from the specified reader or buffer.
+         * @param reader Reader or buffer to decode from
+         * @param [length] Message length if known beforehand
+         * @returns BotSearchMetadata
+         * @throws {Error} If the payload is not a reader or valid buffer
+         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+         */
+        public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.BotSearchMetadata;
+
+        /**
+         * Decodes a BotSearchMetadata message from the specified reader or buffer, length delimited.
+         * @param reader Reader or buffer to decode from
+         * @returns BotSearchMetadata
+         * @throws {Error} If the payload is not a reader or valid buffer
+         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+         */
+        public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.BotSearchMetadata;
+
+        /**
+         * Verifies a BotSearchMetadata message.
+         * @param message Plain object to verify
+         * @returns `null` if valid, otherwise the reason why it is not
+         */
+        public static verify(message: {[k: string]: any}): (string|null);
+
+        /**
+         * Creates a BotSearchMetadata message from a plain object. Also converts values to their respective internal types.
+         * @param object Plain object
+         * @returns BotSearchMetadata
+         */
+        public static fromObject(object: {[k: string]: any}): proto.BotSearchMetadata;
+
+        /**
+         * Creates a plain object from a BotSearchMetadata message. Also converts values to other types if specified.
+         * @param message BotSearchMetadata
+         * @param [options] Conversion options
+         * @returns Plain object
+         */
+        public static toObject(message: proto.BotSearchMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+        /**
+         * Converts this BotSearchMetadata to JSON.
+         * @returns JSON object
+         */
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a BotSuggestedPromptMetadata. */
@@ -1673,14 +1777,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a BotSuggestedPromptMetadata message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns BotSuggestedPromptMetadata
          */
-        public static fromObject(object: { [k: string]: any }): proto.BotSuggestedPromptMetadata;
+        public static fromObject(object: {[k: string]: any}): proto.BotSuggestedPromptMetadata;
 
         /**
          * Creates a plain object from a BotSuggestedPromptMetadata message. Also converts values to other types if specified.
@@ -1688,13 +1792,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.BotSuggestedPromptMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.BotSuggestedPromptMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this BotSuggestedPromptMetadata to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a CallLogRecord. */
@@ -1847,14 +1951,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a CallLogRecord message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns CallLogRecord
          */
-        public static fromObject(object: { [k: string]: any }): proto.CallLogRecord;
+        public static fromObject(object: {[k: string]: any}): proto.CallLogRecord;
 
         /**
          * Creates a plain object from a CallLogRecord message. Also converts values to other types if specified.
@@ -1862,13 +1966,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.CallLogRecord, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.CallLogRecord, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this CallLogRecord to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace CallLogRecord {
@@ -1967,14 +2071,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ParticipantInfo message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ParticipantInfo
              */
-            public static fromObject(object: { [k: string]: any }): proto.CallLogRecord.ParticipantInfo;
+            public static fromObject(object: {[k: string]: any}): proto.CallLogRecord.ParticipantInfo;
 
             /**
              * Creates a plain object from a ParticipantInfo message. Also converts values to other types if specified.
@@ -1982,13 +2086,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.CallLogRecord.ParticipantInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.CallLogRecord.ParticipantInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ParticipantInfo to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** SilenceReason enum. */
@@ -2072,14 +2176,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a CertChain message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns CertChain
          */
-        public static fromObject(object: { [k: string]: any }): proto.CertChain;
+        public static fromObject(object: {[k: string]: any}): proto.CertChain;
 
         /**
          * Creates a plain object from a CertChain message. Also converts values to other types if specified.
@@ -2087,13 +2191,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.CertChain, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.CertChain, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this CertChain to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace CertChain {
@@ -2170,14 +2274,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a NoiseCertificate message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns NoiseCertificate
              */
-            public static fromObject(object: { [k: string]: any }): proto.CertChain.NoiseCertificate;
+            public static fromObject(object: {[k: string]: any}): proto.CertChain.NoiseCertificate;
 
             /**
              * Creates a plain object from a NoiseCertificate message. Also converts values to other types if specified.
@@ -2185,13 +2289,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.CertChain.NoiseCertificate, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.CertChain.NoiseCertificate, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this NoiseCertificate to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace NoiseCertificate {
@@ -2286,14 +2390,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a Details message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns Details
                  */
-                public static fromObject(object: { [k: string]: any }): proto.CertChain.NoiseCertificate.Details;
+                public static fromObject(object: {[k: string]: any}): proto.CertChain.NoiseCertificate.Details;
 
                 /**
                  * Creates a plain object from a Details message. Also converts values to other types if specified.
@@ -2301,15 +2405,111 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.CertChain.NoiseCertificate.Details, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.CertChain.NoiseCertificate.Details, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this Details to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
+    }
+
+    /** Properties of a ChatLockSettings. */
+    interface IChatLockSettings {
+
+        /** ChatLockSettings hideLockedChats */
+        hideLockedChats?: (boolean|null);
+
+        /** ChatLockSettings secretCode */
+        secretCode?: (proto.IUserPassword|null);
+    }
+
+    /** Represents a ChatLockSettings. */
+    class ChatLockSettings implements IChatLockSettings {
+
+        /**
+         * Constructs a new ChatLockSettings.
+         * @param [properties] Properties to set
+         */
+        constructor(properties?: proto.IChatLockSettings);
+
+        /** ChatLockSettings hideLockedChats. */
+        public hideLockedChats: boolean;
+
+        /** ChatLockSettings secretCode. */
+        public secretCode?: (proto.IUserPassword|null);
+
+        /**
+         * Creates a new ChatLockSettings instance using the specified properties.
+         * @param [properties] Properties to set
+         * @returns ChatLockSettings instance
+         */
+        public static create(properties?: proto.IChatLockSettings): proto.ChatLockSettings;
+
+        /**
+         * Encodes the specified ChatLockSettings message. Does not implicitly {@link proto.ChatLockSettings.verify|verify} messages.
+         * @param message ChatLockSettings message or plain object to encode
+         * @param [writer] Writer to encode to
+         * @returns Writer
+         */
+        public static encode(message: proto.IChatLockSettings, writer?: $protobuf.Writer): $protobuf.Writer;
+
+        /**
+         * Encodes the specified ChatLockSettings message, length delimited. Does not implicitly {@link proto.ChatLockSettings.verify|verify} messages.
+         * @param message ChatLockSettings message or plain object to encode
+         * @param [writer] Writer to encode to
+         * @returns Writer
+         */
+        public static encodeDelimited(message: proto.IChatLockSettings, writer?: $protobuf.Writer): $protobuf.Writer;
+
+        /**
+         * Decodes a ChatLockSettings message from the specified reader or buffer.
+         * @param reader Reader or buffer to decode from
+         * @param [length] Message length if known beforehand
+         * @returns ChatLockSettings
+         * @throws {Error} If the payload is not a reader or valid buffer
+         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+         */
+        public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.ChatLockSettings;
+
+        /**
+         * Decodes a ChatLockSettings message from the specified reader or buffer, length delimited.
+         * @param reader Reader or buffer to decode from
+         * @returns ChatLockSettings
+         * @throws {Error} If the payload is not a reader or valid buffer
+         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+         */
+        public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.ChatLockSettings;
+
+        /**
+         * Verifies a ChatLockSettings message.
+         * @param message Plain object to verify
+         * @returns `null` if valid, otherwise the reason why it is not
+         */
+        public static verify(message: {[k: string]: any}): (string|null);
+
+        /**
+         * Creates a ChatLockSettings message from a plain object. Also converts values to their respective internal types.
+         * @param object Plain object
+         * @returns ChatLockSettings
+         */
+        public static fromObject(object: {[k: string]: any}): proto.ChatLockSettings;
+
+        /**
+         * Creates a plain object from a ChatLockSettings message. Also converts values to other types if specified.
+         * @param message ChatLockSettings
+         * @param [options] Conversion options
+         * @returns Plain object
+         */
+        public static toObject(message: proto.ChatLockSettings, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+        /**
+         * Converts this ChatLockSettings to JSON.
+         * @returns JSON object
+         */
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a ChatRowOpaqueData. */
@@ -2378,14 +2578,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a ChatRowOpaqueData message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns ChatRowOpaqueData
          */
-        public static fromObject(object: { [k: string]: any }): proto.ChatRowOpaqueData;
+        public static fromObject(object: {[k: string]: any}): proto.ChatRowOpaqueData;
 
         /**
          * Creates a plain object from a ChatRowOpaqueData message. Also converts values to other types if specified.
@@ -2393,13 +2593,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.ChatRowOpaqueData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.ChatRowOpaqueData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this ChatRowOpaqueData to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace ChatRowOpaqueData {
@@ -2494,14 +2694,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DraftMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DraftMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.ChatRowOpaqueData.DraftMessage;
+            public static fromObject(object: {[k: string]: any}): proto.ChatRowOpaqueData.DraftMessage;
 
             /**
              * Creates a plain object from a DraftMessage message. Also converts values to other types if specified.
@@ -2509,13 +2709,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ChatRowOpaqueData.DraftMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ChatRowOpaqueData.DraftMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DraftMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace DraftMessage {
@@ -2652,14 +2852,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a CtwaContextData message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns CtwaContextData
                  */
-                public static fromObject(object: { [k: string]: any }): proto.ChatRowOpaqueData.DraftMessage.CtwaContextData;
+                public static fromObject(object: {[k: string]: any}): proto.ChatRowOpaqueData.DraftMessage.CtwaContextData;
 
                 /**
                  * Creates a plain object from a CtwaContextData message. Also converts values to other types if specified.
@@ -2667,13 +2867,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.ChatRowOpaqueData.DraftMessage.CtwaContextData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.ChatRowOpaqueData.DraftMessage.CtwaContextData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this CtwaContextData to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             namespace CtwaContextData {
@@ -2770,14 +2970,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a CtwaContextLinkData message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns CtwaContextLinkData
                  */
-                public static fromObject(object: { [k: string]: any }): proto.ChatRowOpaqueData.DraftMessage.CtwaContextLinkData;
+                public static fromObject(object: {[k: string]: any}): proto.ChatRowOpaqueData.DraftMessage.CtwaContextLinkData;
 
                 /**
                  * Creates a plain object from a CtwaContextLinkData message. Also converts values to other types if specified.
@@ -2785,13 +2985,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.ChatRowOpaqueData.DraftMessage.CtwaContextLinkData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.ChatRowOpaqueData.DraftMessage.CtwaContextLinkData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this CtwaContextLinkData to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
     }
@@ -3018,14 +3218,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a ClientPayload message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns ClientPayload
          */
-        public static fromObject(object: { [k: string]: any }): proto.ClientPayload;
+        public static fromObject(object: {[k: string]: any}): proto.ClientPayload;
 
         /**
          * Creates a plain object from a ClientPayload message. Also converts values to other types if specified.
@@ -3033,13 +3233,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.ClientPayload, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.ClientPayload, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this ClientPayload to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace ClientPayload {
@@ -3146,14 +3346,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DNSSource message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DNSSource
              */
-            public static fromObject(object: { [k: string]: any }): proto.ClientPayload.DNSSource;
+            public static fromObject(object: {[k: string]: any}): proto.ClientPayload.DNSSource;
 
             /**
              * Creates a plain object from a DNSSource message. Also converts values to other types if specified.
@@ -3161,13 +3361,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ClientPayload.DNSSource, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ClientPayload.DNSSource, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DNSSource to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace DNSSource {
@@ -3290,14 +3490,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DevicePairingRegistrationData message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DevicePairingRegistrationData
              */
-            public static fromObject(object: { [k: string]: any }): proto.ClientPayload.DevicePairingRegistrationData;
+            public static fromObject(object: {[k: string]: any}): proto.ClientPayload.DevicePairingRegistrationData;
 
             /**
              * Creates a plain object from a DevicePairingRegistrationData message. Also converts values to other types if specified.
@@ -3305,13 +3505,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ClientPayload.DevicePairingRegistrationData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ClientPayload.DevicePairingRegistrationData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DevicePairingRegistrationData to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** IOSAppExtension enum. */
@@ -3393,14 +3593,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an InteropData message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns InteropData
              */
-            public static fromObject(object: { [k: string]: any }): proto.ClientPayload.InteropData;
+            public static fromObject(object: {[k: string]: any}): proto.ClientPayload.InteropData;
 
             /**
              * Creates a plain object from an InteropData message. Also converts values to other types if specified.
@@ -3408,13 +3608,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ClientPayload.InteropData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ClientPayload.InteropData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this InteropData to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Product enum. */
@@ -3472,6 +3672,9 @@ export namespace proto {
 
             /** UserAgent deviceType */
             deviceType?: (proto.ClientPayload.UserAgent.DeviceType|null);
+
+            /** UserAgent deviceModelType */
+            deviceModelType?: (string|null);
         }
 
         /** Represents a UserAgent. */
@@ -3528,6 +3731,9 @@ export namespace proto {
             /** UserAgent deviceType. */
             public deviceType: proto.ClientPayload.UserAgent.DeviceType;
 
+            /** UserAgent deviceModelType. */
+            public deviceModelType: string;
+
             /**
              * Creates a new UserAgent instance using the specified properties.
              * @param [properties] Properties to set
@@ -3575,14 +3781,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a UserAgent message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns UserAgent
              */
-            public static fromObject(object: { [k: string]: any }): proto.ClientPayload.UserAgent;
+            public static fromObject(object: {[k: string]: any}): proto.ClientPayload.UserAgent;
 
             /**
              * Creates a plain object from a UserAgent message. Also converts values to other types if specified.
@@ -3590,13 +3796,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ClientPayload.UserAgent, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ClientPayload.UserAgent, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this UserAgent to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace UserAgent {
@@ -3691,14 +3897,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates an AppVersion message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns AppVersion
                  */
-                public static fromObject(object: { [k: string]: any }): proto.ClientPayload.UserAgent.AppVersion;
+                public static fromObject(object: {[k: string]: any}): proto.ClientPayload.UserAgent.AppVersion;
 
                 /**
                  * Creates a plain object from an AppVersion message. Also converts values to other types if specified.
@@ -3706,13 +3912,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.ClientPayload.UserAgent.AppVersion, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.ClientPayload.UserAgent.AppVersion, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this AppVersion to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** DeviceType enum. */
@@ -3857,14 +4063,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a WebInfo message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns WebInfo
              */
-            public static fromObject(object: { [k: string]: any }): proto.ClientPayload.WebInfo;
+            public static fromObject(object: {[k: string]: any}): proto.ClientPayload.WebInfo;
 
             /**
              * Creates a plain object from a WebInfo message. Also converts values to other types if specified.
@@ -3872,13 +4078,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ClientPayload.WebInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ClientPayload.WebInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this WebInfo to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace WebInfo {
@@ -4018,14 +4224,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a WebdPayload message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns WebdPayload
                  */
-                public static fromObject(object: { [k: string]: any }): proto.ClientPayload.WebInfo.WebdPayload;
+                public static fromObject(object: {[k: string]: any}): proto.ClientPayload.WebInfo.WebdPayload;
 
                 /**
                  * Creates a plain object from a WebdPayload message. Also converts values to other types if specified.
@@ -4033,13 +4239,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.ClientPayload.WebInfo.WebdPayload, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.ClientPayload.WebInfo.WebdPayload, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this WebdPayload to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
     }
@@ -4116,14 +4322,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a CommentMetadata message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns CommentMetadata
          */
-        public static fromObject(object: { [k: string]: any }): proto.CommentMetadata;
+        public static fromObject(object: {[k: string]: any}): proto.CommentMetadata;
 
         /**
          * Creates a plain object from a CommentMetadata message. Also converts values to other types if specified.
@@ -4131,13 +4337,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.CommentMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.CommentMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this CommentMetadata to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a ContextInfo. */
@@ -4241,6 +4447,9 @@ export namespace proto {
 
         /** ContextInfo dataSharingContext */
         dataSharingContext?: (proto.ContextInfo.IDataSharingContext|null);
+
+        /** ContextInfo alwaysShowAdAttribution */
+        alwaysShowAdAttribution?: (boolean|null);
     }
 
     /** Represents a ContextInfo. */
@@ -4351,6 +4560,9 @@ export namespace proto {
         /** ContextInfo dataSharingContext. */
         public dataSharingContext?: (proto.ContextInfo.IDataSharingContext|null);
 
+        /** ContextInfo alwaysShowAdAttribution. */
+        public alwaysShowAdAttribution: boolean;
+
         /**
          * Creates a new ContextInfo instance using the specified properties.
          * @param [properties] Properties to set
@@ -4398,14 +4610,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a ContextInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns ContextInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.ContextInfo;
+        public static fromObject(object: {[k: string]: any}): proto.ContextInfo;
 
         /**
          * Creates a plain object from a ContextInfo message. Also converts values to other types if specified.
@@ -4413,13 +4625,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.ContextInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.ContextInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this ContextInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace ContextInfo {
@@ -4508,14 +4720,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AdReplyInfo message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AdReplyInfo
              */
-            public static fromObject(object: { [k: string]: any }): proto.ContextInfo.AdReplyInfo;
+            public static fromObject(object: {[k: string]: any}): proto.ContextInfo.AdReplyInfo;
 
             /**
              * Creates a plain object from an AdReplyInfo message. Also converts values to other types if specified.
@@ -4523,13 +4735,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ContextInfo.AdReplyInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ContextInfo.AdReplyInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AdReplyInfo to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace AdReplyInfo {
@@ -4608,14 +4820,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a BusinessMessageForwardInfo message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns BusinessMessageForwardInfo
              */
-            public static fromObject(object: { [k: string]: any }): proto.ContextInfo.BusinessMessageForwardInfo;
+            public static fromObject(object: {[k: string]: any}): proto.ContextInfo.BusinessMessageForwardInfo;
 
             /**
              * Creates a plain object from a BusinessMessageForwardInfo message. Also converts values to other types if specified.
@@ -4623,13 +4835,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ContextInfo.BusinessMessageForwardInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ContextInfo.BusinessMessageForwardInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this BusinessMessageForwardInfo to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a DataSharingContext. */
@@ -4698,14 +4910,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DataSharingContext message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DataSharingContext
              */
-            public static fromObject(object: { [k: string]: any }): proto.ContextInfo.DataSharingContext;
+            public static fromObject(object: {[k: string]: any}): proto.ContextInfo.DataSharingContext;
 
             /**
              * Creates a plain object from a DataSharingContext message. Also converts values to other types if specified.
@@ -4713,13 +4925,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ContextInfo.DataSharingContext, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ContextInfo.DataSharingContext, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DataSharingContext to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an ExternalAdReplyInfo. */
@@ -4866,14 +5078,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an ExternalAdReplyInfo message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ExternalAdReplyInfo
              */
-            public static fromObject(object: { [k: string]: any }): proto.ContextInfo.ExternalAdReplyInfo;
+            public static fromObject(object: {[k: string]: any}): proto.ContextInfo.ExternalAdReplyInfo;
 
             /**
              * Creates a plain object from an ExternalAdReplyInfo message. Also converts values to other types if specified.
@@ -4881,13 +5093,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ContextInfo.ExternalAdReplyInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ContextInfo.ExternalAdReplyInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ExternalAdReplyInfo to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ExternalAdReplyInfo {
@@ -4990,14 +5202,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ForwardedNewsletterMessageInfo message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ForwardedNewsletterMessageInfo
              */
-            public static fromObject(object: { [k: string]: any }): proto.ContextInfo.ForwardedNewsletterMessageInfo;
+            public static fromObject(object: {[k: string]: any}): proto.ContextInfo.ForwardedNewsletterMessageInfo;
 
             /**
              * Creates a plain object from a ForwardedNewsletterMessageInfo message. Also converts values to other types if specified.
@@ -5005,13 +5217,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ContextInfo.ForwardedNewsletterMessageInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ContextInfo.ForwardedNewsletterMessageInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ForwardedNewsletterMessageInfo to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ForwardedNewsletterMessageInfo {
@@ -5096,14 +5308,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a UTMInfo message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns UTMInfo
              */
-            public static fromObject(object: { [k: string]: any }): proto.ContextInfo.UTMInfo;
+            public static fromObject(object: {[k: string]: any}): proto.ContextInfo.UTMInfo;
 
             /**
              * Creates a plain object from a UTMInfo message. Also converts values to other types if specified.
@@ -5111,13 +5323,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.ContextInfo.UTMInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.ContextInfo.UTMInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this UTMInfo to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
     }
 
@@ -5258,6 +5470,9 @@ export namespace proto {
 
         /** Conversation commentsCount */
         commentsCount?: (number|null);
+
+        /** Conversation locked */
+        locked?: (boolean|null);
     }
 
     /** Represents a Conversation. */
@@ -5404,6 +5619,9 @@ export namespace proto {
         /** Conversation commentsCount. */
         public commentsCount: number;
 
+        /** Conversation locked. */
+        public locked: boolean;
+
         /**
          * Creates a new Conversation instance using the specified properties.
          * @param [properties] Properties to set
@@ -5451,14 +5669,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a Conversation message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns Conversation
          */
-        public static fromObject(object: { [k: string]: any }): proto.Conversation;
+        public static fromObject(object: {[k: string]: any}): proto.Conversation;
 
         /**
          * Creates a plain object from a Conversation message. Also converts values to other types if specified.
@@ -5466,13 +5684,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.Conversation, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.Conversation, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this Conversation to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace Conversation {
@@ -5482,6 +5700,106 @@ export namespace proto {
             COMPLETE_BUT_MORE_MESSAGES_REMAIN_ON_PRIMARY = 0,
             COMPLETE_AND_NO_MORE_MESSAGE_REMAIN_ON_PRIMARY = 1,
             COMPLETE_ON_DEMAND_SYNC_BUT_MORE_MSG_REMAIN_ON_PRIMARY = 2
+        }
+    }
+
+    /** Properties of a DeviceCapabilities. */
+    interface IDeviceCapabilities {
+
+        /** DeviceCapabilities chatLockSupportLevel */
+        chatLockSupportLevel?: (proto.DeviceCapabilities.ChatLockSupportLevel|null);
+    }
+
+    /** Represents a DeviceCapabilities. */
+    class DeviceCapabilities implements IDeviceCapabilities {
+
+        /**
+         * Constructs a new DeviceCapabilities.
+         * @param [properties] Properties to set
+         */
+        constructor(properties?: proto.IDeviceCapabilities);
+
+        /** DeviceCapabilities chatLockSupportLevel. */
+        public chatLockSupportLevel: proto.DeviceCapabilities.ChatLockSupportLevel;
+
+        /**
+         * Creates a new DeviceCapabilities instance using the specified properties.
+         * @param [properties] Properties to set
+         * @returns DeviceCapabilities instance
+         */
+        public static create(properties?: proto.IDeviceCapabilities): proto.DeviceCapabilities;
+
+        /**
+         * Encodes the specified DeviceCapabilities message. Does not implicitly {@link proto.DeviceCapabilities.verify|verify} messages.
+         * @param message DeviceCapabilities message or plain object to encode
+         * @param [writer] Writer to encode to
+         * @returns Writer
+         */
+        public static encode(message: proto.IDeviceCapabilities, writer?: $protobuf.Writer): $protobuf.Writer;
+
+        /**
+         * Encodes the specified DeviceCapabilities message, length delimited. Does not implicitly {@link proto.DeviceCapabilities.verify|verify} messages.
+         * @param message DeviceCapabilities message or plain object to encode
+         * @param [writer] Writer to encode to
+         * @returns Writer
+         */
+        public static encodeDelimited(message: proto.IDeviceCapabilities, writer?: $protobuf.Writer): $protobuf.Writer;
+
+        /**
+         * Decodes a DeviceCapabilities message from the specified reader or buffer.
+         * @param reader Reader or buffer to decode from
+         * @param [length] Message length if known beforehand
+         * @returns DeviceCapabilities
+         * @throws {Error} If the payload is not a reader or valid buffer
+         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+         */
+        public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.DeviceCapabilities;
+
+        /**
+         * Decodes a DeviceCapabilities message from the specified reader or buffer, length delimited.
+         * @param reader Reader or buffer to decode from
+         * @returns DeviceCapabilities
+         * @throws {Error} If the payload is not a reader or valid buffer
+         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+         */
+        public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.DeviceCapabilities;
+
+        /**
+         * Verifies a DeviceCapabilities message.
+         * @param message Plain object to verify
+         * @returns `null` if valid, otherwise the reason why it is not
+         */
+        public static verify(message: {[k: string]: any}): (string|null);
+
+        /**
+         * Creates a DeviceCapabilities message from a plain object. Also converts values to their respective internal types.
+         * @param object Plain object
+         * @returns DeviceCapabilities
+         */
+        public static fromObject(object: {[k: string]: any}): proto.DeviceCapabilities;
+
+        /**
+         * Creates a plain object from a DeviceCapabilities message. Also converts values to other types if specified.
+         * @param message DeviceCapabilities
+         * @param [options] Conversion options
+         * @returns Plain object
+         */
+        public static toObject(message: proto.DeviceCapabilities, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+        /**
+         * Converts this DeviceCapabilities to JSON.
+         * @returns JSON object
+         */
+        public toJSON(): {[k: string]: any};
+    }
+
+    namespace DeviceCapabilities {
+
+        /** ChatLockSupportLevel enum. */
+        enum ChatLockSupportLevel {
+            NONE = 0,
+            MINIMAL = 1,
+            FULL = 2
         }
     }
 
@@ -5557,14 +5875,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a DeviceConsistencyCodeMessage message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns DeviceConsistencyCodeMessage
          */
-        public static fromObject(object: { [k: string]: any }): proto.DeviceConsistencyCodeMessage;
+        public static fromObject(object: {[k: string]: any}): proto.DeviceConsistencyCodeMessage;
 
         /**
          * Creates a plain object from a DeviceConsistencyCodeMessage message. Also converts values to other types if specified.
@@ -5572,13 +5890,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.DeviceConsistencyCodeMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.DeviceConsistencyCodeMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this DeviceConsistencyCodeMessage to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a DeviceListMetadata. */
@@ -5689,14 +6007,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a DeviceListMetadata message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns DeviceListMetadata
          */
-        public static fromObject(object: { [k: string]: any }): proto.DeviceListMetadata;
+        public static fromObject(object: {[k: string]: any}): proto.DeviceListMetadata;
 
         /**
          * Creates a plain object from a DeviceListMetadata message. Also converts values to other types if specified.
@@ -5704,13 +6022,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.DeviceListMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.DeviceListMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this DeviceListMetadata to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a DeviceProps. */
@@ -5803,14 +6121,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a DeviceProps message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns DeviceProps
          */
-        public static fromObject(object: { [k: string]: any }): proto.DeviceProps;
+        public static fromObject(object: {[k: string]: any}): proto.DeviceProps;
 
         /**
          * Creates a plain object from a DeviceProps message. Also converts values to other types if specified.
@@ -5818,13 +6136,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.DeviceProps, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.DeviceProps, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this DeviceProps to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace DeviceProps {
@@ -5919,14 +6237,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AppVersion message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AppVersion
              */
-            public static fromObject(object: { [k: string]: any }): proto.DeviceProps.AppVersion;
+            public static fromObject(object: {[k: string]: any}): proto.DeviceProps.AppVersion;
 
             /**
              * Creates a plain object from an AppVersion message. Also converts values to other types if specified.
@@ -5934,13 +6252,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.DeviceProps.AppVersion, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.DeviceProps.AppVersion, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AppVersion to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a HistorySyncConfig. */
@@ -5969,6 +6287,12 @@ export namespace proto {
 
             /** HistorySyncConfig supportCagReactionsAndPolls */
             supportCagReactionsAndPolls?: (boolean|null);
+
+            /** HistorySyncConfig supportBizHostedMsg */
+            supportBizHostedMsg?: (boolean|null);
+
+            /** HistorySyncConfig supportRecentSyncChunkMessageCountTuning */
+            supportRecentSyncChunkMessageCountTuning?: (boolean|null);
         }
 
         /** Represents a HistorySyncConfig. */
@@ -6003,6 +6327,12 @@ export namespace proto {
 
             /** HistorySyncConfig supportCagReactionsAndPolls. */
             public supportCagReactionsAndPolls: boolean;
+
+            /** HistorySyncConfig supportBizHostedMsg. */
+            public supportBizHostedMsg: boolean;
+
+            /** HistorySyncConfig supportRecentSyncChunkMessageCountTuning. */
+            public supportRecentSyncChunkMessageCountTuning: boolean;
 
             /**
              * Creates a new HistorySyncConfig instance using the specified properties.
@@ -6051,14 +6381,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a HistorySyncConfig message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns HistorySyncConfig
              */
-            public static fromObject(object: { [k: string]: any }): proto.DeviceProps.HistorySyncConfig;
+            public static fromObject(object: {[k: string]: any}): proto.DeviceProps.HistorySyncConfig;
 
             /**
              * Creates a plain object from a HistorySyncConfig message. Also converts values to other types if specified.
@@ -6066,13 +6396,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.DeviceProps.HistorySyncConfig, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.DeviceProps.HistorySyncConfig, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this HistorySyncConfig to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** PlatformType enum. */
@@ -6187,14 +6517,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a DisappearingMode message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns DisappearingMode
          */
-        public static fromObject(object: { [k: string]: any }): proto.DisappearingMode;
+        public static fromObject(object: {[k: string]: any}): proto.DisappearingMode;
 
         /**
          * Creates a plain object from a DisappearingMode message. Also converts values to other types if specified.
@@ -6202,13 +6532,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.DisappearingMode, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.DisappearingMode, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this DisappearingMode to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace DisappearingMode {
@@ -6303,14 +6633,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates an EphemeralSetting message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns EphemeralSetting
          */
-        public static fromObject(object: { [k: string]: any }): proto.EphemeralSetting;
+        public static fromObject(object: {[k: string]: any}): proto.EphemeralSetting;
 
         /**
          * Creates a plain object from an EphemeralSetting message. Also converts values to other types if specified.
@@ -6318,13 +6648,103 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.EphemeralSetting, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.EphemeralSetting, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this EphemeralSetting to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
+    }
+
+    /** Properties of an EventAdditionalMetadata. */
+    interface IEventAdditionalMetadata {
+
+        /** EventAdditionalMetadata isStale */
+        isStale?: (boolean|null);
+    }
+
+    /** Represents an EventAdditionalMetadata. */
+    class EventAdditionalMetadata implements IEventAdditionalMetadata {
+
+        /**
+         * Constructs a new EventAdditionalMetadata.
+         * @param [properties] Properties to set
+         */
+        constructor(properties?: proto.IEventAdditionalMetadata);
+
+        /** EventAdditionalMetadata isStale. */
+        public isStale: boolean;
+
+        /**
+         * Creates a new EventAdditionalMetadata instance using the specified properties.
+         * @param [properties] Properties to set
+         * @returns EventAdditionalMetadata instance
+         */
+        public static create(properties?: proto.IEventAdditionalMetadata): proto.EventAdditionalMetadata;
+
+        /**
+         * Encodes the specified EventAdditionalMetadata message. Does not implicitly {@link proto.EventAdditionalMetadata.verify|verify} messages.
+         * @param message EventAdditionalMetadata message or plain object to encode
+         * @param [writer] Writer to encode to
+         * @returns Writer
+         */
+        public static encode(message: proto.IEventAdditionalMetadata, writer?: $protobuf.Writer): $protobuf.Writer;
+
+        /**
+         * Encodes the specified EventAdditionalMetadata message, length delimited. Does not implicitly {@link proto.EventAdditionalMetadata.verify|verify} messages.
+         * @param message EventAdditionalMetadata message or plain object to encode
+         * @param [writer] Writer to encode to
+         * @returns Writer
+         */
+        public static encodeDelimited(message: proto.IEventAdditionalMetadata, writer?: $protobuf.Writer): $protobuf.Writer;
+
+        /**
+         * Decodes an EventAdditionalMetadata message from the specified reader or buffer.
+         * @param reader Reader or buffer to decode from
+         * @param [length] Message length if known beforehand
+         * @returns EventAdditionalMetadata
+         * @throws {Error} If the payload is not a reader or valid buffer
+         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+         */
+        public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.EventAdditionalMetadata;
+
+        /**
+         * Decodes an EventAdditionalMetadata message from the specified reader or buffer, length delimited.
+         * @param reader Reader or buffer to decode from
+         * @returns EventAdditionalMetadata
+         * @throws {Error} If the payload is not a reader or valid buffer
+         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+         */
+        public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.EventAdditionalMetadata;
+
+        /**
+         * Verifies an EventAdditionalMetadata message.
+         * @param message Plain object to verify
+         * @returns `null` if valid, otherwise the reason why it is not
+         */
+        public static verify(message: {[k: string]: any}): (string|null);
+
+        /**
+         * Creates an EventAdditionalMetadata message from a plain object. Also converts values to their respective internal types.
+         * @param object Plain object
+         * @returns EventAdditionalMetadata
+         */
+        public static fromObject(object: {[k: string]: any}): proto.EventAdditionalMetadata;
+
+        /**
+         * Creates a plain object from an EventAdditionalMetadata message. Also converts values to other types if specified.
+         * @param message EventAdditionalMetadata
+         * @param [options] Conversion options
+         * @returns Plain object
+         */
+        public static toObject(message: proto.EventAdditionalMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+        /**
+         * Converts this EventAdditionalMetadata to JSON.
+         * @returns JSON object
+         */
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of an EventResponse. */
@@ -6411,14 +6831,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates an EventResponse message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns EventResponse
          */
-        public static fromObject(object: { [k: string]: any }): proto.EventResponse;
+        public static fromObject(object: {[k: string]: any}): proto.EventResponse;
 
         /**
          * Creates a plain object from an EventResponse message. Also converts values to other types if specified.
@@ -6426,13 +6846,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.EventResponse, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.EventResponse, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this EventResponse to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of an ExitCode. */
@@ -6507,14 +6927,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates an ExitCode message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns ExitCode
          */
-        public static fromObject(object: { [k: string]: any }): proto.ExitCode;
+        public static fromObject(object: {[k: string]: any}): proto.ExitCode;
 
         /**
          * Creates a plain object from an ExitCode message. Also converts values to other types if specified.
@@ -6522,13 +6942,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.ExitCode, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.ExitCode, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this ExitCode to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of an ExternalBlobReference. */
@@ -6627,14 +7047,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates an ExternalBlobReference message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns ExternalBlobReference
          */
-        public static fromObject(object: { [k: string]: any }): proto.ExternalBlobReference;
+        public static fromObject(object: {[k: string]: any}): proto.ExternalBlobReference;
 
         /**
          * Creates a plain object from an ExternalBlobReference message. Also converts values to other types if specified.
@@ -6642,13 +7062,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.ExternalBlobReference, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.ExternalBlobReference, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this ExternalBlobReference to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a GlobalSettings. */
@@ -6707,6 +7127,9 @@ export namespace proto {
 
         /** GlobalSettings groupNotificationSettings */
         groupNotificationSettings?: (proto.INotificationSettings|null);
+
+        /** GlobalSettings chatLockSettings */
+        chatLockSettings?: (proto.IChatLockSettings|null);
     }
 
     /** Represents a GlobalSettings. */
@@ -6772,6 +7195,9 @@ export namespace proto {
         /** GlobalSettings groupNotificationSettings. */
         public groupNotificationSettings?: (proto.INotificationSettings|null);
 
+        /** GlobalSettings chatLockSettings. */
+        public chatLockSettings?: (proto.IChatLockSettings|null);
+
         /**
          * Creates a new GlobalSettings instance using the specified properties.
          * @param [properties] Properties to set
@@ -6819,14 +7245,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a GlobalSettings message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns GlobalSettings
          */
-        public static fromObject(object: { [k: string]: any }): proto.GlobalSettings;
+        public static fromObject(object: {[k: string]: any}): proto.GlobalSettings;
 
         /**
          * Creates a plain object from a GlobalSettings message. Also converts values to other types if specified.
@@ -6834,13 +7260,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.GlobalSettings, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.GlobalSettings, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this GlobalSettings to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a GroupMention. */
@@ -6915,14 +7341,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a GroupMention message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns GroupMention
          */
-        public static fromObject(object: { [k: string]: any }): proto.GroupMention;
+        public static fromObject(object: {[k: string]: any}): proto.GroupMention;
 
         /**
          * Creates a plain object from a GroupMention message. Also converts values to other types if specified.
@@ -6930,13 +7356,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.GroupMention, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.GroupMention, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this GroupMention to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a GroupParticipant. */
@@ -7011,14 +7437,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a GroupParticipant message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns GroupParticipant
          */
-        public static fromObject(object: { [k: string]: any }): proto.GroupParticipant;
+        public static fromObject(object: {[k: string]: any}): proto.GroupParticipant;
 
         /**
          * Creates a plain object from a GroupParticipant message. Also converts values to other types if specified.
@@ -7026,13 +7452,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.GroupParticipant, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.GroupParticipant, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this GroupParticipant to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace GroupParticipant {
@@ -7123,14 +7549,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a HandshakeMessage message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns HandshakeMessage
          */
-        public static fromObject(object: { [k: string]: any }): proto.HandshakeMessage;
+        public static fromObject(object: {[k: string]: any}): proto.HandshakeMessage;
 
         /**
          * Creates a plain object from a HandshakeMessage message. Also converts values to other types if specified.
@@ -7138,13 +7564,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.HandshakeMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.HandshakeMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this HandshakeMessage to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace HandshakeMessage {
@@ -7221,14 +7647,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ClientFinish message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ClientFinish
              */
-            public static fromObject(object: { [k: string]: any }): proto.HandshakeMessage.ClientFinish;
+            public static fromObject(object: {[k: string]: any}): proto.HandshakeMessage.ClientFinish;
 
             /**
              * Creates a plain object from a ClientFinish message. Also converts values to other types if specified.
@@ -7236,13 +7662,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.HandshakeMessage.ClientFinish, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.HandshakeMessage.ClientFinish, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ClientFinish to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ClientHello. */
@@ -7323,14 +7749,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ClientHello message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ClientHello
              */
-            public static fromObject(object: { [k: string]: any }): proto.HandshakeMessage.ClientHello;
+            public static fromObject(object: {[k: string]: any}): proto.HandshakeMessage.ClientHello;
 
             /**
              * Creates a plain object from a ClientHello message. Also converts values to other types if specified.
@@ -7338,13 +7764,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.HandshakeMessage.ClientHello, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.HandshakeMessage.ClientHello, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ClientHello to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ServerHello. */
@@ -7425,14 +7851,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ServerHello message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ServerHello
              */
-            public static fromObject(object: { [k: string]: any }): proto.HandshakeMessage.ServerHello;
+            public static fromObject(object: {[k: string]: any}): proto.HandshakeMessage.ServerHello;
 
             /**
              * Creates a plain object from a ServerHello message. Also converts values to other types if specified.
@@ -7440,13 +7866,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.HandshakeMessage.ServerHello, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.HandshakeMessage.ServerHello, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ServerHello to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
     }
 
@@ -7594,14 +8020,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a HistorySync message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns HistorySync
          */
-        public static fromObject(object: { [k: string]: any }): proto.HistorySync;
+        public static fromObject(object: {[k: string]: any}): proto.HistorySync;
 
         /**
          * Creates a plain object from a HistorySync message. Also converts values to other types if specified.
@@ -7609,13 +8035,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.HistorySync, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.HistorySync, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this HistorySync to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace HistorySync {
@@ -7710,14 +8136,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a HistorySyncMsg message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns HistorySyncMsg
          */
-        public static fromObject(object: { [k: string]: any }): proto.HistorySyncMsg;
+        public static fromObject(object: {[k: string]: any}): proto.HistorySyncMsg;
 
         /**
          * Creates a plain object from a HistorySyncMsg message. Also converts values to other types if specified.
@@ -7725,13 +8151,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.HistorySyncMsg, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.HistorySyncMsg, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this HistorySyncMsg to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a HydratedTemplateButton. */
@@ -7821,14 +8247,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a HydratedTemplateButton message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns HydratedTemplateButton
          */
-        public static fromObject(object: { [k: string]: any }): proto.HydratedTemplateButton;
+        public static fromObject(object: {[k: string]: any}): proto.HydratedTemplateButton;
 
         /**
          * Creates a plain object from a HydratedTemplateButton message. Also converts values to other types if specified.
@@ -7836,13 +8262,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.HydratedTemplateButton, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.HydratedTemplateButton, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this HydratedTemplateButton to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace HydratedTemplateButton {
@@ -7919,14 +8345,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a HydratedCallButton message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns HydratedCallButton
              */
-            public static fromObject(object: { [k: string]: any }): proto.HydratedTemplateButton.HydratedCallButton;
+            public static fromObject(object: {[k: string]: any}): proto.HydratedTemplateButton.HydratedCallButton;
 
             /**
              * Creates a plain object from a HydratedCallButton message. Also converts values to other types if specified.
@@ -7934,13 +8360,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.HydratedTemplateButton.HydratedCallButton, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.HydratedTemplateButton.HydratedCallButton, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this HydratedCallButton to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a HydratedQuickReplyButton. */
@@ -8015,14 +8441,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a HydratedQuickReplyButton message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns HydratedQuickReplyButton
              */
-            public static fromObject(object: { [k: string]: any }): proto.HydratedTemplateButton.HydratedQuickReplyButton;
+            public static fromObject(object: {[k: string]: any}): proto.HydratedTemplateButton.HydratedQuickReplyButton;
 
             /**
              * Creates a plain object from a HydratedQuickReplyButton message. Also converts values to other types if specified.
@@ -8030,13 +8456,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.HydratedTemplateButton.HydratedQuickReplyButton, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.HydratedTemplateButton.HydratedQuickReplyButton, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this HydratedQuickReplyButton to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a HydratedURLButton. */
@@ -8123,14 +8549,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a HydratedURLButton message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns HydratedURLButton
              */
-            public static fromObject(object: { [k: string]: any }): proto.HydratedTemplateButton.HydratedURLButton;
+            public static fromObject(object: {[k: string]: any}): proto.HydratedTemplateButton.HydratedURLButton;
 
             /**
              * Creates a plain object from a HydratedURLButton message. Also converts values to other types if specified.
@@ -8138,13 +8564,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.HydratedTemplateButton.HydratedURLButton, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.HydratedTemplateButton.HydratedURLButton, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this HydratedURLButton to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace HydratedURLButton {
@@ -8230,14 +8656,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates an IdentityKeyPairStructure message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns IdentityKeyPairStructure
          */
-        public static fromObject(object: { [k: string]: any }): proto.IdentityKeyPairStructure;
+        public static fromObject(object: {[k: string]: any}): proto.IdentityKeyPairStructure;
 
         /**
          * Creates a plain object from an IdentityKeyPairStructure message. Also converts values to other types if specified.
@@ -8245,13 +8671,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.IdentityKeyPairStructure, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.IdentityKeyPairStructure, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this IdentityKeyPairStructure to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of an InteractiveAnnotation. */
@@ -8341,14 +8767,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates an InteractiveAnnotation message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns InteractiveAnnotation
          */
-        public static fromObject(object: { [k: string]: any }): proto.InteractiveAnnotation;
+        public static fromObject(object: {[k: string]: any}): proto.InteractiveAnnotation;
 
         /**
          * Creates a plain object from an InteractiveAnnotation message. Also converts values to other types if specified.
@@ -8356,13 +8782,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.InteractiveAnnotation, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.InteractiveAnnotation, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this InteractiveAnnotation to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a KeepInChat. */
@@ -8461,14 +8887,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a KeepInChat message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns KeepInChat
          */
-        public static fromObject(object: { [k: string]: any }): proto.KeepInChat;
+        public static fromObject(object: {[k: string]: any}): proto.KeepInChat;
 
         /**
          * Creates a plain object from a KeepInChat message. Also converts values to other types if specified.
@@ -8476,13 +8902,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.KeepInChat, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.KeepInChat, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this KeepInChat to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** KeepType enum. */
@@ -8582,14 +9008,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a KeyExchangeMessage message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns KeyExchangeMessage
          */
-        public static fromObject(object: { [k: string]: any }): proto.KeyExchangeMessage;
+        public static fromObject(object: {[k: string]: any}): proto.KeyExchangeMessage;
 
         /**
          * Creates a plain object from a KeyExchangeMessage message. Also converts values to other types if specified.
@@ -8597,13 +9023,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.KeyExchangeMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.KeyExchangeMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this KeyExchangeMessage to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a KeyId. */
@@ -8672,14 +9098,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a KeyId message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns KeyId
          */
-        public static fromObject(object: { [k: string]: any }): proto.KeyId;
+        public static fromObject(object: {[k: string]: any}): proto.KeyId;
 
         /**
          * Creates a plain object from a KeyId message. Also converts values to other types if specified.
@@ -8687,13 +9113,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.KeyId, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.KeyId, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this KeyId to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a LocalizedName. */
@@ -8774,14 +9200,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a LocalizedName message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns LocalizedName
          */
-        public static fromObject(object: { [k: string]: any }): proto.LocalizedName;
+        public static fromObject(object: {[k: string]: any}): proto.LocalizedName;
 
         /**
          * Creates a plain object from a LocalizedName message. Also converts values to other types if specified.
@@ -8789,13 +9215,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.LocalizedName, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.LocalizedName, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this LocalizedName to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a Location. */
@@ -8876,14 +9302,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a Location message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns Location
          */
-        public static fromObject(object: { [k: string]: any }): proto.Location;
+        public static fromObject(object: {[k: string]: any}): proto.Location;
 
         /**
          * Creates a plain object from a Location message. Also converts values to other types if specified.
@@ -8891,13 +9317,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.Location, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.Location, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this Location to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a MediaData. */
@@ -8966,14 +9392,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a MediaData message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns MediaData
          */
-        public static fromObject(object: { [k: string]: any }): proto.MediaData;
+        public static fromObject(object: {[k: string]: any}): proto.MediaData;
 
         /**
          * Creates a plain object from a MediaData message. Also converts values to other types if specified.
@@ -8981,13 +9407,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.MediaData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.MediaData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this MediaData to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a MediaEntry. */
@@ -9140,14 +9566,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a MediaEntry message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns MediaEntry
          */
-        public static fromObject(object: { [k: string]: any }): proto.MediaEntry;
+        public static fromObject(object: {[k: string]: any}): proto.MediaEntry;
 
         /**
          * Creates a plain object from a MediaEntry message. Also converts values to other types if specified.
@@ -9155,13 +9581,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.MediaEntry, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.MediaEntry, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this MediaEntry to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace MediaEntry {
@@ -9262,14 +9688,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DownloadableThumbnail message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DownloadableThumbnail
              */
-            public static fromObject(object: { [k: string]: any }): proto.MediaEntry.DownloadableThumbnail;
+            public static fromObject(object: {[k: string]: any}): proto.MediaEntry.DownloadableThumbnail;
 
             /**
              * Creates a plain object from a DownloadableThumbnail message. Also converts values to other types if specified.
@@ -9277,20 +9703,20 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.MediaEntry.DownloadableThumbnail, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.MediaEntry.DownloadableThumbnail, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DownloadableThumbnail to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ProgressiveJpegDetails. */
         interface IProgressiveJpegDetails {
 
             /** ProgressiveJpegDetails scanLengths */
-            scanLengths?: ((number|Long)[]|null);
+            scanLengths?: (number[]|null);
 
             /** ProgressiveJpegDetails sidecar */
             sidecar?: (Uint8Array|null);
@@ -9306,7 +9732,7 @@ export namespace proto {
             constructor(properties?: proto.MediaEntry.IProgressiveJpegDetails);
 
             /** ProgressiveJpegDetails scanLengths. */
-            public scanLengths: (number|Long)[];
+            public scanLengths: number[];
 
             /** ProgressiveJpegDetails sidecar. */
             public sidecar: Uint8Array;
@@ -9358,14 +9784,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ProgressiveJpegDetails message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ProgressiveJpegDetails
              */
-            public static fromObject(object: { [k: string]: any }): proto.MediaEntry.ProgressiveJpegDetails;
+            public static fromObject(object: {[k: string]: any}): proto.MediaEntry.ProgressiveJpegDetails;
 
             /**
              * Creates a plain object from a ProgressiveJpegDetails message. Also converts values to other types if specified.
@@ -9373,13 +9799,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.MediaEntry.ProgressiveJpegDetails, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.MediaEntry.ProgressiveJpegDetails, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ProgressiveJpegDetails to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
     }
 
@@ -9461,14 +9887,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a MediaNotifyMessage message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns MediaNotifyMessage
          */
-        public static fromObject(object: { [k: string]: any }): proto.MediaNotifyMessage;
+        public static fromObject(object: {[k: string]: any}): proto.MediaNotifyMessage;
 
         /**
          * Creates a plain object from a MediaNotifyMessage message. Also converts values to other types if specified.
@@ -9476,13 +9902,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.MediaNotifyMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.MediaNotifyMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this MediaNotifyMessage to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a MediaRetryNotification. */
@@ -9563,14 +9989,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a MediaRetryNotification message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns MediaRetryNotification
          */
-        public static fromObject(object: { [k: string]: any }): proto.MediaRetryNotification;
+        public static fromObject(object: {[k: string]: any}): proto.MediaRetryNotification;
 
         /**
          * Creates a plain object from a MediaRetryNotification message. Also converts values to other types if specified.
@@ -9578,13 +10004,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.MediaRetryNotification, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.MediaRetryNotification, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this MediaRetryNotification to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace MediaRetryNotification {
@@ -9797,20 +10223,20 @@ export namespace proto {
         /** Message eventMessage */
         eventMessage?: (proto.Message.IEventMessage|null);
 
+        /** Message encEventResponseMessage */
+        encEventResponseMessage?: (proto.Message.IEncEventResponseMessage|null);
+
         /** Message commentMessage */
         commentMessage?: (proto.Message.ICommentMessage|null);
 
         /** Message newsletterAdminInviteMessage */
         newsletterAdminInviteMessage?: (proto.Message.INewsletterAdminInviteMessage|null);
 
-        /** Message extendedTextMessageWithParentKey */
-        extendedTextMessageWithParentKey?: (proto.Message.IExtendedTextMessageWithParentKey|null);
-
         /** Message placeholderMessage */
         placeholderMessage?: (proto.Message.IPlaceholderMessage|null);
 
-        /** Message encEventUpdateMessage */
-        encEventUpdateMessage?: (proto.Message.IEncEventUpdateMessage|null);
+        /** Message secretEncryptedMessage */
+        secretEncryptedMessage?: (proto.Message.ISecretEncryptedMessage|null);
     }
 
     /** Represents a Message. */
@@ -10011,20 +10437,20 @@ export namespace proto {
         /** Message eventMessage. */
         public eventMessage?: (proto.Message.IEventMessage|null);
 
+        /** Message encEventResponseMessage. */
+        public encEventResponseMessage?: (proto.Message.IEncEventResponseMessage|null);
+
         /** Message commentMessage. */
         public commentMessage?: (proto.Message.ICommentMessage|null);
 
         /** Message newsletterAdminInviteMessage. */
         public newsletterAdminInviteMessage?: (proto.Message.INewsletterAdminInviteMessage|null);
 
-        /** Message extendedTextMessageWithParentKey. */
-        public extendedTextMessageWithParentKey?: (proto.Message.IExtendedTextMessageWithParentKey|null);
-
         /** Message placeholderMessage. */
         public placeholderMessage?: (proto.Message.IPlaceholderMessage|null);
 
-        /** Message encEventUpdateMessage. */
-        public encEventUpdateMessage?: (proto.Message.IEncEventUpdateMessage|null);
+        /** Message secretEncryptedMessage. */
+        public secretEncryptedMessage?: (proto.Message.ISecretEncryptedMessage|null);
 
         /**
          * Creates a new Message instance using the specified properties.
@@ -10073,14 +10499,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a Message message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns Message
          */
-        public static fromObject(object: { [k: string]: any }): proto.Message;
+        public static fromObject(object: {[k: string]: any}): proto.Message;
 
         /**
          * Creates a plain object from a Message message. Also converts values to other types if specified.
@@ -10088,13 +10514,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.Message, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.Message, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this Message to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace Message {
@@ -10171,14 +10597,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AppStateFatalExceptionNotification message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AppStateFatalExceptionNotification
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.AppStateFatalExceptionNotification;
+            public static fromObject(object: {[k: string]: any}): proto.Message.AppStateFatalExceptionNotification;
 
             /**
              * Creates a plain object from an AppStateFatalExceptionNotification message. Also converts values to other types if specified.
@@ -10186,13 +10612,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.AppStateFatalExceptionNotification, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.AppStateFatalExceptionNotification, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AppStateFatalExceptionNotification to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an AppStateSyncKey. */
@@ -10267,14 +10693,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AppStateSyncKey message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AppStateSyncKey
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.AppStateSyncKey;
+            public static fromObject(object: {[k: string]: any}): proto.Message.AppStateSyncKey;
 
             /**
              * Creates a plain object from an AppStateSyncKey message. Also converts values to other types if specified.
@@ -10282,13 +10708,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.AppStateSyncKey, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.AppStateSyncKey, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AppStateSyncKey to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an AppStateSyncKeyData. */
@@ -10369,14 +10795,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AppStateSyncKeyData message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AppStateSyncKeyData
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.AppStateSyncKeyData;
+            public static fromObject(object: {[k: string]: any}): proto.Message.AppStateSyncKeyData;
 
             /**
              * Creates a plain object from an AppStateSyncKeyData message. Also converts values to other types if specified.
@@ -10384,13 +10810,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.AppStateSyncKeyData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.AppStateSyncKeyData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AppStateSyncKeyData to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an AppStateSyncKeyFingerprint. */
@@ -10471,14 +10897,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AppStateSyncKeyFingerprint message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AppStateSyncKeyFingerprint
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.AppStateSyncKeyFingerprint;
+            public static fromObject(object: {[k: string]: any}): proto.Message.AppStateSyncKeyFingerprint;
 
             /**
              * Creates a plain object from an AppStateSyncKeyFingerprint message. Also converts values to other types if specified.
@@ -10486,13 +10912,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.AppStateSyncKeyFingerprint, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.AppStateSyncKeyFingerprint, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AppStateSyncKeyFingerprint to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an AppStateSyncKeyId. */
@@ -10561,14 +10987,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AppStateSyncKeyId message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AppStateSyncKeyId
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.AppStateSyncKeyId;
+            public static fromObject(object: {[k: string]: any}): proto.Message.AppStateSyncKeyId;
 
             /**
              * Creates a plain object from an AppStateSyncKeyId message. Also converts values to other types if specified.
@@ -10576,13 +11002,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.AppStateSyncKeyId, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.AppStateSyncKeyId, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AppStateSyncKeyId to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an AppStateSyncKeyRequest. */
@@ -10651,14 +11077,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AppStateSyncKeyRequest message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AppStateSyncKeyRequest
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.AppStateSyncKeyRequest;
+            public static fromObject(object: {[k: string]: any}): proto.Message.AppStateSyncKeyRequest;
 
             /**
              * Creates a plain object from an AppStateSyncKeyRequest message. Also converts values to other types if specified.
@@ -10666,13 +11092,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.AppStateSyncKeyRequest, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.AppStateSyncKeyRequest, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AppStateSyncKeyRequest to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an AppStateSyncKeyShare. */
@@ -10741,14 +11167,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AppStateSyncKeyShare message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AppStateSyncKeyShare
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.AppStateSyncKeyShare;
+            public static fromObject(object: {[k: string]: any}): proto.Message.AppStateSyncKeyShare;
 
             /**
              * Creates a plain object from an AppStateSyncKeyShare message. Also converts values to other types if specified.
@@ -10756,13 +11182,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.AppStateSyncKeyShare, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.AppStateSyncKeyShare, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AppStateSyncKeyShare to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an AudioMessage. */
@@ -10915,14 +11341,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AudioMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AudioMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.AudioMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.AudioMessage;
 
             /**
              * Creates a plain object from an AudioMessage message. Also converts values to other types if specified.
@@ -10930,13 +11356,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.AudioMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.AudioMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AudioMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a BCallMessage. */
@@ -11023,14 +11449,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a BCallMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns BCallMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.BCallMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.BCallMessage;
 
             /**
              * Creates a plain object from a BCallMessage message. Also converts values to other types if specified.
@@ -11038,13 +11464,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.BCallMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.BCallMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this BCallMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace BCallMessage {
@@ -11147,14 +11573,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a BotFeedbackMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns BotFeedbackMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.BotFeedbackMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.BotFeedbackMessage;
 
             /**
              * Creates a plain object from a BotFeedbackMessage message. Also converts values to other types if specified.
@@ -11162,13 +11588,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.BotFeedbackMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.BotFeedbackMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this BotFeedbackMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace BotFeedbackMessage {
@@ -11265,7 +11691,7 @@ export namespace proto {
             public headerType: proto.Message.ButtonsMessage.HeaderType;
 
             /** ButtonsMessage text. */
-            public text?: (string|null);
+            public text: string;
 
             /** ButtonsMessage documentMessage. */
             public documentMessage?: (proto.Message.IDocumentMessage|null);
@@ -11329,14 +11755,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ButtonsMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ButtonsMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ButtonsMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ButtonsMessage;
 
             /**
              * Creates a plain object from a ButtonsMessage message. Also converts values to other types if specified.
@@ -11344,13 +11770,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ButtonsMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ButtonsMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ButtonsMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ButtonsMessage {
@@ -11439,14 +11865,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a Button message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns Button
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.ButtonsMessage.Button;
+                public static fromObject(object: {[k: string]: any}): proto.Message.ButtonsMessage.Button;
 
                 /**
                  * Creates a plain object from a Button message. Also converts values to other types if specified.
@@ -11454,13 +11880,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.ButtonsMessage.Button, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.ButtonsMessage.Button, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this Button to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             namespace Button {
@@ -11531,14 +11957,14 @@ export namespace proto {
                      * @param message Plain object to verify
                      * @returns `null` if valid, otherwise the reason why it is not
                      */
-                    public static verify(message: { [k: string]: any }): (string|null);
+                    public static verify(message: {[k: string]: any}): (string|null);
 
                     /**
                      * Creates a ButtonText message from a plain object. Also converts values to their respective internal types.
                      * @param object Plain object
                      * @returns ButtonText
                      */
-                    public static fromObject(object: { [k: string]: any }): proto.Message.ButtonsMessage.Button.ButtonText;
+                    public static fromObject(object: {[k: string]: any}): proto.Message.ButtonsMessage.Button.ButtonText;
 
                     /**
                      * Creates a plain object from a ButtonText message. Also converts values to other types if specified.
@@ -11546,13 +11972,13 @@ export namespace proto {
                      * @param [options] Conversion options
                      * @returns Plain object
                      */
-                    public static toObject(message: proto.Message.ButtonsMessage.Button.ButtonText, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                    public static toObject(message: proto.Message.ButtonsMessage.Button.ButtonText, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                     /**
                      * Converts this ButtonText to JSON.
                      * @returns JSON object
                      */
-                    public toJSON(): { [k: string]: any };
+                    public toJSON(): {[k: string]: any};
                 }
 
                 /** Properties of a NativeFlowInfo. */
@@ -11627,14 +12053,14 @@ export namespace proto {
                      * @param message Plain object to verify
                      * @returns `null` if valid, otherwise the reason why it is not
                      */
-                    public static verify(message: { [k: string]: any }): (string|null);
+                    public static verify(message: {[k: string]: any}): (string|null);
 
                     /**
                      * Creates a NativeFlowInfo message from a plain object. Also converts values to their respective internal types.
                      * @param object Plain object
                      * @returns NativeFlowInfo
                      */
-                    public static fromObject(object: { [k: string]: any }): proto.Message.ButtonsMessage.Button.NativeFlowInfo;
+                    public static fromObject(object: {[k: string]: any}): proto.Message.ButtonsMessage.Button.NativeFlowInfo;
 
                     /**
                      * Creates a plain object from a NativeFlowInfo message. Also converts values to other types if specified.
@@ -11642,13 +12068,13 @@ export namespace proto {
                      * @param [options] Conversion options
                      * @returns Plain object
                      */
-                    public static toObject(message: proto.Message.ButtonsMessage.Button.NativeFlowInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                    public static toObject(message: proto.Message.ButtonsMessage.Button.NativeFlowInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                     /**
                      * Converts this NativeFlowInfo to JSON.
                      * @returns JSON object
                      */
-                    public toJSON(): { [k: string]: any };
+                    public toJSON(): {[k: string]: any};
                 }
 
                 /** Type enum. */
@@ -11706,7 +12132,7 @@ export namespace proto {
             public type: proto.Message.ButtonsResponseMessage.Type;
 
             /** ButtonsResponseMessage selectedDisplayText. */
-            public selectedDisplayText?: (string|null);
+            public selectedDisplayText: string;
 
             /** ButtonsResponseMessage response. */
             public response?: "selectedDisplayText";
@@ -11758,14 +12184,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ButtonsResponseMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ButtonsResponseMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ButtonsResponseMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ButtonsResponseMessage;
 
             /**
              * Creates a plain object from a ButtonsResponseMessage message. Also converts values to other types if specified.
@@ -11773,13 +12199,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ButtonsResponseMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ButtonsResponseMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ButtonsResponseMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ButtonsResponseMessage {
@@ -11875,14 +12301,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a Call message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns Call
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.Call;
+            public static fromObject(object: {[k: string]: any}): proto.Message.Call;
 
             /**
              * Creates a plain object from a Call message. Also converts values to other types if specified.
@@ -11890,13 +12316,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.Call, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.Call, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this Call to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a CallLogMessage. */
@@ -11989,14 +12415,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a CallLogMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns CallLogMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.CallLogMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.CallLogMessage;
 
             /**
              * Creates a plain object from a CallLogMessage message. Also converts values to other types if specified.
@@ -12004,13 +12430,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.CallLogMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.CallLogMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this CallLogMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace CallLogMessage {
@@ -12099,14 +12525,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a CallParticipant message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns CallParticipant
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.CallLogMessage.CallParticipant;
+                public static fromObject(object: {[k: string]: any}): proto.Message.CallLogMessage.CallParticipant;
 
                 /**
                  * Creates a plain object from a CallParticipant message. Also converts values to other types if specified.
@@ -12114,13 +12540,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.CallLogMessage.CallParticipant, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.CallLogMessage.CallParticipant, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this CallParticipant to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** CallType enum. */
@@ -12197,14 +12623,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a CancelPaymentRequestMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns CancelPaymentRequestMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.CancelPaymentRequestMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.CancelPaymentRequestMessage;
 
             /**
              * Creates a plain object from a CancelPaymentRequestMessage message. Also converts values to other types if specified.
@@ -12212,13 +12638,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.CancelPaymentRequestMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.CancelPaymentRequestMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this CancelPaymentRequestMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a Chat. */
@@ -12293,14 +12719,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a Chat message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns Chat
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.Chat;
+            public static fromObject(object: {[k: string]: any}): proto.Message.Chat;
 
             /**
              * Creates a plain object from a Chat message. Also converts values to other types if specified.
@@ -12308,13 +12734,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.Chat, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.Chat, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this Chat to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a CommentMessage. */
@@ -12389,14 +12815,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a CommentMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns CommentMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.CommentMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.CommentMessage;
 
             /**
              * Creates a plain object from a CommentMessage message. Also converts values to other types if specified.
@@ -12404,13 +12830,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.CommentMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.CommentMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this CommentMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ContactMessage. */
@@ -12491,14 +12917,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ContactMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ContactMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ContactMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ContactMessage;
 
             /**
              * Creates a plain object from a ContactMessage message. Also converts values to other types if specified.
@@ -12506,13 +12932,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ContactMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ContactMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ContactMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ContactsArrayMessage. */
@@ -12593,14 +13019,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ContactsArrayMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ContactsArrayMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ContactsArrayMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ContactsArrayMessage;
 
             /**
              * Creates a plain object from a ContactsArrayMessage message. Also converts values to other types if specified.
@@ -12608,13 +13034,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ContactsArrayMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ContactsArrayMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ContactsArrayMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a DeclinePaymentRequestMessage. */
@@ -12683,14 +13109,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DeclinePaymentRequestMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DeclinePaymentRequestMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.DeclinePaymentRequestMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.DeclinePaymentRequestMessage;
 
             /**
              * Creates a plain object from a DeclinePaymentRequestMessage message. Also converts values to other types if specified.
@@ -12698,13 +13124,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.DeclinePaymentRequestMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.DeclinePaymentRequestMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DeclinePaymentRequestMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a DeviceSentMessage. */
@@ -12785,14 +13211,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DeviceSentMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DeviceSentMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.DeviceSentMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.DeviceSentMessage;
 
             /**
              * Creates a plain object from a DeviceSentMessage message. Also converts values to other types if specified.
@@ -12800,13 +13226,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.DeviceSentMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.DeviceSentMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DeviceSentMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a DocumentMessage. */
@@ -12989,14 +13415,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DocumentMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DocumentMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.DocumentMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.DocumentMessage;
 
             /**
              * Creates a plain object from a DocumentMessage message. Also converts values to other types if specified.
@@ -13004,13 +13430,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.DocumentMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.DocumentMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DocumentMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an EncCommentMessage. */
@@ -13091,14 +13517,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an EncCommentMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns EncCommentMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.EncCommentMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.EncCommentMessage;
 
             /**
              * Creates a plain object from an EncCommentMessage message. Also converts values to other types if specified.
@@ -13106,115 +13532,115 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.EncCommentMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.EncCommentMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this EncCommentMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
-        /** Properties of an EncEventUpdateMessage. */
-        interface IEncEventUpdateMessage {
+        /** Properties of an EncEventResponseMessage. */
+        interface IEncEventResponseMessage {
 
-            /** EncEventUpdateMessage eventCreationMessageKey */
+            /** EncEventResponseMessage eventCreationMessageKey */
             eventCreationMessageKey?: (proto.IMessageKey|null);
 
-            /** EncEventUpdateMessage encPayload */
+            /** EncEventResponseMessage encPayload */
             encPayload?: (Uint8Array|null);
 
-            /** EncEventUpdateMessage encIv */
+            /** EncEventResponseMessage encIv */
             encIv?: (Uint8Array|null);
         }
 
-        /** Represents an EncEventUpdateMessage. */
-        class EncEventUpdateMessage implements IEncEventUpdateMessage {
+        /** Represents an EncEventResponseMessage. */
+        class EncEventResponseMessage implements IEncEventResponseMessage {
 
             /**
-             * Constructs a new EncEventUpdateMessage.
+             * Constructs a new EncEventResponseMessage.
              * @param [properties] Properties to set
              */
-            constructor(properties?: proto.Message.IEncEventUpdateMessage);
+            constructor(properties?: proto.Message.IEncEventResponseMessage);
 
-            /** EncEventUpdateMessage eventCreationMessageKey. */
+            /** EncEventResponseMessage eventCreationMessageKey. */
             public eventCreationMessageKey?: (proto.IMessageKey|null);
 
-            /** EncEventUpdateMessage encPayload. */
+            /** EncEventResponseMessage encPayload. */
             public encPayload: Uint8Array;
 
-            /** EncEventUpdateMessage encIv. */
+            /** EncEventResponseMessage encIv. */
             public encIv: Uint8Array;
 
             /**
-             * Creates a new EncEventUpdateMessage instance using the specified properties.
+             * Creates a new EncEventResponseMessage instance using the specified properties.
              * @param [properties] Properties to set
-             * @returns EncEventUpdateMessage instance
+             * @returns EncEventResponseMessage instance
              */
-            public static create(properties?: proto.Message.IEncEventUpdateMessage): proto.Message.EncEventUpdateMessage;
+            public static create(properties?: proto.Message.IEncEventResponseMessage): proto.Message.EncEventResponseMessage;
 
             /**
-             * Encodes the specified EncEventUpdateMessage message. Does not implicitly {@link proto.Message.EncEventUpdateMessage.verify|verify} messages.
-             * @param message EncEventUpdateMessage message or plain object to encode
+             * Encodes the specified EncEventResponseMessage message. Does not implicitly {@link proto.Message.EncEventResponseMessage.verify|verify} messages.
+             * @param message EncEventResponseMessage message or plain object to encode
              * @param [writer] Writer to encode to
              * @returns Writer
              */
-            public static encode(message: proto.Message.IEncEventUpdateMessage, writer?: $protobuf.Writer): $protobuf.Writer;
+            public static encode(message: proto.Message.IEncEventResponseMessage, writer?: $protobuf.Writer): $protobuf.Writer;
 
             /**
-             * Encodes the specified EncEventUpdateMessage message, length delimited. Does not implicitly {@link proto.Message.EncEventUpdateMessage.verify|verify} messages.
-             * @param message EncEventUpdateMessage message or plain object to encode
+             * Encodes the specified EncEventResponseMessage message, length delimited. Does not implicitly {@link proto.Message.EncEventResponseMessage.verify|verify} messages.
+             * @param message EncEventResponseMessage message or plain object to encode
              * @param [writer] Writer to encode to
              * @returns Writer
              */
-            public static encodeDelimited(message: proto.Message.IEncEventUpdateMessage, writer?: $protobuf.Writer): $protobuf.Writer;
+            public static encodeDelimited(message: proto.Message.IEncEventResponseMessage, writer?: $protobuf.Writer): $protobuf.Writer;
 
             /**
-             * Decodes an EncEventUpdateMessage message from the specified reader or buffer.
+             * Decodes an EncEventResponseMessage message from the specified reader or buffer.
              * @param reader Reader or buffer to decode from
              * @param [length] Message length if known beforehand
-             * @returns EncEventUpdateMessage
+             * @returns EncEventResponseMessage
              * @throws {Error} If the payload is not a reader or valid buffer
              * @throws {$protobuf.util.ProtocolError} If required fields are missing
              */
-            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.Message.EncEventUpdateMessage;
+            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.Message.EncEventResponseMessage;
 
             /**
-             * Decodes an EncEventUpdateMessage message from the specified reader or buffer, length delimited.
+             * Decodes an EncEventResponseMessage message from the specified reader or buffer, length delimited.
              * @param reader Reader or buffer to decode from
-             * @returns EncEventUpdateMessage
+             * @returns EncEventResponseMessage
              * @throws {Error} If the payload is not a reader or valid buffer
              * @throws {$protobuf.util.ProtocolError} If required fields are missing
              */
-            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.Message.EncEventUpdateMessage;
+            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.Message.EncEventResponseMessage;
 
             /**
-             * Verifies an EncEventUpdateMessage message.
+             * Verifies an EncEventResponseMessage message.
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
-             * Creates an EncEventUpdateMessage message from a plain object. Also converts values to their respective internal types.
+             * Creates an EncEventResponseMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
-             * @returns EncEventUpdateMessage
+             * @returns EncEventResponseMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.EncEventUpdateMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.EncEventResponseMessage;
 
             /**
-             * Creates a plain object from an EncEventUpdateMessage message. Also converts values to other types if specified.
-             * @param message EncEventUpdateMessage
+             * Creates a plain object from an EncEventResponseMessage message. Also converts values to other types if specified.
+             * @param message EncEventResponseMessage
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.EncEventUpdateMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.EncEventResponseMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
-             * Converts this EncEventUpdateMessage to JSON.
+             * Converts this EncEventResponseMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an EncReactionMessage. */
@@ -13295,14 +13721,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an EncReactionMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns EncReactionMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.EncReactionMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.EncReactionMessage;
 
             /**
              * Creates a plain object from an EncReactionMessage message. Also converts values to other types if specified.
@@ -13310,109 +13736,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.EncReactionMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.EncReactionMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this EncReactionMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
-        }
-
-        /** Properties of an EventEditMessage. */
-        interface IEventEditMessage {
-
-            /** EventEditMessage eventEditMessage */
-            eventEditMessage?: (proto.Message.IEventMessage|null);
-
-            /** EventEditMessage editTimestampMs */
-            editTimestampMs?: (number|Long|null);
-        }
-
-        /** Represents an EventEditMessage. */
-        class EventEditMessage implements IEventEditMessage {
-
-            /**
-             * Constructs a new EventEditMessage.
-             * @param [properties] Properties to set
-             */
-            constructor(properties?: proto.Message.IEventEditMessage);
-
-            /** EventEditMessage eventEditMessage. */
-            public eventEditMessage?: (proto.Message.IEventMessage|null);
-
-            /** EventEditMessage editTimestampMs. */
-            public editTimestampMs: (number|Long);
-
-            /**
-             * Creates a new EventEditMessage instance using the specified properties.
-             * @param [properties] Properties to set
-             * @returns EventEditMessage instance
-             */
-            public static create(properties?: proto.Message.IEventEditMessage): proto.Message.EventEditMessage;
-
-            /**
-             * Encodes the specified EventEditMessage message. Does not implicitly {@link proto.Message.EventEditMessage.verify|verify} messages.
-             * @param message EventEditMessage message or plain object to encode
-             * @param [writer] Writer to encode to
-             * @returns Writer
-             */
-            public static encode(message: proto.Message.IEventEditMessage, writer?: $protobuf.Writer): $protobuf.Writer;
-
-            /**
-             * Encodes the specified EventEditMessage message, length delimited. Does not implicitly {@link proto.Message.EventEditMessage.verify|verify} messages.
-             * @param message EventEditMessage message or plain object to encode
-             * @param [writer] Writer to encode to
-             * @returns Writer
-             */
-            public static encodeDelimited(message: proto.Message.IEventEditMessage, writer?: $protobuf.Writer): $protobuf.Writer;
-
-            /**
-             * Decodes an EventEditMessage message from the specified reader or buffer.
-             * @param reader Reader or buffer to decode from
-             * @param [length] Message length if known beforehand
-             * @returns EventEditMessage
-             * @throws {Error} If the payload is not a reader or valid buffer
-             * @throws {$protobuf.util.ProtocolError} If required fields are missing
-             */
-            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.Message.EventEditMessage;
-
-            /**
-             * Decodes an EventEditMessage message from the specified reader or buffer, length delimited.
-             * @param reader Reader or buffer to decode from
-             * @returns EventEditMessage
-             * @throws {Error} If the payload is not a reader or valid buffer
-             * @throws {$protobuf.util.ProtocolError} If required fields are missing
-             */
-            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.Message.EventEditMessage;
-
-            /**
-             * Verifies an EventEditMessage message.
-             * @param message Plain object to verify
-             * @returns `null` if valid, otherwise the reason why it is not
-             */
-            public static verify(message: { [k: string]: any }): (string|null);
-
-            /**
-             * Creates an EventEditMessage message from a plain object. Also converts values to their respective internal types.
-             * @param object Plain object
-             * @returns EventEditMessage
-             */
-            public static fromObject(object: { [k: string]: any }): proto.Message.EventEditMessage;
-
-            /**
-             * Creates a plain object from an EventEditMessage message. Also converts values to other types if specified.
-             * @param message EventEditMessage
-             * @param [options] Conversion options
-             * @returns Plain object
-             */
-            public static toObject(message: proto.Message.EventEditMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
-
-            /**
-             * Converts this EventEditMessage to JSON.
-             * @returns JSON object
-             */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an EventMessage. */
@@ -13517,14 +13847,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an EventMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns EventMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.EventMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.EventMessage;
 
             /**
              * Creates a plain object from an EventMessage message. Also converts values to other types if specified.
@@ -13532,13 +13862,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.EventMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.EventMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this EventMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an EventResponseMessage. */
@@ -13613,14 +13943,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an EventResponseMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns EventResponseMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.EventResponseMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.EventResponseMessage;
 
             /**
              * Creates a plain object from an EventResponseMessage message. Also converts values to other types if specified.
@@ -13628,13 +13958,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.EventResponseMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.EventResponseMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this EventResponseMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace EventResponseMessage {
@@ -13645,102 +13975,6 @@ export namespace proto {
                 GOING = 1,
                 NOT_GOING = 2
             }
-        }
-
-        /** Properties of an EventUpdateMessage. */
-        interface IEventUpdateMessage {
-
-            /** EventUpdateMessage response */
-            response?: (proto.Message.IEventResponseMessage|null);
-
-            /** EventUpdateMessage edit */
-            edit?: (proto.Message.IEventEditMessage|null);
-        }
-
-        /** Represents an EventUpdateMessage. */
-        class EventUpdateMessage implements IEventUpdateMessage {
-
-            /**
-             * Constructs a new EventUpdateMessage.
-             * @param [properties] Properties to set
-             */
-            constructor(properties?: proto.Message.IEventUpdateMessage);
-
-            /** EventUpdateMessage response. */
-            public response?: (proto.Message.IEventResponseMessage|null);
-
-            /** EventUpdateMessage edit. */
-            public edit?: (proto.Message.IEventEditMessage|null);
-
-            /**
-             * Creates a new EventUpdateMessage instance using the specified properties.
-             * @param [properties] Properties to set
-             * @returns EventUpdateMessage instance
-             */
-            public static create(properties?: proto.Message.IEventUpdateMessage): proto.Message.EventUpdateMessage;
-
-            /**
-             * Encodes the specified EventUpdateMessage message. Does not implicitly {@link proto.Message.EventUpdateMessage.verify|verify} messages.
-             * @param message EventUpdateMessage message or plain object to encode
-             * @param [writer] Writer to encode to
-             * @returns Writer
-             */
-            public static encode(message: proto.Message.IEventUpdateMessage, writer?: $protobuf.Writer): $protobuf.Writer;
-
-            /**
-             * Encodes the specified EventUpdateMessage message, length delimited. Does not implicitly {@link proto.Message.EventUpdateMessage.verify|verify} messages.
-             * @param message EventUpdateMessage message or plain object to encode
-             * @param [writer] Writer to encode to
-             * @returns Writer
-             */
-            public static encodeDelimited(message: proto.Message.IEventUpdateMessage, writer?: $protobuf.Writer): $protobuf.Writer;
-
-            /**
-             * Decodes an EventUpdateMessage message from the specified reader or buffer.
-             * @param reader Reader or buffer to decode from
-             * @param [length] Message length if known beforehand
-             * @returns EventUpdateMessage
-             * @throws {Error} If the payload is not a reader or valid buffer
-             * @throws {$protobuf.util.ProtocolError} If required fields are missing
-             */
-            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.Message.EventUpdateMessage;
-
-            /**
-             * Decodes an EventUpdateMessage message from the specified reader or buffer, length delimited.
-             * @param reader Reader or buffer to decode from
-             * @returns EventUpdateMessage
-             * @throws {Error} If the payload is not a reader or valid buffer
-             * @throws {$protobuf.util.ProtocolError} If required fields are missing
-             */
-            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.Message.EventUpdateMessage;
-
-            /**
-             * Verifies an EventUpdateMessage message.
-             * @param message Plain object to verify
-             * @returns `null` if valid, otherwise the reason why it is not
-             */
-            public static verify(message: { [k: string]: any }): (string|null);
-
-            /**
-             * Creates an EventUpdateMessage message from a plain object. Also converts values to their respective internal types.
-             * @param object Plain object
-             * @returns EventUpdateMessage
-             */
-            public static fromObject(object: { [k: string]: any }): proto.Message.EventUpdateMessage;
-
-            /**
-             * Creates a plain object from an EventUpdateMessage message. Also converts values to other types if specified.
-             * @param message EventUpdateMessage
-             * @param [options] Conversion options
-             * @returns Plain object
-             */
-            public static toObject(message: proto.Message.EventUpdateMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
-
-            /**
-             * Converts this EventUpdateMessage to JSON.
-             * @returns JSON object
-             */
-            public toJSON(): { [k: string]: any };
         }
 
         /** Properties of an ExtendedTextMessage. */
@@ -13947,14 +14181,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an ExtendedTextMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ExtendedTextMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ExtendedTextMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ExtendedTextMessage;
 
             /**
              * Creates a plain object from an ExtendedTextMessage message. Also converts values to other types if specified.
@@ -13962,13 +14196,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ExtendedTextMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ExtendedTextMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ExtendedTextMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ExtendedTextMessage {
@@ -14000,102 +14234,6 @@ export namespace proto {
                 PLACEHOLDER = 4,
                 IMAGE = 5
             }
-        }
-
-        /** Properties of an ExtendedTextMessageWithParentKey. */
-        interface IExtendedTextMessageWithParentKey {
-
-            /** ExtendedTextMessageWithParentKey key */
-            key?: (proto.IMessageKey|null);
-
-            /** ExtendedTextMessageWithParentKey extendedTextMessage */
-            extendedTextMessage?: (proto.Message.IExtendedTextMessage|null);
-        }
-
-        /** Represents an ExtendedTextMessageWithParentKey. */
-        class ExtendedTextMessageWithParentKey implements IExtendedTextMessageWithParentKey {
-
-            /**
-             * Constructs a new ExtendedTextMessageWithParentKey.
-             * @param [properties] Properties to set
-             */
-            constructor(properties?: proto.Message.IExtendedTextMessageWithParentKey);
-
-            /** ExtendedTextMessageWithParentKey key. */
-            public key?: (proto.IMessageKey|null);
-
-            /** ExtendedTextMessageWithParentKey extendedTextMessage. */
-            public extendedTextMessage?: (proto.Message.IExtendedTextMessage|null);
-
-            /**
-             * Creates a new ExtendedTextMessageWithParentKey instance using the specified properties.
-             * @param [properties] Properties to set
-             * @returns ExtendedTextMessageWithParentKey instance
-             */
-            public static create(properties?: proto.Message.IExtendedTextMessageWithParentKey): proto.Message.ExtendedTextMessageWithParentKey;
-
-            /**
-             * Encodes the specified ExtendedTextMessageWithParentKey message. Does not implicitly {@link proto.Message.ExtendedTextMessageWithParentKey.verify|verify} messages.
-             * @param message ExtendedTextMessageWithParentKey message or plain object to encode
-             * @param [writer] Writer to encode to
-             * @returns Writer
-             */
-            public static encode(message: proto.Message.IExtendedTextMessageWithParentKey, writer?: $protobuf.Writer): $protobuf.Writer;
-
-            /**
-             * Encodes the specified ExtendedTextMessageWithParentKey message, length delimited. Does not implicitly {@link proto.Message.ExtendedTextMessageWithParentKey.verify|verify} messages.
-             * @param message ExtendedTextMessageWithParentKey message or plain object to encode
-             * @param [writer] Writer to encode to
-             * @returns Writer
-             */
-            public static encodeDelimited(message: proto.Message.IExtendedTextMessageWithParentKey, writer?: $protobuf.Writer): $protobuf.Writer;
-
-            /**
-             * Decodes an ExtendedTextMessageWithParentKey message from the specified reader or buffer.
-             * @param reader Reader or buffer to decode from
-             * @param [length] Message length if known beforehand
-             * @returns ExtendedTextMessageWithParentKey
-             * @throws {Error} If the payload is not a reader or valid buffer
-             * @throws {$protobuf.util.ProtocolError} If required fields are missing
-             */
-            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.Message.ExtendedTextMessageWithParentKey;
-
-            /**
-             * Decodes an ExtendedTextMessageWithParentKey message from the specified reader or buffer, length delimited.
-             * @param reader Reader or buffer to decode from
-             * @returns ExtendedTextMessageWithParentKey
-             * @throws {Error} If the payload is not a reader or valid buffer
-             * @throws {$protobuf.util.ProtocolError} If required fields are missing
-             */
-            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.Message.ExtendedTextMessageWithParentKey;
-
-            /**
-             * Verifies an ExtendedTextMessageWithParentKey message.
-             * @param message Plain object to verify
-             * @returns `null` if valid, otherwise the reason why it is not
-             */
-            public static verify(message: { [k: string]: any }): (string|null);
-
-            /**
-             * Creates an ExtendedTextMessageWithParentKey message from a plain object. Also converts values to their respective internal types.
-             * @param object Plain object
-             * @returns ExtendedTextMessageWithParentKey
-             */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ExtendedTextMessageWithParentKey;
-
-            /**
-             * Creates a plain object from an ExtendedTextMessageWithParentKey message. Also converts values to other types if specified.
-             * @param message ExtendedTextMessageWithParentKey
-             * @param [options] Conversion options
-             * @returns Plain object
-             */
-            public static toObject(message: proto.Message.ExtendedTextMessageWithParentKey, options?: $protobuf.IConversionOptions): { [k: string]: any };
-
-            /**
-             * Converts this ExtendedTextMessageWithParentKey to JSON.
-             * @returns JSON object
-             */
-            public toJSON(): { [k: string]: any };
         }
 
         /** Properties of a FutureProofMessage. */
@@ -14164,14 +14302,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a FutureProofMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns FutureProofMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.FutureProofMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.FutureProofMessage;
 
             /**
              * Creates a plain object from a FutureProofMessage message. Also converts values to other types if specified.
@@ -14179,13 +14317,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.FutureProofMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.FutureProofMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this FutureProofMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a GroupInviteMessage. */
@@ -14296,14 +14434,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a GroupInviteMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns GroupInviteMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.GroupInviteMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.GroupInviteMessage;
 
             /**
              * Creates a plain object from a GroupInviteMessage message. Also converts values to other types if specified.
@@ -14311,13 +14449,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.GroupInviteMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.GroupInviteMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this GroupInviteMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace GroupInviteMessage {
@@ -14443,14 +14581,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a HighlyStructuredMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns HighlyStructuredMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.HighlyStructuredMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.HighlyStructuredMessage;
 
             /**
              * Creates a plain object from a HighlyStructuredMessage message. Also converts values to other types if specified.
@@ -14458,13 +14596,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.HighlyStructuredMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.HighlyStructuredMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this HighlyStructuredMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace HighlyStructuredMessage {
@@ -14550,14 +14688,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a HSMLocalizableParameter message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns HSMLocalizableParameter
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.HighlyStructuredMessage.HSMLocalizableParameter;
+                public static fromObject(object: {[k: string]: any}): proto.Message.HighlyStructuredMessage.HSMLocalizableParameter;
 
                 /**
                  * Creates a plain object from a HSMLocalizableParameter message. Also converts values to other types if specified.
@@ -14565,13 +14703,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.HighlyStructuredMessage.HSMLocalizableParameter, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.HighlyStructuredMessage.HSMLocalizableParameter, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this HSMLocalizableParameter to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             namespace HSMLocalizableParameter {
@@ -14648,14 +14786,14 @@ export namespace proto {
                      * @param message Plain object to verify
                      * @returns `null` if valid, otherwise the reason why it is not
                      */
-                    public static verify(message: { [k: string]: any }): (string|null);
+                    public static verify(message: {[k: string]: any}): (string|null);
 
                     /**
                      * Creates a HSMCurrency message from a plain object. Also converts values to their respective internal types.
                      * @param object Plain object
                      * @returns HSMCurrency
                      */
-                    public static fromObject(object: { [k: string]: any }): proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMCurrency;
+                    public static fromObject(object: {[k: string]: any}): proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMCurrency;
 
                     /**
                      * Creates a plain object from a HSMCurrency message. Also converts values to other types if specified.
@@ -14663,13 +14801,13 @@ export namespace proto {
                      * @param [options] Conversion options
                      * @returns Plain object
                      */
-                    public static toObject(message: proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMCurrency, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                    public static toObject(message: proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMCurrency, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                     /**
                      * Converts this HSMCurrency to JSON.
                      * @returns JSON object
                      */
-                    public toJSON(): { [k: string]: any };
+                    public toJSON(): {[k: string]: any};
                 }
 
                 /** Properties of a HSMDateTime. */
@@ -14747,14 +14885,14 @@ export namespace proto {
                      * @param message Plain object to verify
                      * @returns `null` if valid, otherwise the reason why it is not
                      */
-                    public static verify(message: { [k: string]: any }): (string|null);
+                    public static verify(message: {[k: string]: any}): (string|null);
 
                     /**
                      * Creates a HSMDateTime message from a plain object. Also converts values to their respective internal types.
                      * @param object Plain object
                      * @returns HSMDateTime
                      */
-                    public static fromObject(object: { [k: string]: any }): proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime;
+                    public static fromObject(object: {[k: string]: any}): proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime;
 
                     /**
                      * Creates a plain object from a HSMDateTime message. Also converts values to other types if specified.
@@ -14762,13 +14900,13 @@ export namespace proto {
                      * @param [options] Conversion options
                      * @returns Plain object
                      */
-                    public static toObject(message: proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                    public static toObject(message: proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                     /**
                      * Converts this HSMDateTime to JSON.
                      * @returns JSON object
                      */
-                    public toJSON(): { [k: string]: any };
+                    public toJSON(): {[k: string]: any};
                 }
 
                 namespace HSMDateTime {
@@ -14875,14 +15013,14 @@ export namespace proto {
                          * @param message Plain object to verify
                          * @returns `null` if valid, otherwise the reason why it is not
                          */
-                        public static verify(message: { [k: string]: any }): (string|null);
+                        public static verify(message: {[k: string]: any}): (string|null);
 
                         /**
                          * Creates a HSMDateTimeComponent message from a plain object. Also converts values to their respective internal types.
                          * @param object Plain object
                          * @returns HSMDateTimeComponent
                          */
-                        public static fromObject(object: { [k: string]: any }): proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeComponent;
+                        public static fromObject(object: {[k: string]: any}): proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeComponent;
 
                         /**
                          * Creates a plain object from a HSMDateTimeComponent message. Also converts values to other types if specified.
@@ -14890,13 +15028,13 @@ export namespace proto {
                          * @param [options] Conversion options
                          * @returns Plain object
                          */
-                        public static toObject(message: proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeComponent, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                        public static toObject(message: proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeComponent, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                         /**
                          * Converts this HSMDateTimeComponent to JSON.
                          * @returns JSON object
                          */
-                        public toJSON(): { [k: string]: any };
+                        public toJSON(): {[k: string]: any};
                     }
 
                     namespace HSMDateTimeComponent {
@@ -14985,14 +15123,14 @@ export namespace proto {
                          * @param message Plain object to verify
                          * @returns `null` if valid, otherwise the reason why it is not
                          */
-                        public static verify(message: { [k: string]: any }): (string|null);
+                        public static verify(message: {[k: string]: any}): (string|null);
 
                         /**
                          * Creates a HSMDateTimeUnixEpoch message from a plain object. Also converts values to their respective internal types.
                          * @param object Plain object
                          * @returns HSMDateTimeUnixEpoch
                          */
-                        public static fromObject(object: { [k: string]: any }): proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeUnixEpoch;
+                        public static fromObject(object: {[k: string]: any}): proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeUnixEpoch;
 
                         /**
                          * Creates a plain object from a HSMDateTimeUnixEpoch message. Also converts values to other types if specified.
@@ -15000,13 +15138,13 @@ export namespace proto {
                          * @param [options] Conversion options
                          * @returns Plain object
                          */
-                        public static toObject(message: proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeUnixEpoch, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                        public static toObject(message: proto.Message.HighlyStructuredMessage.HSMLocalizableParameter.HSMDateTime.HSMDateTimeUnixEpoch, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                         /**
                          * Converts this HSMDateTimeUnixEpoch to JSON.
                          * @returns JSON object
                          */
-                        public toJSON(): { [k: string]: any };
+                        public toJSON(): {[k: string]: any};
                     }
                 }
             }
@@ -15144,14 +15282,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a HistorySyncNotification message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns HistorySyncNotification
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.HistorySyncNotification;
+            public static fromObject(object: {[k: string]: any}): proto.Message.HistorySyncNotification;
 
             /**
              * Creates a plain object from a HistorySyncNotification message. Also converts values to other types if specified.
@@ -15159,13 +15297,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.HistorySyncNotification, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.HistorySyncNotification, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this HistorySyncNotification to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace HistorySyncNotification {
@@ -15265,6 +15403,9 @@ export namespace proto {
 
             /** ImageMessage annotations */
             annotations?: (proto.IInteractiveAnnotation[]|null);
+
+            /** ImageMessage imageSourceType */
+            imageSourceType?: (proto.Message.ImageMessage.ImageSourceType|null);
         }
 
         /** Represents an ImageMessage. */
@@ -15357,6 +15498,9 @@ export namespace proto {
             /** ImageMessage annotations. */
             public annotations: proto.IInteractiveAnnotation[];
 
+            /** ImageMessage imageSourceType. */
+            public imageSourceType: proto.Message.ImageMessage.ImageSourceType;
+
             /**
              * Creates a new ImageMessage instance using the specified properties.
              * @param [properties] Properties to set
@@ -15404,14 +15548,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an ImageMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ImageMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ImageMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ImageMessage;
 
             /**
              * Creates a plain object from an ImageMessage message. Also converts values to other types if specified.
@@ -15419,13 +15563,23 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ImageMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ImageMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ImageMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
+        }
+
+        namespace ImageMessage {
+
+            /** ImageSourceType enum. */
+            enum ImageSourceType {
+                USER_IMAGE = 0,
+                AI_GENERATED = 1,
+                AI_MODIFIED = 2
+            }
         }
 
         /** Properties of an InitialSecurityNotificationSettingSync. */
@@ -15494,14 +15648,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an InitialSecurityNotificationSettingSync message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns InitialSecurityNotificationSettingSync
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.InitialSecurityNotificationSettingSync;
+            public static fromObject(object: {[k: string]: any}): proto.Message.InitialSecurityNotificationSettingSync;
 
             /**
              * Creates a plain object from an InitialSecurityNotificationSettingSync message. Also converts values to other types if specified.
@@ -15509,13 +15663,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.InitialSecurityNotificationSettingSync, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.InitialSecurityNotificationSettingSync, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this InitialSecurityNotificationSettingSync to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an InteractiveMessage. */
@@ -15629,14 +15783,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an InteractiveMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns InteractiveMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveMessage;
 
             /**
              * Creates a plain object from an InteractiveMessage message. Also converts values to other types if specified.
@@ -15644,13 +15798,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.InteractiveMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.InteractiveMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this InteractiveMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace InteractiveMessage {
@@ -15721,14 +15875,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a Body message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns Body
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveMessage.Body;
+                public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveMessage.Body;
 
                 /**
                  * Creates a plain object from a Body message. Also converts values to other types if specified.
@@ -15736,13 +15890,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.InteractiveMessage.Body, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.InteractiveMessage.Body, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this Body to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a CarouselMessage. */
@@ -15817,14 +15971,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a CarouselMessage message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns CarouselMessage
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveMessage.CarouselMessage;
+                public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveMessage.CarouselMessage;
 
                 /**
                  * Creates a plain object from a CarouselMessage message. Also converts values to other types if specified.
@@ -15832,13 +15986,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.InteractiveMessage.CarouselMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.InteractiveMessage.CarouselMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this CarouselMessage to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a CollectionMessage. */
@@ -15919,14 +16073,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a CollectionMessage message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns CollectionMessage
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveMessage.CollectionMessage;
+                public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveMessage.CollectionMessage;
 
                 /**
                  * Creates a plain object from a CollectionMessage message. Also converts values to other types if specified.
@@ -15934,13 +16088,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.InteractiveMessage.CollectionMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.InteractiveMessage.CollectionMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this CollectionMessage to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a Footer. */
@@ -16009,14 +16163,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a Footer message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns Footer
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveMessage.Footer;
+                public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveMessage.Footer;
 
                 /**
                  * Creates a plain object from a Footer message. Also converts values to other types if specified.
@@ -16024,13 +16178,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.InteractiveMessage.Footer, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.InteractiveMessage.Footer, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this Footer to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a Header. */
@@ -16059,6 +16213,9 @@ export namespace proto {
 
                 /** Header locationMessage */
                 locationMessage?: (proto.Message.ILocationMessage|null);
+
+                /** Header productMessage */
+                productMessage?: (proto.Message.IProductMessage|null);
             }
 
             /** Represents a Header. */
@@ -16086,7 +16243,7 @@ export namespace proto {
                 public imageMessage?: (proto.Message.IImageMessage|null);
 
                 /** Header jpegThumbnail. */
-                public jpegThumbnail?: (Uint8Array|null);
+                public jpegThumbnail: Uint8Array;
 
                 /** Header videoMessage. */
                 public videoMessage?: (proto.Message.IVideoMessage|null);
@@ -16094,8 +16251,11 @@ export namespace proto {
                 /** Header locationMessage. */
                 public locationMessage?: (proto.Message.ILocationMessage|null);
 
+                /** Header productMessage. */
+                public productMessage?: (proto.Message.IProductMessage|null);
+
                 /** Header media. */
-                public media?: ("documentMessage"|"imageMessage"|"jpegThumbnail"|"videoMessage"|"locationMessage");
+                public media?: ("documentMessage"|"imageMessage"|"jpegThumbnail"|"videoMessage"|"locationMessage"|"productMessage");
 
                 /**
                  * Creates a new Header instance using the specified properties.
@@ -16144,14 +16304,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a Header message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns Header
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveMessage.Header;
+                public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveMessage.Header;
 
                 /**
                  * Creates a plain object from a Header message. Also converts values to other types if specified.
@@ -16159,13 +16319,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.InteractiveMessage.Header, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.InteractiveMessage.Header, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this Header to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a NativeFlowMessage. */
@@ -16246,14 +16406,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a NativeFlowMessage message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns NativeFlowMessage
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveMessage.NativeFlowMessage;
+                public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveMessage.NativeFlowMessage;
 
                 /**
                  * Creates a plain object from a NativeFlowMessage message. Also converts values to other types if specified.
@@ -16261,13 +16421,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.InteractiveMessage.NativeFlowMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.InteractiveMessage.NativeFlowMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this NativeFlowMessage to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             namespace NativeFlowMessage {
@@ -16344,14 +16504,14 @@ export namespace proto {
                      * @param message Plain object to verify
                      * @returns `null` if valid, otherwise the reason why it is not
                      */
-                    public static verify(message: { [k: string]: any }): (string|null);
+                    public static verify(message: {[k: string]: any}): (string|null);
 
                     /**
                      * Creates a NativeFlowButton message from a plain object. Also converts values to their respective internal types.
                      * @param object Plain object
                      * @returns NativeFlowButton
                      */
-                    public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveMessage.NativeFlowMessage.NativeFlowButton;
+                    public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveMessage.NativeFlowMessage.NativeFlowButton;
 
                     /**
                      * Creates a plain object from a NativeFlowButton message. Also converts values to other types if specified.
@@ -16359,13 +16519,13 @@ export namespace proto {
                      * @param [options] Conversion options
                      * @returns Plain object
                      */
-                    public static toObject(message: proto.Message.InteractiveMessage.NativeFlowMessage.NativeFlowButton, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                    public static toObject(message: proto.Message.InteractiveMessage.NativeFlowMessage.NativeFlowButton, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                     /**
                      * Converts this NativeFlowButton to JSON.
                      * @returns JSON object
                      */
-                    public toJSON(): { [k: string]: any };
+                    public toJSON(): {[k: string]: any};
                 }
             }
 
@@ -16447,14 +16607,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a ShopMessage message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns ShopMessage
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveMessage.ShopMessage;
+                public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveMessage.ShopMessage;
 
                 /**
                  * Creates a plain object from a ShopMessage message. Also converts values to other types if specified.
@@ -16462,13 +16622,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.InteractiveMessage.ShopMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.InteractiveMessage.ShopMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this ShopMessage to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             namespace ShopMessage {
@@ -16564,14 +16724,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an InteractiveResponseMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns InteractiveResponseMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveResponseMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveResponseMessage;
 
             /**
              * Creates a plain object from an InteractiveResponseMessage message. Also converts values to other types if specified.
@@ -16579,13 +16739,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.InteractiveResponseMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.InteractiveResponseMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this InteractiveResponseMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace InteractiveResponseMessage {
@@ -16662,14 +16822,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a Body message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns Body
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveResponseMessage.Body;
+                public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveResponseMessage.Body;
 
                 /**
                  * Creates a plain object from a Body message. Also converts values to other types if specified.
@@ -16677,13 +16837,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.InteractiveResponseMessage.Body, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.InteractiveResponseMessage.Body, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this Body to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             namespace Body {
@@ -16773,14 +16933,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a NativeFlowResponseMessage message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns NativeFlowResponseMessage
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.InteractiveResponseMessage.NativeFlowResponseMessage;
+                public static fromObject(object: {[k: string]: any}): proto.Message.InteractiveResponseMessage.NativeFlowResponseMessage;
 
                 /**
                  * Creates a plain object from a NativeFlowResponseMessage message. Also converts values to other types if specified.
@@ -16788,13 +16948,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.InteractiveResponseMessage.NativeFlowResponseMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.InteractiveResponseMessage.NativeFlowResponseMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this NativeFlowResponseMessage to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
 
@@ -16918,14 +17078,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an InvoiceMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns InvoiceMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.InvoiceMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.InvoiceMessage;
 
             /**
              * Creates a plain object from an InvoiceMessage message. Also converts values to other types if specified.
@@ -16933,13 +17093,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.InvoiceMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.InvoiceMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this InvoiceMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace InvoiceMessage {
@@ -17029,14 +17189,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a KeepInChatMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns KeepInChatMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.KeepInChatMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.KeepInChatMessage;
 
             /**
              * Creates a plain object from a KeepInChatMessage message. Also converts values to other types if specified.
@@ -17044,13 +17204,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.KeepInChatMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.KeepInChatMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this KeepInChatMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ListMessage. */
@@ -17161,14 +17321,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ListMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ListMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ListMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ListMessage;
 
             /**
              * Creates a plain object from a ListMessage message. Also converts values to other types if specified.
@@ -17176,13 +17336,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ListMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ListMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ListMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ListMessage {
@@ -17260,14 +17420,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a Product message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns Product
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.ListMessage.Product;
+                public static fromObject(object: {[k: string]: any}): proto.Message.ListMessage.Product;
 
                 /**
                  * Creates a plain object from a Product message. Also converts values to other types if specified.
@@ -17275,13 +17435,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.ListMessage.Product, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.ListMessage.Product, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this Product to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a ProductListHeaderImage. */
@@ -17356,14 +17516,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a ProductListHeaderImage message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns ProductListHeaderImage
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.ListMessage.ProductListHeaderImage;
+                public static fromObject(object: {[k: string]: any}): proto.Message.ListMessage.ProductListHeaderImage;
 
                 /**
                  * Creates a plain object from a ProductListHeaderImage message. Also converts values to other types if specified.
@@ -17371,13 +17531,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.ListMessage.ProductListHeaderImage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.ListMessage.ProductListHeaderImage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this ProductListHeaderImage to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a ProductListInfo. */
@@ -17458,14 +17618,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a ProductListInfo message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns ProductListInfo
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.ListMessage.ProductListInfo;
+                public static fromObject(object: {[k: string]: any}): proto.Message.ListMessage.ProductListInfo;
 
                 /**
                  * Creates a plain object from a ProductListInfo message. Also converts values to other types if specified.
@@ -17473,13 +17633,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.ListMessage.ProductListInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.ListMessage.ProductListInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this ProductListInfo to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a ProductSection. */
@@ -17554,14 +17714,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a ProductSection message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns ProductSection
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.ListMessage.ProductSection;
+                public static fromObject(object: {[k: string]: any}): proto.Message.ListMessage.ProductSection;
 
                 /**
                  * Creates a plain object from a ProductSection message. Also converts values to other types if specified.
@@ -17569,13 +17729,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.ListMessage.ProductSection, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.ListMessage.ProductSection, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this ProductSection to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a Row. */
@@ -17656,14 +17816,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a Row message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns Row
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.ListMessage.Row;
+                public static fromObject(object: {[k: string]: any}): proto.Message.ListMessage.Row;
 
                 /**
                  * Creates a plain object from a Row message. Also converts values to other types if specified.
@@ -17671,13 +17831,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.ListMessage.Row, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.ListMessage.Row, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this Row to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a Section. */
@@ -17752,14 +17912,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a Section message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns Section
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.ListMessage.Section;
+                public static fromObject(object: {[k: string]: any}): proto.Message.ListMessage.Section;
 
                 /**
                  * Creates a plain object from a Section message. Also converts values to other types if specified.
@@ -17767,13 +17927,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.ListMessage.Section, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.ListMessage.Section, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this Section to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
 
@@ -17867,14 +18027,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ListResponseMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ListResponseMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ListResponseMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ListResponseMessage;
 
             /**
              * Creates a plain object from a ListResponseMessage message. Also converts values to other types if specified.
@@ -17882,13 +18042,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ListResponseMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ListResponseMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ListResponseMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ListResponseMessage {
@@ -17965,14 +18125,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a SingleSelectReply message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns SingleSelectReply
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.ListResponseMessage.SingleSelectReply;
+                public static fromObject(object: {[k: string]: any}): proto.Message.ListResponseMessage.SingleSelectReply;
 
                 /**
                  * Creates a plain object from a SingleSelectReply message. Also converts values to other types if specified.
@@ -17980,13 +18140,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.ListResponseMessage.SingleSelectReply, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.ListResponseMessage.SingleSelectReply, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this SingleSelectReply to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
 
@@ -18110,14 +18270,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a LiveLocationMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns LiveLocationMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.LiveLocationMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.LiveLocationMessage;
 
             /**
              * Creates a plain object from a LiveLocationMessage message. Also converts values to other types if specified.
@@ -18125,13 +18285,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.LiveLocationMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.LiveLocationMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this LiveLocationMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a LocationMessage. */
@@ -18266,14 +18426,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a LocationMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns LocationMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.LocationMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.LocationMessage;
 
             /**
              * Creates a plain object from a LocationMessage message. Also converts values to other types if specified.
@@ -18281,13 +18441,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.LocationMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.LocationMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this LocationMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a MessageHistoryBundle. */
@@ -18398,14 +18558,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a MessageHistoryBundle message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns MessageHistoryBundle
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.MessageHistoryBundle;
+            public static fromObject(object: {[k: string]: any}): proto.Message.MessageHistoryBundle;
 
             /**
              * Creates a plain object from a MessageHistoryBundle message. Also converts values to other types if specified.
@@ -18413,13 +18573,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.MessageHistoryBundle, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.MessageHistoryBundle, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this MessageHistoryBundle to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a NewsletterAdminInviteMessage. */
@@ -18439,6 +18599,9 @@ export namespace proto {
 
             /** NewsletterAdminInviteMessage inviteExpiration */
             inviteExpiration?: (number|Long|null);
+
+            /** NewsletterAdminInviteMessage contextInfo */
+            contextInfo?: (proto.IContextInfo|null);
         }
 
         /** Represents a NewsletterAdminInviteMessage. */
@@ -18464,6 +18627,9 @@ export namespace proto {
 
             /** NewsletterAdminInviteMessage inviteExpiration. */
             public inviteExpiration: (number|Long);
+
+            /** NewsletterAdminInviteMessage contextInfo. */
+            public contextInfo?: (proto.IContextInfo|null);
 
             /**
              * Creates a new NewsletterAdminInviteMessage instance using the specified properties.
@@ -18512,14 +18678,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a NewsletterAdminInviteMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns NewsletterAdminInviteMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.NewsletterAdminInviteMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.NewsletterAdminInviteMessage;
 
             /**
              * Creates a plain object from a NewsletterAdminInviteMessage message. Also converts values to other types if specified.
@@ -18527,13 +18693,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.NewsletterAdminInviteMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.NewsletterAdminInviteMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this NewsletterAdminInviteMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an OrderMessage. */
@@ -18680,14 +18846,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an OrderMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns OrderMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.OrderMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.OrderMessage;
 
             /**
              * Creates a plain object from an OrderMessage message. Also converts values to other types if specified.
@@ -18695,13 +18861,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.OrderMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.OrderMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this OrderMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace OrderMessage {
@@ -18791,14 +18957,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PaymentInviteMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PaymentInviteMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.PaymentInviteMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.PaymentInviteMessage;
 
             /**
              * Creates a plain object from a PaymentInviteMessage message. Also converts values to other types if specified.
@@ -18806,13 +18972,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.PaymentInviteMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.PaymentInviteMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PaymentInviteMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace PaymentInviteMessage {
@@ -18867,7 +19033,7 @@ export namespace proto {
             public historySyncOnDemandRequest?: (proto.Message.PeerDataOperationRequestMessage.IHistorySyncOnDemandRequest|null);
 
             /** PeerDataOperationRequestMessage placeholderMessageResendRequest. */
-            public placeholderMessageResendRequest: proto.Message.PeerDataOperationRequestMessage.IPlaceholderMessageResendRequest[];
+            public placeholderMessageResendRequest: proto.Message.PeerDataOperationRequestMessage.IPlaceholderMessageResendRequest;
 
             /**
              * Creates a new PeerDataOperationRequestMessage instance using the specified properties.
@@ -18916,14 +19082,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PeerDataOperationRequestMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PeerDataOperationRequestMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.PeerDataOperationRequestMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.PeerDataOperationRequestMessage;
 
             /**
              * Creates a plain object from a PeerDataOperationRequestMessage message. Also converts values to other types if specified.
@@ -18931,13 +19097,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.PeerDataOperationRequestMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.PeerDataOperationRequestMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PeerDataOperationRequestMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace PeerDataOperationRequestMessage {
@@ -19032,14 +19198,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a HistorySyncOnDemandRequest message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns HistorySyncOnDemandRequest
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.PeerDataOperationRequestMessage.HistorySyncOnDemandRequest;
+                public static fromObject(object: {[k: string]: any}): proto.Message.PeerDataOperationRequestMessage.HistorySyncOnDemandRequest;
 
                 /**
                  * Creates a plain object from a HistorySyncOnDemandRequest message. Also converts values to other types if specified.
@@ -19047,13 +19213,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.PeerDataOperationRequestMessage.HistorySyncOnDemandRequest, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.PeerDataOperationRequestMessage.HistorySyncOnDemandRequest, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this HistorySyncOnDemandRequest to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a PlaceholderMessageResendRequest. */
@@ -19122,14 +19288,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a PlaceholderMessageResendRequest message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns PlaceholderMessageResendRequest
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.PeerDataOperationRequestMessage.PlaceholderMessageResendRequest;
+                public static fromObject(object: {[k: string]: any}): proto.Message.PeerDataOperationRequestMessage.PlaceholderMessageResendRequest;
 
                 /**
                  * Creates a plain object from a PlaceholderMessageResendRequest message. Also converts values to other types if specified.
@@ -19137,13 +19303,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.PeerDataOperationRequestMessage.PlaceholderMessageResendRequest, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.PeerDataOperationRequestMessage.PlaceholderMessageResendRequest, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this PlaceholderMessageResendRequest to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a RequestStickerReupload. */
@@ -19212,14 +19378,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a RequestStickerReupload message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns RequestStickerReupload
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.PeerDataOperationRequestMessage.RequestStickerReupload;
+                public static fromObject(object: {[k: string]: any}): proto.Message.PeerDataOperationRequestMessage.RequestStickerReupload;
 
                 /**
                  * Creates a plain object from a RequestStickerReupload message. Also converts values to other types if specified.
@@ -19227,13 +19393,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.PeerDataOperationRequestMessage.RequestStickerReupload, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.PeerDataOperationRequestMessage.RequestStickerReupload, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this RequestStickerReupload to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a RequestUrlPreview. */
@@ -19308,14 +19474,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a RequestUrlPreview message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns RequestUrlPreview
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.PeerDataOperationRequestMessage.RequestUrlPreview;
+                public static fromObject(object: {[k: string]: any}): proto.Message.PeerDataOperationRequestMessage.RequestUrlPreview;
 
                 /**
                  * Creates a plain object from a RequestUrlPreview message. Also converts values to other types if specified.
@@ -19323,13 +19489,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.PeerDataOperationRequestMessage.RequestUrlPreview, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.PeerDataOperationRequestMessage.RequestUrlPreview, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this RequestUrlPreview to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
 
@@ -19411,14 +19577,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PeerDataOperationRequestResponseMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PeerDataOperationRequestResponseMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.PeerDataOperationRequestResponseMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.PeerDataOperationRequestResponseMessage;
 
             /**
              * Creates a plain object from a PeerDataOperationRequestResponseMessage message. Also converts values to other types if specified.
@@ -19426,13 +19592,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.PeerDataOperationRequestResponseMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.PeerDataOperationRequestResponseMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PeerDataOperationRequestResponseMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace PeerDataOperationRequestResponseMessage {
@@ -19521,14 +19687,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a PeerDataOperationResult message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns PeerDataOperationResult
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult;
+                public static fromObject(object: {[k: string]: any}): proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult;
 
                 /**
                  * Creates a plain object from a PeerDataOperationResult message. Also converts values to other types if specified.
@@ -19536,13 +19702,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this PeerDataOperationResult to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             namespace PeerDataOperationResult {
@@ -19655,14 +19821,14 @@ export namespace proto {
                      * @param message Plain object to verify
                      * @returns `null` if valid, otherwise the reason why it is not
                      */
-                    public static verify(message: { [k: string]: any }): (string|null);
+                    public static verify(message: {[k: string]: any}): (string|null);
 
                     /**
                      * Creates a LinkPreviewResponse message from a plain object. Also converts values to their respective internal types.
                      * @param object Plain object
                      * @returns LinkPreviewResponse
                      */
-                    public static fromObject(object: { [k: string]: any }): proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.LinkPreviewResponse;
+                    public static fromObject(object: {[k: string]: any}): proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.LinkPreviewResponse;
 
                     /**
                      * Creates a plain object from a LinkPreviewResponse message. Also converts values to other types if specified.
@@ -19670,13 +19836,13 @@ export namespace proto {
                      * @param [options] Conversion options
                      * @returns Plain object
                      */
-                    public static toObject(message: proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.LinkPreviewResponse, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                    public static toObject(message: proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.LinkPreviewResponse, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                     /**
                      * Converts this LinkPreviewResponse to JSON.
                      * @returns JSON object
                      */
-                    public toJSON(): { [k: string]: any };
+                    public toJSON(): {[k: string]: any};
                 }
 
                 namespace LinkPreviewResponse {
@@ -19783,14 +19949,14 @@ export namespace proto {
                          * @param message Plain object to verify
                          * @returns `null` if valid, otherwise the reason why it is not
                          */
-                        public static verify(message: { [k: string]: any }): (string|null);
+                        public static verify(message: {[k: string]: any}): (string|null);
 
                         /**
                          * Creates a LinkPreviewHighQualityThumbnail message from a plain object. Also converts values to their respective internal types.
                          * @param object Plain object
                          * @returns LinkPreviewHighQualityThumbnail
                          */
-                        public static fromObject(object: { [k: string]: any }): proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.LinkPreviewResponse.LinkPreviewHighQualityThumbnail;
+                        public static fromObject(object: {[k: string]: any}): proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.LinkPreviewResponse.LinkPreviewHighQualityThumbnail;
 
                         /**
                          * Creates a plain object from a LinkPreviewHighQualityThumbnail message. Also converts values to other types if specified.
@@ -19798,13 +19964,13 @@ export namespace proto {
                          * @param [options] Conversion options
                          * @returns Plain object
                          */
-                        public static toObject(message: proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.LinkPreviewResponse.LinkPreviewHighQualityThumbnail, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                        public static toObject(message: proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.LinkPreviewResponse.LinkPreviewHighQualityThumbnail, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                         /**
                          * Converts this LinkPreviewHighQualityThumbnail to JSON.
                          * @returns JSON object
                          */
-                        public toJSON(): { [k: string]: any };
+                        public toJSON(): {[k: string]: any};
                     }
                 }
 
@@ -19874,14 +20040,14 @@ export namespace proto {
                      * @param message Plain object to verify
                      * @returns `null` if valid, otherwise the reason why it is not
                      */
-                    public static verify(message: { [k: string]: any }): (string|null);
+                    public static verify(message: {[k: string]: any}): (string|null);
 
                     /**
                      * Creates a PlaceholderMessageResendResponse message from a plain object. Also converts values to their respective internal types.
                      * @param object Plain object
                      * @returns PlaceholderMessageResendResponse
                      */
-                    public static fromObject(object: { [k: string]: any }): proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.PlaceholderMessageResendResponse;
+                    public static fromObject(object: {[k: string]: any}): proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.PlaceholderMessageResendResponse;
 
                     /**
                      * Creates a plain object from a PlaceholderMessageResendResponse message. Also converts values to other types if specified.
@@ -19889,13 +20055,13 @@ export namespace proto {
                      * @param [options] Conversion options
                      * @returns Plain object
                      */
-                    public static toObject(message: proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.PlaceholderMessageResendResponse, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                    public static toObject(message: proto.Message.PeerDataOperationRequestResponseMessage.PeerDataOperationResult.PlaceholderMessageResendResponse, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                     /**
                      * Converts this PlaceholderMessageResendResponse to JSON.
                      * @returns JSON object
                      */
-                    public toJSON(): { [k: string]: any };
+                    public toJSON(): {[k: string]: any};
                 }
             }
         }
@@ -19987,14 +20153,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PinInChatMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PinInChatMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.PinInChatMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.PinInChatMessage;
 
             /**
              * Creates a plain object from a PinInChatMessage message. Also converts values to other types if specified.
@@ -20002,13 +20168,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.PinInChatMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.PinInChatMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PinInChatMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace PinInChatMessage {
@@ -20087,14 +20253,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PlaceholderMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PlaceholderMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.PlaceholderMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.PlaceholderMessage;
 
             /**
              * Creates a plain object from a PlaceholderMessage message. Also converts values to other types if specified.
@@ -20102,13 +20268,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.PlaceholderMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.PlaceholderMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PlaceholderMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace PlaceholderMessage {
@@ -20209,14 +20375,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PollCreationMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PollCreationMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.PollCreationMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.PollCreationMessage;
 
             /**
              * Creates a plain object from a PollCreationMessage message. Also converts values to other types if specified.
@@ -20224,13 +20390,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.PollCreationMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.PollCreationMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PollCreationMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace PollCreationMessage {
@@ -20301,14 +20467,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates an Option message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns Option
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.PollCreationMessage.Option;
+                public static fromObject(object: {[k: string]: any}): proto.Message.PollCreationMessage.Option;
 
                 /**
                  * Creates a plain object from an Option message. Also converts values to other types if specified.
@@ -20316,13 +20482,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.PollCreationMessage.Option, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.PollCreationMessage.Option, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this Option to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
 
@@ -20398,14 +20564,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PollEncValue message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PollEncValue
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.PollEncValue;
+            public static fromObject(object: {[k: string]: any}): proto.Message.PollEncValue;
 
             /**
              * Creates a plain object from a PollEncValue message. Also converts values to other types if specified.
@@ -20413,13 +20579,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.PollEncValue, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.PollEncValue, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PollEncValue to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PollUpdateMessage. */
@@ -20506,14 +20672,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PollUpdateMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PollUpdateMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.PollUpdateMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.PollUpdateMessage;
 
             /**
              * Creates a plain object from a PollUpdateMessage message. Also converts values to other types if specified.
@@ -20521,13 +20687,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.PollUpdateMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.PollUpdateMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PollUpdateMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PollUpdateMessageMetadata. */
@@ -20590,14 +20756,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PollUpdateMessageMetadata message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PollUpdateMessageMetadata
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.PollUpdateMessageMetadata;
+            public static fromObject(object: {[k: string]: any}): proto.Message.PollUpdateMessageMetadata;
 
             /**
              * Creates a plain object from a PollUpdateMessageMetadata message. Also converts values to other types if specified.
@@ -20605,13 +20771,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.PollUpdateMessageMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.PollUpdateMessageMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PollUpdateMessageMetadata to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PollVoteMessage. */
@@ -20680,14 +20846,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PollVoteMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PollVoteMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.PollVoteMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.PollVoteMessage;
 
             /**
              * Creates a plain object from a PollVoteMessage message. Also converts values to other types if specified.
@@ -20695,13 +20861,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.PollVoteMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.PollVoteMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PollVoteMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ProductMessage. */
@@ -20800,14 +20966,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ProductMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ProductMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ProductMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ProductMessage;
 
             /**
              * Creates a plain object from a ProductMessage message. Also converts values to other types if specified.
@@ -20815,13 +20981,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ProductMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ProductMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ProductMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ProductMessage {
@@ -20904,14 +21070,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a CatalogSnapshot message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns CatalogSnapshot
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.ProductMessage.CatalogSnapshot;
+                public static fromObject(object: {[k: string]: any}): proto.Message.ProductMessage.CatalogSnapshot;
 
                 /**
                  * Creates a plain object from a CatalogSnapshot message. Also converts values to other types if specified.
@@ -20919,13 +21085,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.ProductMessage.CatalogSnapshot, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.ProductMessage.CatalogSnapshot, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this CatalogSnapshot to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a ProductSnapshot. */
@@ -21054,14 +21220,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a ProductSnapshot message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns ProductSnapshot
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.ProductMessage.ProductSnapshot;
+                public static fromObject(object: {[k: string]: any}): proto.Message.ProductMessage.ProductSnapshot;
 
                 /**
                  * Creates a plain object from a ProductSnapshot message. Also converts values to other types if specified.
@@ -21069,13 +21235,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.ProductMessage.ProductSnapshot, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.ProductMessage.ProductSnapshot, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this ProductSnapshot to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
 
@@ -21247,14 +21413,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ProtocolMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ProtocolMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ProtocolMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ProtocolMessage;
 
             /**
              * Creates a plain object from a ProtocolMessage message. Also converts values to other types if specified.
@@ -21262,13 +21428,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ProtocolMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ProtocolMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ProtocolMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ProtocolMessage {
@@ -21378,14 +21544,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ReactionMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ReactionMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ReactionMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ReactionMessage;
 
             /**
              * Creates a plain object from a ReactionMessage message. Also converts values to other types if specified.
@@ -21393,13 +21559,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ReactionMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ReactionMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ReactionMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a RequestPaymentMessage. */
@@ -21504,14 +21670,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a RequestPaymentMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns RequestPaymentMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.RequestPaymentMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.RequestPaymentMessage;
 
             /**
              * Creates a plain object from a RequestPaymentMessage message. Also converts values to other types if specified.
@@ -21519,13 +21685,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.RequestPaymentMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.RequestPaymentMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this RequestPaymentMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a RequestPhoneNumberMessage. */
@@ -21594,14 +21760,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a RequestPhoneNumberMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns RequestPhoneNumberMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.RequestPhoneNumberMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.RequestPhoneNumberMessage;
 
             /**
              * Creates a plain object from a RequestPhoneNumberMessage message. Also converts values to other types if specified.
@@ -21609,13 +21775,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.RequestPhoneNumberMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.RequestPhoneNumberMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this RequestPhoneNumberMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a RequestWelcomeMessageMetadata. */
@@ -21684,14 +21850,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a RequestWelcomeMessageMetadata message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns RequestWelcomeMessageMetadata
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.RequestWelcomeMessageMetadata;
+            public static fromObject(object: {[k: string]: any}): proto.Message.RequestWelcomeMessageMetadata;
 
             /**
              * Creates a plain object from a RequestWelcomeMessageMetadata message. Also converts values to other types if specified.
@@ -21699,13 +21865,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.RequestWelcomeMessageMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.RequestWelcomeMessageMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this RequestWelcomeMessageMetadata to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace RequestWelcomeMessageMetadata {
@@ -21795,14 +21961,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ScheduledCallCreationMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ScheduledCallCreationMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ScheduledCallCreationMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ScheduledCallCreationMessage;
 
             /**
              * Creates a plain object from a ScheduledCallCreationMessage message. Also converts values to other types if specified.
@@ -21810,13 +21976,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ScheduledCallCreationMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ScheduledCallCreationMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ScheduledCallCreationMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ScheduledCallCreationMessage {
@@ -21901,14 +22067,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ScheduledCallEditMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ScheduledCallEditMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.ScheduledCallEditMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.ScheduledCallEditMessage;
 
             /**
              * Creates a plain object from a ScheduledCallEditMessage message. Also converts values to other types if specified.
@@ -21916,13 +22082,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.ScheduledCallEditMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.ScheduledCallEditMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ScheduledCallEditMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace ScheduledCallEditMessage {
@@ -21931,6 +22097,123 @@ export namespace proto {
             enum EditType {
                 UNKNOWN = 0,
                 CANCEL = 1
+            }
+        }
+
+        /** Properties of a SecretEncryptedMessage. */
+        interface ISecretEncryptedMessage {
+
+            /** SecretEncryptedMessage targetMessageKey */
+            targetMessageKey?: (proto.IMessageKey|null);
+
+            /** SecretEncryptedMessage encPayload */
+            encPayload?: (Uint8Array|null);
+
+            /** SecretEncryptedMessage encIv */
+            encIv?: (Uint8Array|null);
+
+            /** SecretEncryptedMessage secretEncType */
+            secretEncType?: (proto.Message.SecretEncryptedMessage.SecretEncType|null);
+        }
+
+        /** Represents a SecretEncryptedMessage. */
+        class SecretEncryptedMessage implements ISecretEncryptedMessage {
+
+            /**
+             * Constructs a new SecretEncryptedMessage.
+             * @param [properties] Properties to set
+             */
+            constructor(properties?: proto.Message.ISecretEncryptedMessage);
+
+            /** SecretEncryptedMessage targetMessageKey. */
+            public targetMessageKey?: (proto.IMessageKey|null);
+
+            /** SecretEncryptedMessage encPayload. */
+            public encPayload: Uint8Array;
+
+            /** SecretEncryptedMessage encIv. */
+            public encIv: Uint8Array;
+
+            /** SecretEncryptedMessage secretEncType. */
+            public secretEncType: proto.Message.SecretEncryptedMessage.SecretEncType;
+
+            /**
+             * Creates a new SecretEncryptedMessage instance using the specified properties.
+             * @param [properties] Properties to set
+             * @returns SecretEncryptedMessage instance
+             */
+            public static create(properties?: proto.Message.ISecretEncryptedMessage): proto.Message.SecretEncryptedMessage;
+
+            /**
+             * Encodes the specified SecretEncryptedMessage message. Does not implicitly {@link proto.Message.SecretEncryptedMessage.verify|verify} messages.
+             * @param message SecretEncryptedMessage message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encode(message: proto.Message.ISecretEncryptedMessage, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Encodes the specified SecretEncryptedMessage message, length delimited. Does not implicitly {@link proto.Message.SecretEncryptedMessage.verify|verify} messages.
+             * @param message SecretEncryptedMessage message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encodeDelimited(message: proto.Message.ISecretEncryptedMessage, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Decodes a SecretEncryptedMessage message from the specified reader or buffer.
+             * @param reader Reader or buffer to decode from
+             * @param [length] Message length if known beforehand
+             * @returns SecretEncryptedMessage
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.Message.SecretEncryptedMessage;
+
+            /**
+             * Decodes a SecretEncryptedMessage message from the specified reader or buffer, length delimited.
+             * @param reader Reader or buffer to decode from
+             * @returns SecretEncryptedMessage
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.Message.SecretEncryptedMessage;
+
+            /**
+             * Verifies a SecretEncryptedMessage message.
+             * @param message Plain object to verify
+             * @returns `null` if valid, otherwise the reason why it is not
+             */
+            public static verify(message: {[k: string]: any}): (string|null);
+
+            /**
+             * Creates a SecretEncryptedMessage message from a plain object. Also converts values to their respective internal types.
+             * @param object Plain object
+             * @returns SecretEncryptedMessage
+             */
+            public static fromObject(object: {[k: string]: any}): proto.Message.SecretEncryptedMessage;
+
+            /**
+             * Creates a plain object from a SecretEncryptedMessage message. Also converts values to other types if specified.
+             * @param message SecretEncryptedMessage
+             * @param [options] Conversion options
+             * @returns Plain object
+             */
+            public static toObject(message: proto.Message.SecretEncryptedMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+            /**
+             * Converts this SecretEncryptedMessage to JSON.
+             * @returns JSON object
+             */
+            public toJSON(): {[k: string]: any};
+        }
+
+        namespace SecretEncryptedMessage {
+
+            /** SecretEncType enum. */
+            enum SecretEncType {
+                UNKNOWN = 0,
+                EVENT_EDIT = 1
             }
         }
 
@@ -22012,14 +22295,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a SendPaymentMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns SendPaymentMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.SendPaymentMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.SendPaymentMessage;
 
             /**
              * Creates a plain object from a SendPaymentMessage message. Also converts values to other types if specified.
@@ -22027,13 +22310,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.SendPaymentMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.SendPaymentMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this SendPaymentMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a SenderKeyDistributionMessage. */
@@ -22108,14 +22391,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a SenderKeyDistributionMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns SenderKeyDistributionMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.SenderKeyDistributionMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.SenderKeyDistributionMessage;
 
             /**
              * Creates a plain object from a SenderKeyDistributionMessage message. Also converts values to other types if specified.
@@ -22123,13 +22406,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.SenderKeyDistributionMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.SenderKeyDistributionMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this SenderKeyDistributionMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a StickerMessage. */
@@ -22306,14 +22589,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a StickerMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns StickerMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.StickerMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.StickerMessage;
 
             /**
              * Creates a plain object from a StickerMessage message. Also converts values to other types if specified.
@@ -22321,13 +22604,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.StickerMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.StickerMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this StickerMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a StickerSyncRMRMessage. */
@@ -22408,14 +22691,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a StickerSyncRMRMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns StickerSyncRMRMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.StickerSyncRMRMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.StickerSyncRMRMessage;
 
             /**
              * Creates a plain object from a StickerSyncRMRMessage message. Also converts values to other types if specified.
@@ -22423,13 +22706,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.StickerSyncRMRMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.StickerSyncRMRMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this StickerSyncRMRMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a TemplateButtonReplyMessage. */
@@ -22522,14 +22805,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a TemplateButtonReplyMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns TemplateButtonReplyMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.TemplateButtonReplyMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.TemplateButtonReplyMessage;
 
             /**
              * Creates a plain object from a TemplateButtonReplyMessage message. Also converts values to other types if specified.
@@ -22537,13 +22820,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.TemplateButtonReplyMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.TemplateButtonReplyMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this TemplateButtonReplyMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a TemplateMessage. */
@@ -22645,14 +22928,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a TemplateMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns TemplateMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.TemplateMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.TemplateMessage;
 
             /**
              * Creates a plain object from a TemplateMessage message. Also converts values to other types if specified.
@@ -22660,13 +22943,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.TemplateMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.TemplateMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this TemplateMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace TemplateMessage {
@@ -22782,14 +23065,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a FourRowTemplate message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns FourRowTemplate
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.TemplateMessage.FourRowTemplate;
+                public static fromObject(object: {[k: string]: any}): proto.Message.TemplateMessage.FourRowTemplate;
 
                 /**
                  * Creates a plain object from a FourRowTemplate message. Also converts values to other types if specified.
@@ -22797,13 +23080,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.TemplateMessage.FourRowTemplate, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.TemplateMessage.FourRowTemplate, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this FourRowTemplate to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a HydratedFourRowTemplate. */
@@ -22868,7 +23151,7 @@ export namespace proto {
                 public documentMessage?: (proto.Message.IDocumentMessage|null);
 
                 /** HydratedFourRowTemplate hydratedTitleText. */
-                public hydratedTitleText?: (string|null);
+                public hydratedTitleText: string;
 
                 /** HydratedFourRowTemplate imageMessage. */
                 public imageMessage?: (proto.Message.IImageMessage|null);
@@ -22929,14 +23212,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a HydratedFourRowTemplate message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns HydratedFourRowTemplate
                  */
-                public static fromObject(object: { [k: string]: any }): proto.Message.TemplateMessage.HydratedFourRowTemplate;
+                public static fromObject(object: {[k: string]: any}): proto.Message.TemplateMessage.HydratedFourRowTemplate;
 
                 /**
                  * Creates a plain object from a HydratedFourRowTemplate message. Also converts values to other types if specified.
@@ -22944,13 +23227,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.Message.TemplateMessage.HydratedFourRowTemplate, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.Message.TemplateMessage.HydratedFourRowTemplate, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this HydratedFourRowTemplate to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
 
@@ -23158,14 +23441,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a VideoMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns VideoMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.Message.VideoMessage;
+            public static fromObject(object: {[k: string]: any}): proto.Message.VideoMessage;
 
             /**
              * Creates a plain object from a VideoMessage message. Also converts values to other types if specified.
@@ -23173,13 +23456,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.Message.VideoMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.Message.VideoMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this VideoMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace VideoMessage {
@@ -23259,14 +23542,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a MessageAddOnContextInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns MessageAddOnContextInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.MessageAddOnContextInfo;
+        public static fromObject(object: {[k: string]: any}): proto.MessageAddOnContextInfo;
 
         /**
          * Creates a plain object from a MessageAddOnContextInfo message. Also converts values to other types if specified.
@@ -23274,13 +23557,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.MessageAddOnContextInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.MessageAddOnContextInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this MessageAddOnContextInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a MessageContextInfo. */
@@ -23391,14 +23674,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a MessageContextInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns MessageContextInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.MessageContextInfo;
+        public static fromObject(object: {[k: string]: any}): proto.MessageContextInfo;
 
         /**
          * Creates a plain object from a MessageContextInfo message. Also converts values to other types if specified.
@@ -23406,13 +23689,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.MessageContextInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.MessageContextInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this MessageContextInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a MessageKey. */
@@ -23499,14 +23782,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a MessageKey message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns MessageKey
          */
-        public static fromObject(object: { [k: string]: any }): proto.MessageKey;
+        public static fromObject(object: {[k: string]: any}): proto.MessageKey;
 
         /**
          * Creates a plain object from a MessageKey message. Also converts values to other types if specified.
@@ -23514,13 +23797,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.MessageKey, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.MessageKey, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this MessageKey to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a MessageSecretMessage. */
@@ -23601,14 +23884,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a MessageSecretMessage message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns MessageSecretMessage
          */
-        public static fromObject(object: { [k: string]: any }): proto.MessageSecretMessage;
+        public static fromObject(object: {[k: string]: any}): proto.MessageSecretMessage;
 
         /**
          * Creates a plain object from a MessageSecretMessage message. Also converts values to other types if specified.
@@ -23616,13 +23899,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.MessageSecretMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.MessageSecretMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this MessageSecretMessage to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a Money. */
@@ -23703,14 +23986,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a Money message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns Money
          */
-        public static fromObject(object: { [k: string]: any }): proto.Money;
+        public static fromObject(object: {[k: string]: any}): proto.Money;
 
         /**
          * Creates a plain object from a Money message. Also converts values to other types if specified.
@@ -23718,13 +24001,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.Money, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.Money, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this Money to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a MsgOpaqueData. */
@@ -23819,6 +24102,24 @@ export namespace proto {
 
         /** MsgOpaqueData encIv */
         encIv?: (Uint8Array|null);
+
+        /** MsgOpaqueData eventName */
+        eventName?: (string|null);
+
+        /** MsgOpaqueData isEventCanceled */
+        isEventCanceled?: (boolean|null);
+
+        /** MsgOpaqueData eventDescription */
+        eventDescription?: (string|null);
+
+        /** MsgOpaqueData eventJoinLink */
+        eventJoinLink?: (string|null);
+
+        /** MsgOpaqueData eventStartTime */
+        eventStartTime?: (number|Long|null);
+
+        /** MsgOpaqueData eventLocation */
+        eventLocation?: (proto.MsgOpaqueData.IEventLocation|null);
     }
 
     /** Represents a MsgOpaqueData. */
@@ -23920,6 +24221,24 @@ export namespace proto {
         /** MsgOpaqueData encIv. */
         public encIv: Uint8Array;
 
+        /** MsgOpaqueData eventName. */
+        public eventName: string;
+
+        /** MsgOpaqueData isEventCanceled. */
+        public isEventCanceled: boolean;
+
+        /** MsgOpaqueData eventDescription. */
+        public eventDescription: string;
+
+        /** MsgOpaqueData eventJoinLink. */
+        public eventJoinLink: string;
+
+        /** MsgOpaqueData eventStartTime. */
+        public eventStartTime: (number|Long);
+
+        /** MsgOpaqueData eventLocation. */
+        public eventLocation?: (proto.MsgOpaqueData.IEventLocation|null);
+
         /**
          * Creates a new MsgOpaqueData instance using the specified properties.
          * @param [properties] Properties to set
@@ -23967,14 +24286,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a MsgOpaqueData message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns MsgOpaqueData
          */
-        public static fromObject(object: { [k: string]: any }): proto.MsgOpaqueData;
+        public static fromObject(object: {[k: string]: any}): proto.MsgOpaqueData;
 
         /**
          * Creates a plain object from a MsgOpaqueData message. Also converts values to other types if specified.
@@ -23982,16 +24301,136 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.MsgOpaqueData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.MsgOpaqueData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this MsgOpaqueData to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace MsgOpaqueData {
+
+        /** Properties of an EventLocation. */
+        interface IEventLocation {
+
+            /** EventLocation degreesLatitude */
+            degreesLatitude?: (number|null);
+
+            /** EventLocation degreesLongitude */
+            degreesLongitude?: (number|null);
+
+            /** EventLocation name */
+            name?: (string|null);
+
+            /** EventLocation address */
+            address?: (string|null);
+
+            /** EventLocation url */
+            url?: (string|null);
+
+            /** EventLocation jpegThumbnail */
+            jpegThumbnail?: (Uint8Array|null);
+        }
+
+        /** Represents an EventLocation. */
+        class EventLocation implements IEventLocation {
+
+            /**
+             * Constructs a new EventLocation.
+             * @param [properties] Properties to set
+             */
+            constructor(properties?: proto.MsgOpaqueData.IEventLocation);
+
+            /** EventLocation degreesLatitude. */
+            public degreesLatitude: number;
+
+            /** EventLocation degreesLongitude. */
+            public degreesLongitude: number;
+
+            /** EventLocation name. */
+            public name: string;
+
+            /** EventLocation address. */
+            public address: string;
+
+            /** EventLocation url. */
+            public url: string;
+
+            /** EventLocation jpegThumbnail. */
+            public jpegThumbnail: Uint8Array;
+
+            /**
+             * Creates a new EventLocation instance using the specified properties.
+             * @param [properties] Properties to set
+             * @returns EventLocation instance
+             */
+            public static create(properties?: proto.MsgOpaqueData.IEventLocation): proto.MsgOpaqueData.EventLocation;
+
+            /**
+             * Encodes the specified EventLocation message. Does not implicitly {@link proto.MsgOpaqueData.EventLocation.verify|verify} messages.
+             * @param message EventLocation message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encode(message: proto.MsgOpaqueData.IEventLocation, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Encodes the specified EventLocation message, length delimited. Does not implicitly {@link proto.MsgOpaqueData.EventLocation.verify|verify} messages.
+             * @param message EventLocation message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encodeDelimited(message: proto.MsgOpaqueData.IEventLocation, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Decodes an EventLocation message from the specified reader or buffer.
+             * @param reader Reader or buffer to decode from
+             * @param [length] Message length if known beforehand
+             * @returns EventLocation
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.MsgOpaqueData.EventLocation;
+
+            /**
+             * Decodes an EventLocation message from the specified reader or buffer, length delimited.
+             * @param reader Reader or buffer to decode from
+             * @returns EventLocation
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.MsgOpaqueData.EventLocation;
+
+            /**
+             * Verifies an EventLocation message.
+             * @param message Plain object to verify
+             * @returns `null` if valid, otherwise the reason why it is not
+             */
+            public static verify(message: {[k: string]: any}): (string|null);
+
+            /**
+             * Creates an EventLocation message from a plain object. Also converts values to their respective internal types.
+             * @param object Plain object
+             * @returns EventLocation
+             */
+            public static fromObject(object: {[k: string]: any}): proto.MsgOpaqueData.EventLocation;
+
+            /**
+             * Creates a plain object from an EventLocation message. Also converts values to other types if specified.
+             * @param message EventLocation
+             * @param [options] Conversion options
+             * @returns Plain object
+             */
+            public static toObject(message: proto.MsgOpaqueData.EventLocation, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+            /**
+             * Converts this EventLocation to JSON.
+             * @returns JSON object
+             */
+            public toJSON(): {[k: string]: any};
+        }
 
         /** Properties of a PollOption. */
         interface IPollOption {
@@ -24059,14 +24498,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PollOption message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PollOption
              */
-            public static fromObject(object: { [k: string]: any }): proto.MsgOpaqueData.PollOption;
+            public static fromObject(object: {[k: string]: any}): proto.MsgOpaqueData.PollOption;
 
             /**
              * Creates a plain object from a PollOption message. Also converts values to other types if specified.
@@ -24074,13 +24513,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.MsgOpaqueData.PollOption, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.MsgOpaqueData.PollOption, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PollOption to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
     }
 
@@ -24156,14 +24595,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a MsgRowOpaqueData message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns MsgRowOpaqueData
          */
-        public static fromObject(object: { [k: string]: any }): proto.MsgRowOpaqueData;
+        public static fromObject(object: {[k: string]: any}): proto.MsgRowOpaqueData;
 
         /**
          * Creates a plain object from a MsgRowOpaqueData message. Also converts values to other types if specified.
@@ -24171,13 +24610,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.MsgRowOpaqueData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.MsgRowOpaqueData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this MsgRowOpaqueData to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a NoiseCertificate. */
@@ -24252,14 +24691,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a NoiseCertificate message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns NoiseCertificate
          */
-        public static fromObject(object: { [k: string]: any }): proto.NoiseCertificate;
+        public static fromObject(object: {[k: string]: any}): proto.NoiseCertificate;
 
         /**
          * Creates a plain object from a NoiseCertificate message. Also converts values to other types if specified.
@@ -24267,13 +24706,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.NoiseCertificate, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.NoiseCertificate, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this NoiseCertificate to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace NoiseCertificate {
@@ -24368,14 +24807,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a Details message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns Details
              */
-            public static fromObject(object: { [k: string]: any }): proto.NoiseCertificate.Details;
+            public static fromObject(object: {[k: string]: any}): proto.NoiseCertificate.Details;
 
             /**
              * Creates a plain object from a Details message. Also converts values to other types if specified.
@@ -24383,13 +24822,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.NoiseCertificate.Details, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.NoiseCertificate.Details, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this Details to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
     }
 
@@ -24477,14 +24916,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a NotificationMessageInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns NotificationMessageInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.NotificationMessageInfo;
+        public static fromObject(object: {[k: string]: any}): proto.NotificationMessageInfo;
 
         /**
          * Creates a plain object from a NotificationMessageInfo message. Also converts values to other types if specified.
@@ -24492,13 +24931,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.NotificationMessageInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.NotificationMessageInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this NotificationMessageInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a NotificationSettings. */
@@ -24597,14 +25036,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a NotificationSettings message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns NotificationSettings
          */
-        public static fromObject(object: { [k: string]: any }): proto.NotificationSettings;
+        public static fromObject(object: {[k: string]: any}): proto.NotificationSettings;
 
         /**
          * Creates a plain object from a NotificationSettings message. Also converts values to other types if specified.
@@ -24612,13 +25051,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.NotificationSettings, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.NotificationSettings, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this NotificationSettings to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a PastParticipant. */
@@ -24699,14 +25138,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PastParticipant message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PastParticipant
          */
-        public static fromObject(object: { [k: string]: any }): proto.PastParticipant;
+        public static fromObject(object: {[k: string]: any}): proto.PastParticipant;
 
         /**
          * Creates a plain object from a PastParticipant message. Also converts values to other types if specified.
@@ -24714,13 +25153,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PastParticipant, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PastParticipant, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PastParticipant to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace PastParticipant {
@@ -24804,14 +25243,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PastParticipants message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PastParticipants
          */
-        public static fromObject(object: { [k: string]: any }): proto.PastParticipants;
+        public static fromObject(object: {[k: string]: any}): proto.PastParticipants;
 
         /**
          * Creates a plain object from a PastParticipants message. Also converts values to other types if specified.
@@ -24819,13 +25258,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PastParticipants, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PastParticipants, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PastParticipants to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a PatchDebugData. */
@@ -24954,14 +25393,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PatchDebugData message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PatchDebugData
          */
-        public static fromObject(object: { [k: string]: any }): proto.PatchDebugData;
+        public static fromObject(object: {[k: string]: any}): proto.PatchDebugData;
 
         /**
          * Creates a plain object from a PatchDebugData message. Also converts values to other types if specified.
@@ -24969,13 +25408,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PatchDebugData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PatchDebugData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PatchDebugData to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace PatchDebugData {
@@ -25112,14 +25551,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PaymentBackground message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PaymentBackground
          */
-        public static fromObject(object: { [k: string]: any }): proto.PaymentBackground;
+        public static fromObject(object: {[k: string]: any}): proto.PaymentBackground;
 
         /**
          * Creates a plain object from a PaymentBackground message. Also converts values to other types if specified.
@@ -25127,13 +25566,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PaymentBackground, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PaymentBackground, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PaymentBackground to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace PaymentBackground {
@@ -25228,14 +25667,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a MediaData message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns MediaData
              */
-            public static fromObject(object: { [k: string]: any }): proto.PaymentBackground.MediaData;
+            public static fromObject(object: {[k: string]: any}): proto.PaymentBackground.MediaData;
 
             /**
              * Creates a plain object from a MediaData message. Also converts values to other types if specified.
@@ -25243,13 +25682,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.PaymentBackground.MediaData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.PaymentBackground.MediaData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this MediaData to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Type enum. */
@@ -25397,14 +25836,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PaymentInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PaymentInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.PaymentInfo;
+        public static fromObject(object: {[k: string]: any}): proto.PaymentInfo;
 
         /**
          * Creates a plain object from a PaymentInfo message. Also converts values to other types if specified.
@@ -25412,13 +25851,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PaymentInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PaymentInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PaymentInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace PaymentInfo {
@@ -25554,14 +25993,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PhoneNumberToLIDMapping message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PhoneNumberToLIDMapping
          */
-        public static fromObject(object: { [k: string]: any }): proto.PhoneNumberToLIDMapping;
+        public static fromObject(object: {[k: string]: any}): proto.PhoneNumberToLIDMapping;
 
         /**
          * Creates a plain object from a PhoneNumberToLIDMapping message. Also converts values to other types if specified.
@@ -25569,13 +26008,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PhoneNumberToLIDMapping, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PhoneNumberToLIDMapping, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PhoneNumberToLIDMapping to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a PhotoChange. */
@@ -25656,14 +26095,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PhotoChange message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PhotoChange
          */
-        public static fromObject(object: { [k: string]: any }): proto.PhotoChange;
+        public static fromObject(object: {[k: string]: any}): proto.PhotoChange;
 
         /**
          * Creates a plain object from a PhotoChange message. Also converts values to other types if specified.
@@ -25671,13 +26110,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PhotoChange, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PhotoChange, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PhotoChange to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a PinInChat. */
@@ -25770,14 +26209,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PinInChat message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PinInChat
          */
-        public static fromObject(object: { [k: string]: any }): proto.PinInChat;
+        public static fromObject(object: {[k: string]: any}): proto.PinInChat;
 
         /**
          * Creates a plain object from a PinInChat message. Also converts values to other types if specified.
@@ -25785,13 +26224,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PinInChat, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PinInChat, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PinInChat to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace PinInChat {
@@ -25888,14 +26327,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a Point message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns Point
          */
-        public static fromObject(object: { [k: string]: any }): proto.Point;
+        public static fromObject(object: {[k: string]: any}): proto.Point;
 
         /**
          * Creates a plain object from a Point message. Also converts values to other types if specified.
@@ -25903,13 +26342,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.Point, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.Point, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this Point to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a PollAdditionalMetadata. */
@@ -25978,14 +26417,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PollAdditionalMetadata message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PollAdditionalMetadata
          */
-        public static fromObject(object: { [k: string]: any }): proto.PollAdditionalMetadata;
+        public static fromObject(object: {[k: string]: any}): proto.PollAdditionalMetadata;
 
         /**
          * Creates a plain object from a PollAdditionalMetadata message. Also converts values to other types if specified.
@@ -25993,13 +26432,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PollAdditionalMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PollAdditionalMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PollAdditionalMetadata to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a PollEncValue. */
@@ -26074,14 +26513,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PollEncValue message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PollEncValue
          */
-        public static fromObject(object: { [k: string]: any }): proto.PollEncValue;
+        public static fromObject(object: {[k: string]: any}): proto.PollEncValue;
 
         /**
          * Creates a plain object from a PollEncValue message. Also converts values to other types if specified.
@@ -26089,13 +26528,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PollEncValue, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PollEncValue, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PollEncValue to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a PollUpdate. */
@@ -26188,14 +26627,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PollUpdate message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PollUpdate
          */
-        public static fromObject(object: { [k: string]: any }): proto.PollUpdate;
+        public static fromObject(object: {[k: string]: any}): proto.PollUpdate;
 
         /**
          * Creates a plain object from a PollUpdate message. Also converts values to other types if specified.
@@ -26203,13 +26642,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PollUpdate, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PollUpdate, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PollUpdate to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a PreKeyRecordStructure. */
@@ -26290,14 +26729,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PreKeyRecordStructure message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PreKeyRecordStructure
          */
-        public static fromObject(object: { [k: string]: any }): proto.PreKeyRecordStructure;
+        public static fromObject(object: {[k: string]: any}): proto.PreKeyRecordStructure;
 
         /**
          * Creates a plain object from a PreKeyRecordStructure message. Also converts values to other types if specified.
@@ -26305,13 +26744,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PreKeyRecordStructure, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PreKeyRecordStructure, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PreKeyRecordStructure to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a PreKeySignalMessage. */
@@ -26410,14 +26849,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PreKeySignalMessage message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PreKeySignalMessage
          */
-        public static fromObject(object: { [k: string]: any }): proto.PreKeySignalMessage;
+        public static fromObject(object: {[k: string]: any}): proto.PreKeySignalMessage;
 
         /**
          * Creates a plain object from a PreKeySignalMessage message. Also converts values to other types if specified.
@@ -26425,13 +26864,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PreKeySignalMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PreKeySignalMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PreKeySignalMessage to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a PremiumMessageInfo. */
@@ -26500,14 +26939,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a PremiumMessageInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns PremiumMessageInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.PremiumMessageInfo;
+        public static fromObject(object: {[k: string]: any}): proto.PremiumMessageInfo;
 
         /**
          * Creates a plain object from a PremiumMessageInfo message. Also converts values to other types if specified.
@@ -26515,13 +26954,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.PremiumMessageInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.PremiumMessageInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this PremiumMessageInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a Pushname. */
@@ -26596,14 +27035,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a Pushname message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns Pushname
          */
-        public static fromObject(object: { [k: string]: any }): proto.Pushname;
+        public static fromObject(object: {[k: string]: any}): proto.Pushname;
 
         /**
          * Creates a plain object from a Pushname message. Also converts values to other types if specified.
@@ -26611,13 +27050,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.Pushname, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.Pushname, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this Pushname to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a QP. */
@@ -26680,14 +27119,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a QP message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns QP
          */
-        public static fromObject(object: { [k: string]: any }): proto.QP;
+        public static fromObject(object: {[k: string]: any}): proto.QP;
 
         /**
          * Creates a plain object from a QP message. Also converts values to other types if specified.
@@ -26695,13 +27134,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.QP, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.QP, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this QP to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace QP {
@@ -26797,14 +27236,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a Filter message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns Filter
              */
-            public static fromObject(object: { [k: string]: any }): proto.QP.Filter;
+            public static fromObject(object: {[k: string]: any}): proto.QP.Filter;
 
             /**
              * Creates a plain object from a Filter message. Also converts values to other types if specified.
@@ -26812,13 +27251,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.QP.Filter, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.QP.Filter, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this Filter to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a FilterClause. */
@@ -26899,14 +27338,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a FilterClause message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns FilterClause
              */
-            public static fromObject(object: { [k: string]: any }): proto.QP.FilterClause;
+            public static fromObject(object: {[k: string]: any}): proto.QP.FilterClause;
 
             /**
              * Creates a plain object from a FilterClause message. Also converts values to other types if specified.
@@ -26914,13 +27353,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.QP.FilterClause, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.QP.FilterClause, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this FilterClause to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** FilterClientNotSupportedConfig enum. */
@@ -27001,14 +27440,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a FilterParameters message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns FilterParameters
              */
-            public static fromObject(object: { [k: string]: any }): proto.QP.FilterParameters;
+            public static fromObject(object: {[k: string]: any}): proto.QP.FilterParameters;
 
             /**
              * Creates a plain object from a FilterParameters message. Also converts values to other types if specified.
@@ -27016,13 +27455,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.QP.FilterParameters, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.QP.FilterParameters, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this FilterParameters to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** FilterResult enum. */
@@ -27123,14 +27562,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a Reaction message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns Reaction
          */
-        public static fromObject(object: { [k: string]: any }): proto.Reaction;
+        public static fromObject(object: {[k: string]: any}): proto.Reaction;
 
         /**
          * Creates a plain object from a Reaction message. Also converts values to other types if specified.
@@ -27138,13 +27577,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.Reaction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.Reaction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this Reaction to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a RecentEmojiWeight. */
@@ -27219,14 +27658,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a RecentEmojiWeight message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns RecentEmojiWeight
          */
-        public static fromObject(object: { [k: string]: any }): proto.RecentEmojiWeight;
+        public static fromObject(object: {[k: string]: any}): proto.RecentEmojiWeight;
 
         /**
          * Creates a plain object from a RecentEmojiWeight message. Also converts values to other types if specified.
@@ -27234,13 +27673,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.RecentEmojiWeight, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.RecentEmojiWeight, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this RecentEmojiWeight to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a RecordStructure. */
@@ -27315,14 +27754,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a RecordStructure message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns RecordStructure
          */
-        public static fromObject(object: { [k: string]: any }): proto.RecordStructure;
+        public static fromObject(object: {[k: string]: any}): proto.RecordStructure;
 
         /**
          * Creates a plain object from a RecordStructure message. Also converts values to other types if specified.
@@ -27330,13 +27769,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.RecordStructure, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.RecordStructure, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this RecordStructure to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a ReportingTokenInfo. */
@@ -27405,14 +27844,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a ReportingTokenInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns ReportingTokenInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.ReportingTokenInfo;
+        public static fromObject(object: {[k: string]: any}): proto.ReportingTokenInfo;
 
         /**
          * Creates a plain object from a ReportingTokenInfo message. Also converts values to other types if specified.
@@ -27420,13 +27859,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.ReportingTokenInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.ReportingTokenInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this ReportingTokenInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SenderKeyDistributionMessage. */
@@ -27513,14 +27952,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SenderKeyDistributionMessage message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SenderKeyDistributionMessage
          */
-        public static fromObject(object: { [k: string]: any }): proto.SenderKeyDistributionMessage;
+        public static fromObject(object: {[k: string]: any}): proto.SenderKeyDistributionMessage;
 
         /**
          * Creates a plain object from a SenderKeyDistributionMessage message. Also converts values to other types if specified.
@@ -27528,13 +27967,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SenderKeyDistributionMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SenderKeyDistributionMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SenderKeyDistributionMessage to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SenderKeyMessage. */
@@ -27615,14 +28054,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SenderKeyMessage message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SenderKeyMessage
          */
-        public static fromObject(object: { [k: string]: any }): proto.SenderKeyMessage;
+        public static fromObject(object: {[k: string]: any}): proto.SenderKeyMessage;
 
         /**
          * Creates a plain object from a SenderKeyMessage message. Also converts values to other types if specified.
@@ -27630,13 +28069,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SenderKeyMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SenderKeyMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SenderKeyMessage to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SenderKeyRecordStructure. */
@@ -27705,14 +28144,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SenderKeyRecordStructure message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SenderKeyRecordStructure
          */
-        public static fromObject(object: { [k: string]: any }): proto.SenderKeyRecordStructure;
+        public static fromObject(object: {[k: string]: any}): proto.SenderKeyRecordStructure;
 
         /**
          * Creates a plain object from a SenderKeyRecordStructure message. Also converts values to other types if specified.
@@ -27720,13 +28159,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SenderKeyRecordStructure, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SenderKeyRecordStructure, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SenderKeyRecordStructure to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SenderKeyStateStructure. */
@@ -27813,14 +28252,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SenderKeyStateStructure message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SenderKeyStateStructure
          */
-        public static fromObject(object: { [k: string]: any }): proto.SenderKeyStateStructure;
+        public static fromObject(object: {[k: string]: any}): proto.SenderKeyStateStructure;
 
         /**
          * Creates a plain object from a SenderKeyStateStructure message. Also converts values to other types if specified.
@@ -27828,13 +28267,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SenderKeyStateStructure, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SenderKeyStateStructure, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SenderKeyStateStructure to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace SenderKeyStateStructure {
@@ -27911,14 +28350,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a SenderChainKey message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns SenderChainKey
              */
-            public static fromObject(object: { [k: string]: any }): proto.SenderKeyStateStructure.SenderChainKey;
+            public static fromObject(object: {[k: string]: any}): proto.SenderKeyStateStructure.SenderChainKey;
 
             /**
              * Creates a plain object from a SenderChainKey message. Also converts values to other types if specified.
@@ -27926,13 +28365,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SenderKeyStateStructure.SenderChainKey, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SenderKeyStateStructure.SenderChainKey, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this SenderChainKey to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a SenderMessageKey. */
@@ -28007,14 +28446,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a SenderMessageKey message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns SenderMessageKey
              */
-            public static fromObject(object: { [k: string]: any }): proto.SenderKeyStateStructure.SenderMessageKey;
+            public static fromObject(object: {[k: string]: any}): proto.SenderKeyStateStructure.SenderMessageKey;
 
             /**
              * Creates a plain object from a SenderMessageKey message. Also converts values to other types if specified.
@@ -28022,13 +28461,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SenderKeyStateStructure.SenderMessageKey, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SenderKeyStateStructure.SenderMessageKey, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this SenderMessageKey to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a SenderSigningKey. */
@@ -28103,14 +28542,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a SenderSigningKey message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns SenderSigningKey
              */
-            public static fromObject(object: { [k: string]: any }): proto.SenderKeyStateStructure.SenderSigningKey;
+            public static fromObject(object: {[k: string]: any}): proto.SenderKeyStateStructure.SenderSigningKey;
 
             /**
              * Creates a plain object from a SenderSigningKey message. Also converts values to other types if specified.
@@ -28118,13 +28557,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SenderKeyStateStructure.SenderSigningKey, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SenderKeyStateStructure.SenderSigningKey, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this SenderSigningKey to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
     }
 
@@ -28194,14 +28633,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a ServerErrorReceipt message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns ServerErrorReceipt
          */
-        public static fromObject(object: { [k: string]: any }): proto.ServerErrorReceipt;
+        public static fromObject(object: {[k: string]: any}): proto.ServerErrorReceipt;
 
         /**
          * Creates a plain object from a ServerErrorReceipt message. Also converts values to other types if specified.
@@ -28209,13 +28648,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.ServerErrorReceipt, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.ServerErrorReceipt, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this ServerErrorReceipt to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SessionStructure. */
@@ -28356,14 +28795,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SessionStructure message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SessionStructure
          */
-        public static fromObject(object: { [k: string]: any }): proto.SessionStructure;
+        public static fromObject(object: {[k: string]: any}): proto.SessionStructure;
 
         /**
          * Creates a plain object from a SessionStructure message. Also converts values to other types if specified.
@@ -28371,13 +28810,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SessionStructure, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SessionStructure, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SessionStructure to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace SessionStructure {
@@ -28466,14 +28905,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a Chain message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns Chain
              */
-            public static fromObject(object: { [k: string]: any }): proto.SessionStructure.Chain;
+            public static fromObject(object: {[k: string]: any}): proto.SessionStructure.Chain;
 
             /**
              * Creates a plain object from a Chain message. Also converts values to other types if specified.
@@ -28481,13 +28920,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SessionStructure.Chain, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SessionStructure.Chain, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this Chain to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace Chain {
@@ -28564,14 +29003,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a ChainKey message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns ChainKey
                  */
-                public static fromObject(object: { [k: string]: any }): proto.SessionStructure.Chain.ChainKey;
+                public static fromObject(object: {[k: string]: any}): proto.SessionStructure.Chain.ChainKey;
 
                 /**
                  * Creates a plain object from a ChainKey message. Also converts values to other types if specified.
@@ -28579,13 +29018,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.SessionStructure.Chain.ChainKey, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.SessionStructure.Chain.ChainKey, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this ChainKey to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
 
             /** Properties of a MessageKey. */
@@ -28672,14 +29111,14 @@ export namespace proto {
                  * @param message Plain object to verify
                  * @returns `null` if valid, otherwise the reason why it is not
                  */
-                public static verify(message: { [k: string]: any }): (string|null);
+                public static verify(message: {[k: string]: any}): (string|null);
 
                 /**
                  * Creates a MessageKey message from a plain object. Also converts values to their respective internal types.
                  * @param object Plain object
                  * @returns MessageKey
                  */
-                public static fromObject(object: { [k: string]: any }): proto.SessionStructure.Chain.MessageKey;
+                public static fromObject(object: {[k: string]: any}): proto.SessionStructure.Chain.MessageKey;
 
                 /**
                  * Creates a plain object from a MessageKey message. Also converts values to other types if specified.
@@ -28687,13 +29126,13 @@ export namespace proto {
                  * @param [options] Conversion options
                  * @returns Plain object
                  */
-                public static toObject(message: proto.SessionStructure.Chain.MessageKey, options?: $protobuf.IConversionOptions): { [k: string]: any };
+                public static toObject(message: proto.SessionStructure.Chain.MessageKey, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
                 /**
                  * Converts this MessageKey to JSON.
                  * @returns JSON object
                  */
-                public toJSON(): { [k: string]: any };
+                public toJSON(): {[k: string]: any};
             }
         }
 
@@ -28799,14 +29238,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PendingKeyExchange message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PendingKeyExchange
              */
-            public static fromObject(object: { [k: string]: any }): proto.SessionStructure.PendingKeyExchange;
+            public static fromObject(object: {[k: string]: any}): proto.SessionStructure.PendingKeyExchange;
 
             /**
              * Creates a plain object from a PendingKeyExchange message. Also converts values to other types if specified.
@@ -28814,13 +29253,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SessionStructure.PendingKeyExchange, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SessionStructure.PendingKeyExchange, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PendingKeyExchange to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PendingPreKey. */
@@ -28901,14 +29340,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PendingPreKey message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PendingPreKey
              */
-            public static fromObject(object: { [k: string]: any }): proto.SessionStructure.PendingPreKey;
+            public static fromObject(object: {[k: string]: any}): proto.SessionStructure.PendingPreKey;
 
             /**
              * Creates a plain object from a PendingPreKey message. Also converts values to other types if specified.
@@ -28916,13 +29355,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SessionStructure.PendingPreKey, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SessionStructure.PendingPreKey, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PendingPreKey to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
     }
 
@@ -29010,14 +29449,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SignalMessage message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SignalMessage
          */
-        public static fromObject(object: { [k: string]: any }): proto.SignalMessage;
+        public static fromObject(object: {[k: string]: any}): proto.SignalMessage;
 
         /**
          * Creates a plain object from a SignalMessage message. Also converts values to other types if specified.
@@ -29025,13 +29464,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SignalMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SignalMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SignalMessage to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SignedPreKeyRecordStructure. */
@@ -29124,14 +29563,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SignedPreKeyRecordStructure message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SignedPreKeyRecordStructure
          */
-        public static fromObject(object: { [k: string]: any }): proto.SignedPreKeyRecordStructure;
+        public static fromObject(object: {[k: string]: any}): proto.SignedPreKeyRecordStructure;
 
         /**
          * Creates a plain object from a SignedPreKeyRecordStructure message. Also converts values to other types if specified.
@@ -29139,13 +29578,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SignedPreKeyRecordStructure, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SignedPreKeyRecordStructure, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SignedPreKeyRecordStructure to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a StatusPSA. */
@@ -29220,14 +29659,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a StatusPSA message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns StatusPSA
          */
-        public static fromObject(object: { [k: string]: any }): proto.StatusPSA;
+        public static fromObject(object: {[k: string]: any}): proto.StatusPSA;
 
         /**
          * Creates a plain object from a StatusPSA message. Also converts values to other types if specified.
@@ -29235,13 +29674,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.StatusPSA, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.StatusPSA, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this StatusPSA to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a StickerMetadata. */
@@ -29279,6 +29718,9 @@ export namespace proto {
 
         /** StickerMetadata lastStickerSentTs */
         lastStickerSentTs?: (number|Long|null);
+
+        /** StickerMetadata isLottie */
+        isLottie?: (boolean|null);
     }
 
     /** Represents a StickerMetadata. */
@@ -29322,6 +29764,9 @@ export namespace proto {
 
         /** StickerMetadata lastStickerSentTs. */
         public lastStickerSentTs: (number|Long);
+
+        /** StickerMetadata isLottie. */
+        public isLottie: boolean;
 
         /**
          * Creates a new StickerMetadata instance using the specified properties.
@@ -29370,14 +29815,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a StickerMetadata message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns StickerMetadata
          */
-        public static fromObject(object: { [k: string]: any }): proto.StickerMetadata;
+        public static fromObject(object: {[k: string]: any}): proto.StickerMetadata;
 
         /**
          * Creates a plain object from a StickerMetadata message. Also converts values to other types if specified.
@@ -29385,13 +29830,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.StickerMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.StickerMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this StickerMetadata to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SyncActionData. */
@@ -29478,14 +29923,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SyncActionData message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SyncActionData
          */
-        public static fromObject(object: { [k: string]: any }): proto.SyncActionData;
+        public static fromObject(object: {[k: string]: any}): proto.SyncActionData;
 
         /**
          * Creates a plain object from a SyncActionData message. Also converts values to other types if specified.
@@ -29493,13 +29938,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SyncActionData, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SyncActionData, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SyncActionData to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SyncActionValue. */
@@ -29633,6 +30078,24 @@ export namespace proto {
 
         /** SyncActionValue customPaymentMethodsAction */
         customPaymentMethodsAction?: (proto.SyncActionValue.ICustomPaymentMethodsAction|null);
+
+        /** SyncActionValue lockChatAction */
+        lockChatAction?: (proto.SyncActionValue.ILockChatAction|null);
+
+        /** SyncActionValue chatLockSettings */
+        chatLockSettings?: (proto.IChatLockSettings|null);
+
+        /** SyncActionValue wamoUserIdentifierAction */
+        wamoUserIdentifierAction?: (proto.SyncActionValue.IWamoUserIdentifierAction|null);
+
+        /** SyncActionValue privacySettingDisableLinkPreviewsAction */
+        privacySettingDisableLinkPreviewsAction?: (proto.SyncActionValue.IPrivacySettingDisableLinkPreviewsAction|null);
+
+        /** SyncActionValue deviceCapabilities */
+        deviceCapabilities?: (proto.IDeviceCapabilities|null);
+
+        /** SyncActionValue noteEditAction */
+        noteEditAction?: (proto.SyncActionValue.INoteEditAction|null);
     }
 
     /** Represents a SyncActionValue. */
@@ -29773,6 +30236,24 @@ export namespace proto {
         /** SyncActionValue customPaymentMethodsAction. */
         public customPaymentMethodsAction?: (proto.SyncActionValue.ICustomPaymentMethodsAction|null);
 
+        /** SyncActionValue lockChatAction. */
+        public lockChatAction?: (proto.SyncActionValue.ILockChatAction|null);
+
+        /** SyncActionValue chatLockSettings. */
+        public chatLockSettings?: (proto.IChatLockSettings|null);
+
+        /** SyncActionValue wamoUserIdentifierAction. */
+        public wamoUserIdentifierAction?: (proto.SyncActionValue.IWamoUserIdentifierAction|null);
+
+        /** SyncActionValue privacySettingDisableLinkPreviewsAction. */
+        public privacySettingDisableLinkPreviewsAction?: (proto.SyncActionValue.IPrivacySettingDisableLinkPreviewsAction|null);
+
+        /** SyncActionValue deviceCapabilities. */
+        public deviceCapabilities?: (proto.IDeviceCapabilities|null);
+
+        /** SyncActionValue noteEditAction. */
+        public noteEditAction?: (proto.SyncActionValue.INoteEditAction|null);
+
         /**
          * Creates a new SyncActionValue instance using the specified properties.
          * @param [properties] Properties to set
@@ -29820,14 +30301,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SyncActionValue message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SyncActionValue
          */
-        public static fromObject(object: { [k: string]: any }): proto.SyncActionValue;
+        public static fromObject(object: {[k: string]: any}): proto.SyncActionValue;
 
         /**
          * Creates a plain object from a SyncActionValue message. Also converts values to other types if specified.
@@ -29835,13 +30316,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SyncActionValue, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SyncActionValue, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SyncActionValue to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace SyncActionValue {
@@ -29924,14 +30405,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AgentAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AgentAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.AgentAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.AgentAction;
 
             /**
              * Creates a plain object from an AgentAction message. Also converts values to other types if specified.
@@ -29939,13 +30420,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.AgentAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.AgentAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AgentAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an AndroidUnsupportedActions. */
@@ -30014,14 +30495,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an AndroidUnsupportedActions message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns AndroidUnsupportedActions
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.AndroidUnsupportedActions;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.AndroidUnsupportedActions;
 
             /**
              * Creates a plain object from an AndroidUnsupportedActions message. Also converts values to other types if specified.
@@ -30029,13 +30510,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.AndroidUnsupportedActions, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.AndroidUnsupportedActions, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this AndroidUnsupportedActions to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an ArchiveChatAction. */
@@ -30110,14 +30591,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an ArchiveChatAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ArchiveChatAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.ArchiveChatAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.ArchiveChatAction;
 
             /**
              * Creates a plain object from an ArchiveChatAction message. Also converts values to other types if specified.
@@ -30125,13 +30606,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.ArchiveChatAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.ArchiveChatAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ArchiveChatAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a BotWelcomeRequestAction. */
@@ -30200,14 +30681,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a BotWelcomeRequestAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns BotWelcomeRequestAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.BotWelcomeRequestAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.BotWelcomeRequestAction;
 
             /**
              * Creates a plain object from a BotWelcomeRequestAction message. Also converts values to other types if specified.
@@ -30215,13 +30696,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.BotWelcomeRequestAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.BotWelcomeRequestAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this BotWelcomeRequestAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a CallLogAction. */
@@ -30290,14 +30771,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a CallLogAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns CallLogAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.CallLogAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.CallLogAction;
 
             /**
              * Creates a plain object from a CallLogAction message. Also converts values to other types if specified.
@@ -30305,13 +30786,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.CallLogAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.CallLogAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this CallLogAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ChatAssignmentAction. */
@@ -30380,14 +30861,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ChatAssignmentAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ChatAssignmentAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.ChatAssignmentAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.ChatAssignmentAction;
 
             /**
              * Creates a plain object from a ChatAssignmentAction message. Also converts values to other types if specified.
@@ -30395,13 +30876,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.ChatAssignmentAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.ChatAssignmentAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ChatAssignmentAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ChatAssignmentOpenedStatusAction. */
@@ -30470,14 +30951,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ChatAssignmentOpenedStatusAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ChatAssignmentOpenedStatusAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.ChatAssignmentOpenedStatusAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.ChatAssignmentOpenedStatusAction;
 
             /**
              * Creates a plain object from a ChatAssignmentOpenedStatusAction message. Also converts values to other types if specified.
@@ -30485,13 +30966,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.ChatAssignmentOpenedStatusAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.ChatAssignmentOpenedStatusAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ChatAssignmentOpenedStatusAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ClearChatAction. */
@@ -30560,14 +31041,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ClearChatAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ClearChatAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.ClearChatAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.ClearChatAction;
 
             /**
              * Creates a plain object from a ClearChatAction message. Also converts values to other types if specified.
@@ -30575,13 +31056,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.ClearChatAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.ClearChatAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ClearChatAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a ContactAction. */
@@ -30668,14 +31149,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a ContactAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ContactAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.ContactAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.ContactAction;
 
             /**
              * Creates a plain object from a ContactAction message. Also converts values to other types if specified.
@@ -30683,13 +31164,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.ContactAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.ContactAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ContactAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a CustomPaymentMethod. */
@@ -30776,14 +31257,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a CustomPaymentMethod message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns CustomPaymentMethod
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.CustomPaymentMethod;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.CustomPaymentMethod;
 
             /**
              * Creates a plain object from a CustomPaymentMethod message. Also converts values to other types if specified.
@@ -30791,13 +31272,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.CustomPaymentMethod, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.CustomPaymentMethod, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this CustomPaymentMethod to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a CustomPaymentMethodMetadata. */
@@ -30872,14 +31353,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a CustomPaymentMethodMetadata message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns CustomPaymentMethodMetadata
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.CustomPaymentMethodMetadata;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.CustomPaymentMethodMetadata;
 
             /**
              * Creates a plain object from a CustomPaymentMethodMetadata message. Also converts values to other types if specified.
@@ -30887,13 +31368,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.CustomPaymentMethodMetadata, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.CustomPaymentMethodMetadata, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this CustomPaymentMethodMetadata to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a CustomPaymentMethodsAction. */
@@ -30962,14 +31443,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a CustomPaymentMethodsAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns CustomPaymentMethodsAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.CustomPaymentMethodsAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.CustomPaymentMethodsAction;
 
             /**
              * Creates a plain object from a CustomPaymentMethodsAction message. Also converts values to other types if specified.
@@ -30977,13 +31458,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.CustomPaymentMethodsAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.CustomPaymentMethodsAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this CustomPaymentMethodsAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a DeleteChatAction. */
@@ -31052,14 +31533,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DeleteChatAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DeleteChatAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.DeleteChatAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.DeleteChatAction;
 
             /**
              * Creates a plain object from a DeleteChatAction message. Also converts values to other types if specified.
@@ -31067,13 +31548,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.DeleteChatAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.DeleteChatAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DeleteChatAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a DeleteIndividualCallLogAction. */
@@ -31148,14 +31629,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DeleteIndividualCallLogAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DeleteIndividualCallLogAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.DeleteIndividualCallLogAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.DeleteIndividualCallLogAction;
 
             /**
              * Creates a plain object from a DeleteIndividualCallLogAction message. Also converts values to other types if specified.
@@ -31163,13 +31644,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.DeleteIndividualCallLogAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.DeleteIndividualCallLogAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DeleteIndividualCallLogAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a DeleteMessageForMeAction. */
@@ -31244,14 +31725,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a DeleteMessageForMeAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns DeleteMessageForMeAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.DeleteMessageForMeAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.DeleteMessageForMeAction;
 
             /**
              * Creates a plain object from a DeleteMessageForMeAction message. Also converts values to other types if specified.
@@ -31259,13 +31740,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.DeleteMessageForMeAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.DeleteMessageForMeAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this DeleteMessageForMeAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an ExternalWebBetaAction. */
@@ -31334,14 +31815,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an ExternalWebBetaAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns ExternalWebBetaAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.ExternalWebBetaAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.ExternalWebBetaAction;
 
             /**
              * Creates a plain object from an ExternalWebBetaAction message. Also converts values to other types if specified.
@@ -31349,13 +31830,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.ExternalWebBetaAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.ExternalWebBetaAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this ExternalWebBetaAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a KeyExpiration. */
@@ -31424,14 +31905,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a KeyExpiration message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns KeyExpiration
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.KeyExpiration;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.KeyExpiration;
 
             /**
              * Creates a plain object from a KeyExpiration message. Also converts values to other types if specified.
@@ -31439,13 +31920,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.KeyExpiration, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.KeyExpiration, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this KeyExpiration to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a LabelAssociationAction. */
@@ -31514,14 +31995,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a LabelAssociationAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns LabelAssociationAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.LabelAssociationAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.LabelAssociationAction;
 
             /**
              * Creates a plain object from a LabelAssociationAction message. Also converts values to other types if specified.
@@ -31529,13 +32010,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.LabelAssociationAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.LabelAssociationAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this LabelAssociationAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a LabelEditAction. */
@@ -31628,14 +32109,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a LabelEditAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns LabelEditAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.LabelEditAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.LabelEditAction;
 
             /**
              * Creates a plain object from a LabelEditAction message. Also converts values to other types if specified.
@@ -31643,13 +32124,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.LabelEditAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.LabelEditAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this LabelEditAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a LabelReorderingAction. */
@@ -31718,14 +32199,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a LabelReorderingAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns LabelReorderingAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.LabelReorderingAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.LabelReorderingAction;
 
             /**
              * Creates a plain object from a LabelReorderingAction message. Also converts values to other types if specified.
@@ -31733,13 +32214,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.LabelReorderingAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.LabelReorderingAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this LabelReorderingAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a LocaleSetting. */
@@ -31808,14 +32289,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a LocaleSetting message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns LocaleSetting
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.LocaleSetting;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.LocaleSetting;
 
             /**
              * Creates a plain object from a LocaleSetting message. Also converts values to other types if specified.
@@ -31823,13 +32304,103 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.LocaleSetting, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.LocaleSetting, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this LocaleSetting to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
+        }
+
+        /** Properties of a LockChatAction. */
+        interface ILockChatAction {
+
+            /** LockChatAction locked */
+            locked?: (boolean|null);
+        }
+
+        /** Represents a LockChatAction. */
+        class LockChatAction implements ILockChatAction {
+
+            /**
+             * Constructs a new LockChatAction.
+             * @param [properties] Properties to set
+             */
+            constructor(properties?: proto.SyncActionValue.ILockChatAction);
+
+            /** LockChatAction locked. */
+            public locked: boolean;
+
+            /**
+             * Creates a new LockChatAction instance using the specified properties.
+             * @param [properties] Properties to set
+             * @returns LockChatAction instance
+             */
+            public static create(properties?: proto.SyncActionValue.ILockChatAction): proto.SyncActionValue.LockChatAction;
+
+            /**
+             * Encodes the specified LockChatAction message. Does not implicitly {@link proto.SyncActionValue.LockChatAction.verify|verify} messages.
+             * @param message LockChatAction message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encode(message: proto.SyncActionValue.ILockChatAction, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Encodes the specified LockChatAction message, length delimited. Does not implicitly {@link proto.SyncActionValue.LockChatAction.verify|verify} messages.
+             * @param message LockChatAction message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encodeDelimited(message: proto.SyncActionValue.ILockChatAction, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Decodes a LockChatAction message from the specified reader or buffer.
+             * @param reader Reader or buffer to decode from
+             * @param [length] Message length if known beforehand
+             * @returns LockChatAction
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.SyncActionValue.LockChatAction;
+
+            /**
+             * Decodes a LockChatAction message from the specified reader or buffer, length delimited.
+             * @param reader Reader or buffer to decode from
+             * @returns LockChatAction
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.SyncActionValue.LockChatAction;
+
+            /**
+             * Verifies a LockChatAction message.
+             * @param message Plain object to verify
+             * @returns `null` if valid, otherwise the reason why it is not
+             */
+            public static verify(message: {[k: string]: any}): (string|null);
+
+            /**
+             * Creates a LockChatAction message from a plain object. Also converts values to their respective internal types.
+             * @param object Plain object
+             * @returns LockChatAction
+             */
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.LockChatAction;
+
+            /**
+             * Creates a plain object from a LockChatAction message. Also converts values to other types if specified.
+             * @param message LockChatAction
+             * @param [options] Conversion options
+             * @returns Plain object
+             */
+            public static toObject(message: proto.SyncActionValue.LockChatAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+            /**
+             * Converts this LockChatAction to JSON.
+             * @returns JSON object
+             */
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a MarkChatAsReadAction. */
@@ -31904,14 +32475,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a MarkChatAsReadAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns MarkChatAsReadAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.MarkChatAsReadAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.MarkChatAsReadAction;
 
             /**
              * Creates a plain object from a MarkChatAsReadAction message. Also converts values to other types if specified.
@@ -31919,13 +32490,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.MarkChatAsReadAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.MarkChatAsReadAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this MarkChatAsReadAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a MarketingMessageAction. */
@@ -32030,14 +32601,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a MarketingMessageAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns MarketingMessageAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.MarketingMessageAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.MarketingMessageAction;
 
             /**
              * Creates a plain object from a MarketingMessageAction message. Also converts values to other types if specified.
@@ -32045,13 +32616,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.MarketingMessageAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.MarketingMessageAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this MarketingMessageAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace MarketingMessageAction {
@@ -32128,14 +32699,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a MarketingMessageBroadcastAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns MarketingMessageBroadcastAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.MarketingMessageBroadcastAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.MarketingMessageBroadcastAction;
 
             /**
              * Creates a plain object from a MarketingMessageBroadcastAction message. Also converts values to other types if specified.
@@ -32143,13 +32714,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.MarketingMessageBroadcastAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.MarketingMessageBroadcastAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this MarketingMessageBroadcastAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a MuteAction. */
@@ -32230,14 +32801,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a MuteAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns MuteAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.MuteAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.MuteAction;
 
             /**
              * Creates a plain object from a MuteAction message. Also converts values to other types if specified.
@@ -32245,13 +32816,136 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.MuteAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.MuteAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this MuteAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
+        }
+
+        /** Properties of a NoteEditAction. */
+        interface INoteEditAction {
+
+            /** NoteEditAction type */
+            type?: (proto.SyncActionValue.NoteEditAction.NoteType|null);
+
+            /** NoteEditAction chatJid */
+            chatJid?: (string|null);
+
+            /** NoteEditAction createdAt */
+            createdAt?: (number|Long|null);
+
+            /** NoteEditAction deleted */
+            deleted?: (boolean|null);
+
+            /** NoteEditAction unstructuredContent */
+            unstructuredContent?: (string|null);
+        }
+
+        /** Represents a NoteEditAction. */
+        class NoteEditAction implements INoteEditAction {
+
+            /**
+             * Constructs a new NoteEditAction.
+             * @param [properties] Properties to set
+             */
+            constructor(properties?: proto.SyncActionValue.INoteEditAction);
+
+            /** NoteEditAction type. */
+            public type: proto.SyncActionValue.NoteEditAction.NoteType;
+
+            /** NoteEditAction chatJid. */
+            public chatJid: string;
+
+            /** NoteEditAction createdAt. */
+            public createdAt: (number|Long);
+
+            /** NoteEditAction deleted. */
+            public deleted: boolean;
+
+            /** NoteEditAction unstructuredContent. */
+            public unstructuredContent: string;
+
+            /**
+             * Creates a new NoteEditAction instance using the specified properties.
+             * @param [properties] Properties to set
+             * @returns NoteEditAction instance
+             */
+            public static create(properties?: proto.SyncActionValue.INoteEditAction): proto.SyncActionValue.NoteEditAction;
+
+            /**
+             * Encodes the specified NoteEditAction message. Does not implicitly {@link proto.SyncActionValue.NoteEditAction.verify|verify} messages.
+             * @param message NoteEditAction message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encode(message: proto.SyncActionValue.INoteEditAction, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Encodes the specified NoteEditAction message, length delimited. Does not implicitly {@link proto.SyncActionValue.NoteEditAction.verify|verify} messages.
+             * @param message NoteEditAction message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encodeDelimited(message: proto.SyncActionValue.INoteEditAction, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Decodes a NoteEditAction message from the specified reader or buffer.
+             * @param reader Reader or buffer to decode from
+             * @param [length] Message length if known beforehand
+             * @returns NoteEditAction
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.SyncActionValue.NoteEditAction;
+
+            /**
+             * Decodes a NoteEditAction message from the specified reader or buffer, length delimited.
+             * @param reader Reader or buffer to decode from
+             * @returns NoteEditAction
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.SyncActionValue.NoteEditAction;
+
+            /**
+             * Verifies a NoteEditAction message.
+             * @param message Plain object to verify
+             * @returns `null` if valid, otherwise the reason why it is not
+             */
+            public static verify(message: {[k: string]: any}): (string|null);
+
+            /**
+             * Creates a NoteEditAction message from a plain object. Also converts values to their respective internal types.
+             * @param object Plain object
+             * @returns NoteEditAction
+             */
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.NoteEditAction;
+
+            /**
+             * Creates a plain object from a NoteEditAction message. Also converts values to other types if specified.
+             * @param message NoteEditAction
+             * @param [options] Conversion options
+             * @returns Plain object
+             */
+            public static toObject(message: proto.SyncActionValue.NoteEditAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+            /**
+             * Converts this NoteEditAction to JSON.
+             * @returns JSON object
+             */
+            public toJSON(): {[k: string]: any};
+        }
+
+        namespace NoteEditAction {
+
+            /** NoteType enum. */
+            enum NoteType {
+                UNSTRUCTURED = 1,
+                STRUCTURED = 2
+            }
         }
 
         /** Properties of a NuxAction. */
@@ -32320,14 +33014,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a NuxAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns NuxAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.NuxAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.NuxAction;
 
             /**
              * Creates a plain object from a NuxAction message. Also converts values to other types if specified.
@@ -32335,13 +33029,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.NuxAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.NuxAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this NuxAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PaymentInfoAction. */
@@ -32410,14 +33104,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PaymentInfoAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PaymentInfoAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.PaymentInfoAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.PaymentInfoAction;
 
             /**
              * Creates a plain object from a PaymentInfoAction message. Also converts values to other types if specified.
@@ -32425,13 +33119,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.PaymentInfoAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.PaymentInfoAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PaymentInfoAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PinAction. */
@@ -32500,14 +33194,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PinAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PinAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.PinAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.PinAction;
 
             /**
              * Creates a plain object from a PinAction message. Also converts values to other types if specified.
@@ -32515,13 +33209,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.PinAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.PinAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PinAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PnForLidChatAction. */
@@ -32590,14 +33284,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PnForLidChatAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PnForLidChatAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.PnForLidChatAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.PnForLidChatAction;
 
             /**
              * Creates a plain object from a PnForLidChatAction message. Also converts values to other types if specified.
@@ -32605,13 +33299,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.PnForLidChatAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.PnForLidChatAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PnForLidChatAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PrimaryFeature. */
@@ -32680,14 +33374,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PrimaryFeature message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PrimaryFeature
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.PrimaryFeature;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.PrimaryFeature;
 
             /**
              * Creates a plain object from a PrimaryFeature message. Also converts values to other types if specified.
@@ -32695,13 +33389,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.PrimaryFeature, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.PrimaryFeature, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PrimaryFeature to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PrimaryVersionAction. */
@@ -32770,14 +33464,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PrimaryVersionAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PrimaryVersionAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.PrimaryVersionAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.PrimaryVersionAction;
 
             /**
              * Creates a plain object from a PrimaryVersionAction message. Also converts values to other types if specified.
@@ -32785,13 +33479,103 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.PrimaryVersionAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.PrimaryVersionAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PrimaryVersionAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
+        }
+
+        /** Properties of a PrivacySettingDisableLinkPreviewsAction. */
+        interface IPrivacySettingDisableLinkPreviewsAction {
+
+            /** PrivacySettingDisableLinkPreviewsAction isPreviewsDisabled */
+            isPreviewsDisabled?: (boolean|null);
+        }
+
+        /** Represents a PrivacySettingDisableLinkPreviewsAction. */
+        class PrivacySettingDisableLinkPreviewsAction implements IPrivacySettingDisableLinkPreviewsAction {
+
+            /**
+             * Constructs a new PrivacySettingDisableLinkPreviewsAction.
+             * @param [properties] Properties to set
+             */
+            constructor(properties?: proto.SyncActionValue.IPrivacySettingDisableLinkPreviewsAction);
+
+            /** PrivacySettingDisableLinkPreviewsAction isPreviewsDisabled. */
+            public isPreviewsDisabled: boolean;
+
+            /**
+             * Creates a new PrivacySettingDisableLinkPreviewsAction instance using the specified properties.
+             * @param [properties] Properties to set
+             * @returns PrivacySettingDisableLinkPreviewsAction instance
+             */
+            public static create(properties?: proto.SyncActionValue.IPrivacySettingDisableLinkPreviewsAction): proto.SyncActionValue.PrivacySettingDisableLinkPreviewsAction;
+
+            /**
+             * Encodes the specified PrivacySettingDisableLinkPreviewsAction message. Does not implicitly {@link proto.SyncActionValue.PrivacySettingDisableLinkPreviewsAction.verify|verify} messages.
+             * @param message PrivacySettingDisableLinkPreviewsAction message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encode(message: proto.SyncActionValue.IPrivacySettingDisableLinkPreviewsAction, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Encodes the specified PrivacySettingDisableLinkPreviewsAction message, length delimited. Does not implicitly {@link proto.SyncActionValue.PrivacySettingDisableLinkPreviewsAction.verify|verify} messages.
+             * @param message PrivacySettingDisableLinkPreviewsAction message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encodeDelimited(message: proto.SyncActionValue.IPrivacySettingDisableLinkPreviewsAction, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Decodes a PrivacySettingDisableLinkPreviewsAction message from the specified reader or buffer.
+             * @param reader Reader or buffer to decode from
+             * @param [length] Message length if known beforehand
+             * @returns PrivacySettingDisableLinkPreviewsAction
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.SyncActionValue.PrivacySettingDisableLinkPreviewsAction;
+
+            /**
+             * Decodes a PrivacySettingDisableLinkPreviewsAction message from the specified reader or buffer, length delimited.
+             * @param reader Reader or buffer to decode from
+             * @returns PrivacySettingDisableLinkPreviewsAction
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.SyncActionValue.PrivacySettingDisableLinkPreviewsAction;
+
+            /**
+             * Verifies a PrivacySettingDisableLinkPreviewsAction message.
+             * @param message Plain object to verify
+             * @returns `null` if valid, otherwise the reason why it is not
+             */
+            public static verify(message: {[k: string]: any}): (string|null);
+
+            /**
+             * Creates a PrivacySettingDisableLinkPreviewsAction message from a plain object. Also converts values to their respective internal types.
+             * @param object Plain object
+             * @returns PrivacySettingDisableLinkPreviewsAction
+             */
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.PrivacySettingDisableLinkPreviewsAction;
+
+            /**
+             * Creates a plain object from a PrivacySettingDisableLinkPreviewsAction message. Also converts values to other types if specified.
+             * @param message PrivacySettingDisableLinkPreviewsAction
+             * @param [options] Conversion options
+             * @returns Plain object
+             */
+            public static toObject(message: proto.SyncActionValue.PrivacySettingDisableLinkPreviewsAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+            /**
+             * Converts this PrivacySettingDisableLinkPreviewsAction to JSON.
+             * @returns JSON object
+             */
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PrivacySettingRelayAllCalls. */
@@ -32860,14 +33644,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PrivacySettingRelayAllCalls message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PrivacySettingRelayAllCalls
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.PrivacySettingRelayAllCalls;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.PrivacySettingRelayAllCalls;
 
             /**
              * Creates a plain object from a PrivacySettingRelayAllCalls message. Also converts values to other types if specified.
@@ -32875,13 +33659,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.PrivacySettingRelayAllCalls, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.PrivacySettingRelayAllCalls, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PrivacySettingRelayAllCalls to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a PushNameSetting. */
@@ -32950,14 +33734,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a PushNameSetting message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns PushNameSetting
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.PushNameSetting;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.PushNameSetting;
 
             /**
              * Creates a plain object from a PushNameSetting message. Also converts values to other types if specified.
@@ -32965,13 +33749,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.PushNameSetting, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.PushNameSetting, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this PushNameSetting to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a QuickReplyAction. */
@@ -33064,14 +33848,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a QuickReplyAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns QuickReplyAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.QuickReplyAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.QuickReplyAction;
 
             /**
              * Creates a plain object from a QuickReplyAction message. Also converts values to other types if specified.
@@ -33079,13 +33863,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.QuickReplyAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.QuickReplyAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this QuickReplyAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a RecentEmojiWeightsAction. */
@@ -33154,14 +33938,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a RecentEmojiWeightsAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns RecentEmojiWeightsAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.RecentEmojiWeightsAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.RecentEmojiWeightsAction;
 
             /**
              * Creates a plain object from a RecentEmojiWeightsAction message. Also converts values to other types if specified.
@@ -33169,13 +33953,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.RecentEmojiWeightsAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.RecentEmojiWeightsAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this RecentEmojiWeightsAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a RemoveRecentStickerAction. */
@@ -33244,14 +34028,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a RemoveRecentStickerAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns RemoveRecentStickerAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.RemoveRecentStickerAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.RemoveRecentStickerAction;
 
             /**
              * Creates a plain object from a RemoveRecentStickerAction message. Also converts values to other types if specified.
@@ -33259,13 +34043,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.RemoveRecentStickerAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.RemoveRecentStickerAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this RemoveRecentStickerAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a SecurityNotificationSetting. */
@@ -33334,14 +34118,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a SecurityNotificationSetting message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns SecurityNotificationSetting
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.SecurityNotificationSetting;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.SecurityNotificationSetting;
 
             /**
              * Creates a plain object from a SecurityNotificationSetting message. Also converts values to other types if specified.
@@ -33349,13 +34133,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.SecurityNotificationSetting, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.SecurityNotificationSetting, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this SecurityNotificationSetting to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a StarAction. */
@@ -33424,14 +34208,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a StarAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns StarAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.StarAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.StarAction;
 
             /**
              * Creates a plain object from a StarAction message. Also converts values to other types if specified.
@@ -33439,13 +34223,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.StarAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.StarAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this StarAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a StatusPrivacyAction. */
@@ -33520,14 +34304,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a StatusPrivacyAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns StatusPrivacyAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.StatusPrivacyAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.StatusPrivacyAction;
 
             /**
              * Creates a plain object from a StatusPrivacyAction message. Also converts values to other types if specified.
@@ -33535,13 +34319,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.StatusPrivacyAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.StatusPrivacyAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this StatusPrivacyAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         namespace StatusPrivacyAction {
@@ -33586,6 +34370,9 @@ export namespace proto {
 
             /** StickerAction deviceIdHint */
             deviceIdHint?: (number|null);
+
+            /** StickerAction isLottie */
+            isLottie?: (boolean|null);
         }
 
         /** Represents a StickerAction. */
@@ -33626,6 +34413,9 @@ export namespace proto {
 
             /** StickerAction deviceIdHint. */
             public deviceIdHint: number;
+
+            /** StickerAction isLottie. */
+            public isLottie: boolean;
 
             /**
              * Creates a new StickerAction instance using the specified properties.
@@ -33674,14 +34464,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a StickerAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns StickerAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.StickerAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.StickerAction;
 
             /**
              * Creates a plain object from a StickerAction message. Also converts values to other types if specified.
@@ -33689,13 +34479,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.StickerAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.StickerAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this StickerAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a SubscriptionAction. */
@@ -33776,14 +34566,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a SubscriptionAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns SubscriptionAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.SubscriptionAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.SubscriptionAction;
 
             /**
              * Creates a plain object from a SubscriptionAction message. Also converts values to other types if specified.
@@ -33791,13 +34581,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.SubscriptionAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.SubscriptionAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this SubscriptionAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a SyncActionMessage. */
@@ -33872,14 +34662,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a SyncActionMessage message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns SyncActionMessage
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.SyncActionMessage;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.SyncActionMessage;
 
             /**
              * Creates a plain object from a SyncActionMessage message. Also converts values to other types if specified.
@@ -33887,13 +34677,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.SyncActionMessage, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.SyncActionMessage, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this SyncActionMessage to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a SyncActionMessageRange. */
@@ -33974,14 +34764,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a SyncActionMessageRange message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns SyncActionMessageRange
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.SyncActionMessageRange;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.SyncActionMessageRange;
 
             /**
              * Creates a plain object from a SyncActionMessageRange message. Also converts values to other types if specified.
@@ -33989,13 +34779,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.SyncActionMessageRange, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.SyncActionMessageRange, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this SyncActionMessageRange to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a TimeFormatAction. */
@@ -34064,14 +34854,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a TimeFormatAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns TimeFormatAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.TimeFormatAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.TimeFormatAction;
 
             /**
              * Creates a plain object from a TimeFormatAction message. Also converts values to other types if specified.
@@ -34079,13 +34869,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.TimeFormatAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.TimeFormatAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this TimeFormatAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of an UnarchiveChatsSetting. */
@@ -34154,14 +34944,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates an UnarchiveChatsSetting message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns UnarchiveChatsSetting
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.UnarchiveChatsSetting;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.UnarchiveChatsSetting;
 
             /**
              * Creates a plain object from an UnarchiveChatsSetting message. Also converts values to other types if specified.
@@ -34169,13 +34959,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.UnarchiveChatsSetting, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.UnarchiveChatsSetting, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this UnarchiveChatsSetting to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a UserStatusMuteAction. */
@@ -34244,14 +35034,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a UserStatusMuteAction message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns UserStatusMuteAction
              */
-            public static fromObject(object: { [k: string]: any }): proto.SyncActionValue.UserStatusMuteAction;
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.UserStatusMuteAction;
 
             /**
              * Creates a plain object from a UserStatusMuteAction message. Also converts values to other types if specified.
@@ -34259,13 +35049,103 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.SyncActionValue.UserStatusMuteAction, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.SyncActionValue.UserStatusMuteAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this UserStatusMuteAction to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
+        }
+
+        /** Properties of a WamoUserIdentifierAction. */
+        interface IWamoUserIdentifierAction {
+
+            /** WamoUserIdentifierAction identifier */
+            identifier?: (string|null);
+        }
+
+        /** Represents a WamoUserIdentifierAction. */
+        class WamoUserIdentifierAction implements IWamoUserIdentifierAction {
+
+            /**
+             * Constructs a new WamoUserIdentifierAction.
+             * @param [properties] Properties to set
+             */
+            constructor(properties?: proto.SyncActionValue.IWamoUserIdentifierAction);
+
+            /** WamoUserIdentifierAction identifier. */
+            public identifier: string;
+
+            /**
+             * Creates a new WamoUserIdentifierAction instance using the specified properties.
+             * @param [properties] Properties to set
+             * @returns WamoUserIdentifierAction instance
+             */
+            public static create(properties?: proto.SyncActionValue.IWamoUserIdentifierAction): proto.SyncActionValue.WamoUserIdentifierAction;
+
+            /**
+             * Encodes the specified WamoUserIdentifierAction message. Does not implicitly {@link proto.SyncActionValue.WamoUserIdentifierAction.verify|verify} messages.
+             * @param message WamoUserIdentifierAction message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encode(message: proto.SyncActionValue.IWamoUserIdentifierAction, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Encodes the specified WamoUserIdentifierAction message, length delimited. Does not implicitly {@link proto.SyncActionValue.WamoUserIdentifierAction.verify|verify} messages.
+             * @param message WamoUserIdentifierAction message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encodeDelimited(message: proto.SyncActionValue.IWamoUserIdentifierAction, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Decodes a WamoUserIdentifierAction message from the specified reader or buffer.
+             * @param reader Reader or buffer to decode from
+             * @param [length] Message length if known beforehand
+             * @returns WamoUserIdentifierAction
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.SyncActionValue.WamoUserIdentifierAction;
+
+            /**
+             * Decodes a WamoUserIdentifierAction message from the specified reader or buffer, length delimited.
+             * @param reader Reader or buffer to decode from
+             * @returns WamoUserIdentifierAction
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.SyncActionValue.WamoUserIdentifierAction;
+
+            /**
+             * Verifies a WamoUserIdentifierAction message.
+             * @param message Plain object to verify
+             * @returns `null` if valid, otherwise the reason why it is not
+             */
+            public static verify(message: {[k: string]: any}): (string|null);
+
+            /**
+             * Creates a WamoUserIdentifierAction message from a plain object. Also converts values to their respective internal types.
+             * @param object Plain object
+             * @returns WamoUserIdentifierAction
+             */
+            public static fromObject(object: {[k: string]: any}): proto.SyncActionValue.WamoUserIdentifierAction;
+
+            /**
+             * Creates a plain object from a WamoUserIdentifierAction message. Also converts values to other types if specified.
+             * @param message WamoUserIdentifierAction
+             * @param [options] Conversion options
+             * @returns Plain object
+             */
+            public static toObject(message: proto.SyncActionValue.WamoUserIdentifierAction, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+            /**
+             * Converts this WamoUserIdentifierAction to JSON.
+             * @returns JSON object
+             */
+            public toJSON(): {[k: string]: any};
         }
     }
 
@@ -34335,14 +35215,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SyncdIndex message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SyncdIndex
          */
-        public static fromObject(object: { [k: string]: any }): proto.SyncdIndex;
+        public static fromObject(object: {[k: string]: any}): proto.SyncdIndex;
 
         /**
          * Creates a plain object from a SyncdIndex message. Also converts values to other types if specified.
@@ -34350,13 +35230,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SyncdIndex, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SyncdIndex, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SyncdIndex to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SyncdMutation. */
@@ -34431,14 +35311,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SyncdMutation message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SyncdMutation
          */
-        public static fromObject(object: { [k: string]: any }): proto.SyncdMutation;
+        public static fromObject(object: {[k: string]: any}): proto.SyncdMutation;
 
         /**
          * Creates a plain object from a SyncdMutation message. Also converts values to other types if specified.
@@ -34446,13 +35326,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SyncdMutation, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SyncdMutation, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SyncdMutation to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace SyncdMutation {
@@ -34530,14 +35410,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SyncdMutations message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SyncdMutations
          */
-        public static fromObject(object: { [k: string]: any }): proto.SyncdMutations;
+        public static fromObject(object: {[k: string]: any}): proto.SyncdMutations;
 
         /**
          * Creates a plain object from a SyncdMutations message. Also converts values to other types if specified.
@@ -34545,13 +35425,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SyncdMutations, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SyncdMutations, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SyncdMutations to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SyncdPatch. */
@@ -34668,14 +35548,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SyncdPatch message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SyncdPatch
          */
-        public static fromObject(object: { [k: string]: any }): proto.SyncdPatch;
+        public static fromObject(object: {[k: string]: any}): proto.SyncdPatch;
 
         /**
          * Creates a plain object from a SyncdPatch message. Also converts values to other types if specified.
@@ -34683,13 +35563,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SyncdPatch, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SyncdPatch, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SyncdPatch to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SyncdRecord. */
@@ -34770,14 +35650,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SyncdRecord message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SyncdRecord
          */
-        public static fromObject(object: { [k: string]: any }): proto.SyncdRecord;
+        public static fromObject(object: {[k: string]: any}): proto.SyncdRecord;
 
         /**
          * Creates a plain object from a SyncdRecord message. Also converts values to other types if specified.
@@ -34785,13 +35665,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SyncdRecord, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SyncdRecord, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SyncdRecord to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SyncdSnapshot. */
@@ -34878,14 +35758,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SyncdSnapshot message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SyncdSnapshot
          */
-        public static fromObject(object: { [k: string]: any }): proto.SyncdSnapshot;
+        public static fromObject(object: {[k: string]: any}): proto.SyncdSnapshot;
 
         /**
          * Creates a plain object from a SyncdSnapshot message. Also converts values to other types if specified.
@@ -34893,13 +35773,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SyncdSnapshot, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SyncdSnapshot, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SyncdSnapshot to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SyncdValue. */
@@ -34968,14 +35848,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SyncdValue message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SyncdValue
          */
-        public static fromObject(object: { [k: string]: any }): proto.SyncdValue;
+        public static fromObject(object: {[k: string]: any}): proto.SyncdValue;
 
         /**
          * Creates a plain object from a SyncdValue message. Also converts values to other types if specified.
@@ -34983,13 +35863,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SyncdValue, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SyncdValue, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SyncdValue to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a SyncdVersion. */
@@ -35058,14 +35938,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a SyncdVersion message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns SyncdVersion
          */
-        public static fromObject(object: { [k: string]: any }): proto.SyncdVersion;
+        public static fromObject(object: {[k: string]: any}): proto.SyncdVersion;
 
         /**
          * Creates a plain object from a SyncdVersion message. Also converts values to other types if specified.
@@ -35073,13 +35953,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.SyncdVersion, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.SyncdVersion, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this SyncdVersion to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a TemplateButton. */
@@ -35169,14 +36049,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a TemplateButton message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns TemplateButton
          */
-        public static fromObject(object: { [k: string]: any }): proto.TemplateButton;
+        public static fromObject(object: {[k: string]: any}): proto.TemplateButton;
 
         /**
          * Creates a plain object from a TemplateButton message. Also converts values to other types if specified.
@@ -35184,13 +36064,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.TemplateButton, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.TemplateButton, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this TemplateButton to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace TemplateButton {
@@ -35267,14 +36147,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a CallButton message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns CallButton
              */
-            public static fromObject(object: { [k: string]: any }): proto.TemplateButton.CallButton;
+            public static fromObject(object: {[k: string]: any}): proto.TemplateButton.CallButton;
 
             /**
              * Creates a plain object from a CallButton message. Also converts values to other types if specified.
@@ -35282,13 +36162,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.TemplateButton.CallButton, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.TemplateButton.CallButton, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this CallButton to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a QuickReplyButton. */
@@ -35363,14 +36243,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a QuickReplyButton message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns QuickReplyButton
              */
-            public static fromObject(object: { [k: string]: any }): proto.TemplateButton.QuickReplyButton;
+            public static fromObject(object: {[k: string]: any}): proto.TemplateButton.QuickReplyButton;
 
             /**
              * Creates a plain object from a QuickReplyButton message. Also converts values to other types if specified.
@@ -35378,13 +36258,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.TemplateButton.QuickReplyButton, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.TemplateButton.QuickReplyButton, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this QuickReplyButton to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
 
         /** Properties of a URLButton. */
@@ -35459,14 +36339,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a URLButton message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns URLButton
              */
-            public static fromObject(object: { [k: string]: any }): proto.TemplateButton.URLButton;
+            public static fromObject(object: {[k: string]: any}): proto.TemplateButton.URLButton;
 
             /**
              * Creates a plain object from a URLButton message. Also converts values to other types if specified.
@@ -35474,13 +36354,334 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.TemplateButton.URLButton, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.TemplateButton.URLButton, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this URLButton to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
+        }
+    }
+
+    /** Properties of a UserPassword. */
+    interface IUserPassword {
+
+        /** UserPassword encoding */
+        encoding?: (proto.UserPassword.Encoding|null);
+
+        /** UserPassword transformer */
+        transformer?: (proto.UserPassword.Transformer|null);
+
+        /** UserPassword transformerArg */
+        transformerArg?: (proto.UserPassword.ITransformerArg[]|null);
+
+        /** UserPassword transformedData */
+        transformedData?: (Uint8Array|null);
+    }
+
+    /** Represents a UserPassword. */
+    class UserPassword implements IUserPassword {
+
+        /**
+         * Constructs a new UserPassword.
+         * @param [properties] Properties to set
+         */
+        constructor(properties?: proto.IUserPassword);
+
+        /** UserPassword encoding. */
+        public encoding: proto.UserPassword.Encoding;
+
+        /** UserPassword transformer. */
+        public transformer: proto.UserPassword.Transformer;
+
+        /** UserPassword transformerArg. */
+        public transformerArg: proto.UserPassword.ITransformerArg[];
+
+        /** UserPassword transformedData. */
+        public transformedData: Uint8Array;
+
+        /**
+         * Creates a new UserPassword instance using the specified properties.
+         * @param [properties] Properties to set
+         * @returns UserPassword instance
+         */
+        public static create(properties?: proto.IUserPassword): proto.UserPassword;
+
+        /**
+         * Encodes the specified UserPassword message. Does not implicitly {@link proto.UserPassword.verify|verify} messages.
+         * @param message UserPassword message or plain object to encode
+         * @param [writer] Writer to encode to
+         * @returns Writer
+         */
+        public static encode(message: proto.IUserPassword, writer?: $protobuf.Writer): $protobuf.Writer;
+
+        /**
+         * Encodes the specified UserPassword message, length delimited. Does not implicitly {@link proto.UserPassword.verify|verify} messages.
+         * @param message UserPassword message or plain object to encode
+         * @param [writer] Writer to encode to
+         * @returns Writer
+         */
+        public static encodeDelimited(message: proto.IUserPassword, writer?: $protobuf.Writer): $protobuf.Writer;
+
+        /**
+         * Decodes a UserPassword message from the specified reader or buffer.
+         * @param reader Reader or buffer to decode from
+         * @param [length] Message length if known beforehand
+         * @returns UserPassword
+         * @throws {Error} If the payload is not a reader or valid buffer
+         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+         */
+        public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.UserPassword;
+
+        /**
+         * Decodes a UserPassword message from the specified reader or buffer, length delimited.
+         * @param reader Reader or buffer to decode from
+         * @returns UserPassword
+         * @throws {Error} If the payload is not a reader or valid buffer
+         * @throws {$protobuf.util.ProtocolError} If required fields are missing
+         */
+        public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.UserPassword;
+
+        /**
+         * Verifies a UserPassword message.
+         * @param message Plain object to verify
+         * @returns `null` if valid, otherwise the reason why it is not
+         */
+        public static verify(message: {[k: string]: any}): (string|null);
+
+        /**
+         * Creates a UserPassword message from a plain object. Also converts values to their respective internal types.
+         * @param object Plain object
+         * @returns UserPassword
+         */
+        public static fromObject(object: {[k: string]: any}): proto.UserPassword;
+
+        /**
+         * Creates a plain object from a UserPassword message. Also converts values to other types if specified.
+         * @param message UserPassword
+         * @param [options] Conversion options
+         * @returns Plain object
+         */
+        public static toObject(message: proto.UserPassword, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+        /**
+         * Converts this UserPassword to JSON.
+         * @returns JSON object
+         */
+        public toJSON(): {[k: string]: any};
+    }
+
+    namespace UserPassword {
+
+        /** Encoding enum. */
+        enum Encoding {
+            UTF8 = 0
+        }
+
+        /** Transformer enum. */
+        enum Transformer {
+            NONE = 0,
+            PBKDF2_HMAC_SHA512 = 1,
+            PBKDF2_HMAC_SHA384 = 2
+        }
+
+        /** Properties of a TransformerArg. */
+        interface ITransformerArg {
+
+            /** TransformerArg key */
+            key?: (string|null);
+
+            /** TransformerArg value */
+            value?: (proto.UserPassword.TransformerArg.IValue|null);
+        }
+
+        /** Represents a TransformerArg. */
+        class TransformerArg implements ITransformerArg {
+
+            /**
+             * Constructs a new TransformerArg.
+             * @param [properties] Properties to set
+             */
+            constructor(properties?: proto.UserPassword.ITransformerArg);
+
+            /** TransformerArg key. */
+            public key: string;
+
+            /** TransformerArg value. */
+            public value?: (proto.UserPassword.TransformerArg.IValue|null);
+
+            /**
+             * Creates a new TransformerArg instance using the specified properties.
+             * @param [properties] Properties to set
+             * @returns TransformerArg instance
+             */
+            public static create(properties?: proto.UserPassword.ITransformerArg): proto.UserPassword.TransformerArg;
+
+            /**
+             * Encodes the specified TransformerArg message. Does not implicitly {@link proto.UserPassword.TransformerArg.verify|verify} messages.
+             * @param message TransformerArg message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encode(message: proto.UserPassword.ITransformerArg, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Encodes the specified TransformerArg message, length delimited. Does not implicitly {@link proto.UserPassword.TransformerArg.verify|verify} messages.
+             * @param message TransformerArg message or plain object to encode
+             * @param [writer] Writer to encode to
+             * @returns Writer
+             */
+            public static encodeDelimited(message: proto.UserPassword.ITransformerArg, writer?: $protobuf.Writer): $protobuf.Writer;
+
+            /**
+             * Decodes a TransformerArg message from the specified reader or buffer.
+             * @param reader Reader or buffer to decode from
+             * @param [length] Message length if known beforehand
+             * @returns TransformerArg
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.UserPassword.TransformerArg;
+
+            /**
+             * Decodes a TransformerArg message from the specified reader or buffer, length delimited.
+             * @param reader Reader or buffer to decode from
+             * @returns TransformerArg
+             * @throws {Error} If the payload is not a reader or valid buffer
+             * @throws {$protobuf.util.ProtocolError} If required fields are missing
+             */
+            public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.UserPassword.TransformerArg;
+
+            /**
+             * Verifies a TransformerArg message.
+             * @param message Plain object to verify
+             * @returns `null` if valid, otherwise the reason why it is not
+             */
+            public static verify(message: {[k: string]: any}): (string|null);
+
+            /**
+             * Creates a TransformerArg message from a plain object. Also converts values to their respective internal types.
+             * @param object Plain object
+             * @returns TransformerArg
+             */
+            public static fromObject(object: {[k: string]: any}): proto.UserPassword.TransformerArg;
+
+            /**
+             * Creates a plain object from a TransformerArg message. Also converts values to other types if specified.
+             * @param message TransformerArg
+             * @param [options] Conversion options
+             * @returns Plain object
+             */
+            public static toObject(message: proto.UserPassword.TransformerArg, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+            /**
+             * Converts this TransformerArg to JSON.
+             * @returns JSON object
+             */
+            public toJSON(): {[k: string]: any};
+        }
+
+        namespace TransformerArg {
+
+            /** Properties of a Value. */
+            interface IValue {
+
+                /** Value asBlob */
+                asBlob?: (Uint8Array|null);
+
+                /** Value asUnsignedInteger */
+                asUnsignedInteger?: (number|null);
+            }
+
+            /** Represents a Value. */
+            class Value implements IValue {
+
+                /**
+                 * Constructs a new Value.
+                 * @param [properties] Properties to set
+                 */
+                constructor(properties?: proto.UserPassword.TransformerArg.IValue);
+
+                /** Value asBlob. */
+                public asBlob: Uint8Array;
+
+                /** Value asUnsignedInteger. */
+                public asUnsignedInteger: number;
+
+                /** Value value. */
+                public value?: ("asBlob"|"asUnsignedInteger");
+
+                /**
+                 * Creates a new Value instance using the specified properties.
+                 * @param [properties] Properties to set
+                 * @returns Value instance
+                 */
+                public static create(properties?: proto.UserPassword.TransformerArg.IValue): proto.UserPassword.TransformerArg.Value;
+
+                /**
+                 * Encodes the specified Value message. Does not implicitly {@link proto.UserPassword.TransformerArg.Value.verify|verify} messages.
+                 * @param message Value message or plain object to encode
+                 * @param [writer] Writer to encode to
+                 * @returns Writer
+                 */
+                public static encode(message: proto.UserPassword.TransformerArg.IValue, writer?: $protobuf.Writer): $protobuf.Writer;
+
+                /**
+                 * Encodes the specified Value message, length delimited. Does not implicitly {@link proto.UserPassword.TransformerArg.Value.verify|verify} messages.
+                 * @param message Value message or plain object to encode
+                 * @param [writer] Writer to encode to
+                 * @returns Writer
+                 */
+                public static encodeDelimited(message: proto.UserPassword.TransformerArg.IValue, writer?: $protobuf.Writer): $protobuf.Writer;
+
+                /**
+                 * Decodes a Value message from the specified reader or buffer.
+                 * @param reader Reader or buffer to decode from
+                 * @param [length] Message length if known beforehand
+                 * @returns Value
+                 * @throws {Error} If the payload is not a reader or valid buffer
+                 * @throws {$protobuf.util.ProtocolError} If required fields are missing
+                 */
+                public static decode(reader: ($protobuf.Reader|Uint8Array), length?: number): proto.UserPassword.TransformerArg.Value;
+
+                /**
+                 * Decodes a Value message from the specified reader or buffer, length delimited.
+                 * @param reader Reader or buffer to decode from
+                 * @returns Value
+                 * @throws {Error} If the payload is not a reader or valid buffer
+                 * @throws {$protobuf.util.ProtocolError} If required fields are missing
+                 */
+                public static decodeDelimited(reader: ($protobuf.Reader|Uint8Array)): proto.UserPassword.TransformerArg.Value;
+
+                /**
+                 * Verifies a Value message.
+                 * @param message Plain object to verify
+                 * @returns `null` if valid, otherwise the reason why it is not
+                 */
+                public static verify(message: {[k: string]: any}): (string|null);
+
+                /**
+                 * Creates a Value message from a plain object. Also converts values to their respective internal types.
+                 * @param object Plain object
+                 * @returns Value
+                 */
+                public static fromObject(object: {[k: string]: any}): proto.UserPassword.TransformerArg.Value;
+
+                /**
+                 * Creates a plain object from a Value message. Also converts values to other types if specified.
+                 * @param message Value
+                 * @param [options] Conversion options
+                 * @returns Plain object
+                 */
+                public static toObject(message: proto.UserPassword.TransformerArg.Value, options?: $protobuf.IConversionOptions): {[k: string]: any};
+
+                /**
+                 * Converts this Value to JSON.
+                 * @returns JSON object
+                 */
+                public toJSON(): {[k: string]: any};
+            }
         }
     }
 
@@ -35580,14 +36781,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a UserReceipt message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns UserReceipt
          */
-        public static fromObject(object: { [k: string]: any }): proto.UserReceipt;
+        public static fromObject(object: {[k: string]: any}): proto.UserReceipt;
 
         /**
          * Creates a plain object from a UserReceipt message. Also converts values to other types if specified.
@@ -35595,13 +36796,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.UserReceipt, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.UserReceipt, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this UserReceipt to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a VerifiedNameCertificate. */
@@ -35682,14 +36883,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a VerifiedNameCertificate message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns VerifiedNameCertificate
          */
-        public static fromObject(object: { [k: string]: any }): proto.VerifiedNameCertificate;
+        public static fromObject(object: {[k: string]: any}): proto.VerifiedNameCertificate;
 
         /**
          * Creates a plain object from a VerifiedNameCertificate message. Also converts values to other types if specified.
@@ -35697,13 +36898,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.VerifiedNameCertificate, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.VerifiedNameCertificate, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this VerifiedNameCertificate to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace VerifiedNameCertificate {
@@ -35798,14 +36999,14 @@ export namespace proto {
              * @param message Plain object to verify
              * @returns `null` if valid, otherwise the reason why it is not
              */
-            public static verify(message: { [k: string]: any }): (string|null);
+            public static verify(message: {[k: string]: any}): (string|null);
 
             /**
              * Creates a Details message from a plain object. Also converts values to their respective internal types.
              * @param object Plain object
              * @returns Details
              */
-            public static fromObject(object: { [k: string]: any }): proto.VerifiedNameCertificate.Details;
+            public static fromObject(object: {[k: string]: any}): proto.VerifiedNameCertificate.Details;
 
             /**
              * Creates a plain object from a Details message. Also converts values to other types if specified.
@@ -35813,13 +37014,13 @@ export namespace proto {
              * @param [options] Conversion options
              * @returns Plain object
              */
-            public static toObject(message: proto.VerifiedNameCertificate.Details, options?: $protobuf.IConversionOptions): { [k: string]: any };
+            public static toObject(message: proto.VerifiedNameCertificate.Details, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
             /**
              * Converts this Details to JSON.
              * @returns JSON object
              */
-            public toJSON(): { [k: string]: any };
+            public toJSON(): {[k: string]: any};
         }
     }
 
@@ -35895,14 +37096,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a WallpaperSettings message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns WallpaperSettings
          */
-        public static fromObject(object: { [k: string]: any }): proto.WallpaperSettings;
+        public static fromObject(object: {[k: string]: any}): proto.WallpaperSettings;
 
         /**
          * Creates a plain object from a WallpaperSettings message. Also converts values to other types if specified.
@@ -35910,13 +37111,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.WallpaperSettings, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.WallpaperSettings, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this WallpaperSettings to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     /** Properties of a WebFeatures. */
@@ -36249,14 +37450,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a WebFeatures message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns WebFeatures
          */
-        public static fromObject(object: { [k: string]: any }): proto.WebFeatures;
+        public static fromObject(object: {[k: string]: any}): proto.WebFeatures;
 
         /**
          * Creates a plain object from a WebFeatures message. Also converts values to other types if specified.
@@ -36264,13 +37465,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.WebFeatures, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.WebFeatures, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this WebFeatures to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace WebFeatures {
@@ -36442,6 +37643,9 @@ export namespace proto {
 
         /** WebMessageInfo newsletterServerId */
         newsletterServerId?: (number|Long|null);
+
+        /** WebMessageInfo eventAdditionalMetadata */
+        eventAdditionalMetadata?: (proto.IEventAdditionalMetadata|null);
     }
 
     /** Represents a WebMessageInfo. */
@@ -36609,6 +37813,9 @@ export namespace proto {
         /** WebMessageInfo newsletterServerId. */
         public newsletterServerId: (number|Long);
 
+        /** WebMessageInfo eventAdditionalMetadata. */
+        public eventAdditionalMetadata?: (proto.IEventAdditionalMetadata|null);
+
         /**
          * Creates a new WebMessageInfo instance using the specified properties.
          * @param [properties] Properties to set
@@ -36656,14 +37863,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a WebMessageInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns WebMessageInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.WebMessageInfo;
+        public static fromObject(object: {[k: string]: any}): proto.WebMessageInfo;
 
         /**
          * Creates a plain object from a WebMessageInfo message. Also converts values to other types if specified.
@@ -36671,13 +37878,13 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.WebMessageInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.WebMessageInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this WebMessageInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 
     namespace WebMessageInfo {
@@ -36902,7 +38109,11 @@ export namespace proto {
             BIZ_BOT_3P_MESSAGING_ENABLED = 197,
             REMINDER_SETUP_MESSAGE = 198,
             REMINDER_SENT_MESSAGE = 199,
-            REMINDER_CANCEL_MESSAGE = 200
+            REMINDER_CANCEL_MESSAGE = 200,
+            BIZ_COEX_PRIVACY_INIT = 201,
+            BIZ_COEX_PRIVACY_TRANSITION = 202,
+            GROUP_DEACTIVATED = 203,
+            COMMUNITY_DEACTIVATE_SIBLING_GROUP = 204
         }
     }
 
@@ -36990,14 +38201,14 @@ export namespace proto {
          * @param message Plain object to verify
          * @returns `null` if valid, otherwise the reason why it is not
          */
-        public static verify(message: { [k: string]: any }): (string|null);
+        public static verify(message: {[k: string]: any}): (string|null);
 
         /**
          * Creates a WebNotificationsInfo message from a plain object. Also converts values to their respective internal types.
          * @param object Plain object
          * @returns WebNotificationsInfo
          */
-        public static fromObject(object: { [k: string]: any }): proto.WebNotificationsInfo;
+        public static fromObject(object: {[k: string]: any}): proto.WebNotificationsInfo;
 
         /**
          * Creates a plain object from a WebNotificationsInfo message. Also converts values to other types if specified.
@@ -37005,12 +38216,12 @@ export namespace proto {
          * @param [options] Conversion options
          * @returns Plain object
          */
-        public static toObject(message: proto.WebNotificationsInfo, options?: $protobuf.IConversionOptions): { [k: string]: any };
+        public static toObject(message: proto.WebNotificationsInfo, options?: $protobuf.IConversionOptions): {[k: string]: any};
 
         /**
          * Converts this WebNotificationsInfo to JSON.
          * @returns JSON object
          */
-        public toJSON(): { [k: string]: any };
+        public toJSON(): {[k: string]: any};
     }
 }
