@@ -24,6 +24,7 @@
 * **master:** yarn lock and axios error + move to WhiskeySockets libsignal ([c8aab8d](https://github.com/baroenese/Tornado/commit/c8aab8d03f7e5823b57b7168cca593f11191aa05))
 * profilePictureUrl ([#901](https://github.com/baroenese/Tornado/issues/901)) ([5bdfc63](https://github.com/baroenese/Tornado/commit/5bdfc631058fdb0f7a83b6865339b134a3f62453))
 * remove 'none' from updateGroupsAddPrivacy ([#966](https://github.com/baroenese/Tornado/issues/966)) ([ffafc16](https://github.com/baroenese/Tornado/commit/ffafc167fb667713229467d2ad62a9444fddc6e3))
+## 6.7.8 (2024-09-22)
 
 
 ### Features
@@ -785,6 +786,7 @@
 
 
 # 0.9.0 (2020-05-09)
+* add label feature ([#955](https://github.com/WhiskeySockets/Baileys/issues/955)) ([6ff9455](https://github.com/WhiskeySockets/Baileys/commit/6ff945502d9e78c42a1d05fca79f951e81b946df))
 
 
 
