@@ -1,3 +1,18 @@
+## [6.7.8-1](https://github.com/baroenese/Tornado/compare/v6.7.8-0...v6.7.8-1) (2024-09-25)
+
+
+### Bug Fixes
+
+* **master:** New profile update/removal endpoint (inspired by [#1048](https://github.com/baroenese/Tornado/issues/1048)) ([70f0321](https://github.com/baroenese/Tornado/commit/70f03213810fb821c05ea5f024f6f270babe4df5))
+* messaging-history.set event not emitting syncType and progress / add PDO request id ([#1042](https://github.com/baroenese/Tornado/issues/1042)) ([fda2689](https://github.com/baroenese/Tornado/commit/fda268916927c81e407b4f5d2830b63ed8c23b30))
+
+
+### Features
+
+* add label feature ([#955](https://github.com/baroenese/Tornado/issues/955)) ([6ff9455](https://github.com/baroenese/Tornado/commit/6ff945502d9e78c42a1d05fca79f951e81b946df))
+
+
+
 ## [6.7.8-0](https://github.com/baroenese/Tornado/compare/v6.7.7...v6.7.8-0) (2024-09-21)
 
 
@@ -24,7 +39,6 @@
 * **master:** yarn lock and axios error + move to WhiskeySockets libsignal ([c8aab8d](https://github.com/baroenese/Tornado/commit/c8aab8d03f7e5823b57b7168cca593f11191aa05))
 * profilePictureUrl ([#901](https://github.com/baroenese/Tornado/issues/901)) ([5bdfc63](https://github.com/baroenese/Tornado/commit/5bdfc631058fdb0f7a83b6865339b134a3f62453))
 * remove 'none' from updateGroupsAddPrivacy ([#966](https://github.com/baroenese/Tornado/issues/966)) ([ffafc16](https://github.com/baroenese/Tornado/commit/ffafc167fb667713229467d2ad62a9444fddc6e3))
-## 6.7.8 (2024-09-22)
 
 
 ### Features
@@ -786,7 +800,6 @@
 
 
 # 0.9.0 (2020-05-09)
-* add label feature ([#955](https://github.com/WhiskeySockets/Baileys/issues/955)) ([6ff9455](https://github.com/WhiskeySockets/Baileys/commit/6ff945502d9e78c42a1d05fca79f951e81b946df))
 
 
 
