@@ -1,3 +1,4 @@
+## 6.7.9 (2024-10-22)
 ## [6.7.8-1](https://github.com/baroenese/Tornado/compare/v6.7.8-0...v6.7.8-1) (2024-09-25)
 
 
