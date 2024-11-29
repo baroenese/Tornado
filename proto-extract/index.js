@@ -48,7 +48,10 @@ async function findAppModules() {
 		bootstrapQRURL = `${baseURL}/${app}`
 	} else {
 		const index = await request.get(baseURL, ua)
-		const bootstrapQRID = index.match(/src="\/app.([0-9a-z]{10,}).js"/)[1]
+		const bootstrapQRIDList = index.match(/src="\/app.([0-9a-z]{10,}).js"/)
+		console.log('bootstrapQRIDList', bootstrapQRIDList)
+		const bootstrapQRID = bootstrapQRIDList?.at(1)
+		console.log('bootstrapQRID===================================', bootstrapQRID)
 		bootstrapQRURL = baseURL + '/app.' + bootstrapQRID + '.js'
 	}
 
